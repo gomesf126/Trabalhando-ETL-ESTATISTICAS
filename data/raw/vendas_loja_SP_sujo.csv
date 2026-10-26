@@ -1,0 +1,741 @@
+﻿id_pedido,id_cliente,id_produto,categoria,produto,modelo,nome,sobrenome,preco,quantidade,data,loja,arquivo_origem
+17,109,702,Eletrônicos,Monitor,Samsung Odyssey,Ana,Silva,2787.9,7,2022-01-01,SP,sistema_legado
+20,5,103,Elétrônicós,TV,TCL 50,Camila,Santos,3757.46,2,2022-01-08,SP,sistema_legado
+24,90,301,Eletrônicos,CeLuLaR,iPhone 15,Fernanda,Oliveira,,2,2022-01-08,SP,sistema_legado
+33,105,701,Eletrônicos,Monitor,LG UltraWide,Juliana,Oliveira,2296.02,6,2022-01-08,SP,sistema_legado
+35,118,101,Eletrônicos,TV,Samsung 55,Camila,Santos,4169.55,4,2022-01-15,SP,sistema_legado
+42,116,302,Eletrônicos,Celular,Galaxy S24,Rafael,Almeida,5970.99,2,2022-01-15,SP,sistema_legado
+48,16,601,Acessórios,Smartwatch,Apple Watch,João,Santos,3635.29,1,2022-01-15,SP,sistema_legado
+51,48,702,Eletrônicos,Monitor,samsung odyssey,Juliana,Pereira,3553.63,4,2022-01-15,SP,sistema_legado
+53,104,102,Eletrônicos,TV,LG OLED,Camila,Oliveira,5523.7,3,22/01/2022,SP,sistema_legado
+61,61,401,Eletrônicos,Tablet,iPad Air,Maria,Lima,4303.81,4,data_invalida,SP,sistema_legado
+68,27,702,Eletrônicos,Monitor,Samsung Odyssey,Ana,Lima,2955.39,2,2022-01-22,SP,sistema_legado
+73,98,202,Eletrônicos,Notebook,MacBook Air,Lucas,Oliveira,7504.6,qtd_errada,2022-01-29,SP,sistema_legado
+81,101,502,Acessórios,Fone,JBL Tuné,Fernanda,Almeida,320.08,6,2022-01-29,SP,sistema_legado
+86,57,101,Eletrônicos,TV,Samsung 55,Pedro,Almeida,4363.46,4,2022-02-05,SP,sistema_legado
+98,26,502,Acessórios,Fone,JBL Tune,Carlos,Oliveira,381.0,6,2022-02-05,SP,sistema_legado
+100,29,602,Acessórios,Smartwatch,Galaxy Watch,Pedro,Costa,1554.69,1,2022-02-05,SP,sistema_legado
+103,96,101,Eletrônicos,TV,Samsung 55,Fernanda,Costa,5177.0,1,2022-02-12,SP,sistema_legado
+105,112,103,Eletrônicos,TV,TCL 50,Rafael,Oliveira,3156.37,1,2022-02-12,SP,sistema_legado
+106,100,201,Eletrônicos,Notebook,Dell G15,Maria,Santos,4695.86,1,2022-02-12, sp ,sistema_legado
+108,111,203,eletrônicos,Notebook,  Lenovo IdeaPad  ,Maria,Santos,3428.68,1,2022-02-12,SP,sistema_legado
+109,52,301,Eletrônicos,Celular,iPhone 15,Pedro,AlMeIdA,7597.67,2,2022-02-12,SP,sistema_legado
+120,20,101,Eletrônicos,TV,Samsung 55,Camila,Almeida,4012.14,1,2022-02-19,SP,sistema_legado
+130,92,402,Eletrônicos,Tablet,Galaxy Tab,Rafael,Pereira,2537.91,4,19/02/2022,SP,sistema_legado
+134,114,602,ACESSÓRIOS,Smartwatch,Galaxy Watch,Fernanda,Lima,1877.5,5,2022-02-19,SP,sistema_legado
+136,26,702,Eletrônicos,Monitor,Samsung Odyssey,Rafael,Oliveira,3048.27,2,2022-02-19,SP,sistema_legado
+137,77,101,Eletrônicos,TV,Samsung 55,Maria,Almeida,3925.03,1,02/26/2022,SP,sistema_legado
+144,54,302,Eletrônicos,Celular,GaLaXy s24,Carlos,Santos,5601.56,3,2022-02-26,SP,sistema_legado
+145,54,303,Eletrônicos,  Celular  ,Motorola Edge,Rafael,Silva,3328.61,2,2022-02-26,SP,sistema_legado
+149,51,502,Acessórios,Fone,JBL Tune,Camila,Pereira,408.26,4,2022-02-26,SP,sistema_legado
+151,81,602,Acessórios,Smartwatch,Galaxy Watch,Bruno,Lima,2128.2,4,2022-02-26,SP,sistema_legado
+155,118,102,Eletrônicos,TV,LG OLED,Juliana,Santos,5689.75,4,05/03/2022,SP,sistema_legado
+158,61,202,Eletrônicos,Notebook,MacBook Air,Ana,Costa,7319.62,2,2022-03-05,SP,sistema_legado
+160,45,301,Eletrônicos,Celular,iPhone 15,,Almeida,6737.88,2,2022-03-05,SP,sistema_legado
+171,111,101,Eletrônicos,TV,SAMSUNG 55,Carlos,Almeida,4745.11,,2022-03-12,SP,sistema_legado
+176,62,203,Eletrônicos,Notebook,Lenovo IdeaPad,Juliana,Almeida,3704.15,3,2022-03-12,SP,sistema_legado
+184,11,601,Acessórios,Smartwatch,Apple Watch,  Rafael  ,Oliveira,3763.86,1,2022-03-12,SP,sistema_legado
+195,97,302,Eletrônicos,Celular,Galaxy S24,Ana,Silva,5558.32,3,2022-03-19,SP,sistema_legado
+199,103,501,Acessórios,Fone,AirPods Pro,Lucas,Silvá,1891.09,5,2022-03-19,SP,sistema_legado
+214,55,401,Eletrônicos,Tablet,iPad Air,Pedro,Almeida,3904.27,3,2022-03-26,SP,sistema_legado
+226,115,202,Eletrônicos,Notebook,MacBook Air,lucas,Santos,8573.53,2,02/04/2022,SP,sistema_legado
+230,32,303,Eletrônicos,Celular,Motorola Edge,Juliana,SILVA,3081.65,1,2022-04-02,SP,sistema_legado
+241,99,103,Eletrônicos,TV,TCL 50,Beatriz,Lima,3782.27,2,2022-04-09, sp ,sistema_legado
+242,74,201,Eletrônicos,Notebook,Dell G15,Fernanda,Lima,5764.12,-3,09/04/2022,SP,sistema_legado
+250,109,501,Acessórios,Fone,AirPods Pro,Bruno,Costa,,7,2022-04-09,SP,sistema_legado
+262,49,301,Eletrônicos,Celular,iPhone 15,Camila,Almeida,6285.21,2,2022-04-16,SP,sistema_legado
+264,81,303,Eletrônicos,Celular,Motorola Edge,Lucas,Lima,3025.61,2,2022-04-16,SP,sistema_legado
+265,82,401,Eletrônicos,Tablet,iPad Air,Rafael,Souza,4289.45,3,2022-04-16,SP,sistema_legado
+267,85,501,Acessórios,Fone,AirPods Pro,Pedro,Almeida,1828.12,7,2022-04-16,SP,sistema_legado
+277,117,202,Eletrônicos,Notebook,MacBook Air,Juliana,Santos,8652.35,2,2022-04-23,SP,sistema_legado
+280,68,302,Eletrônicos,Celular,Galaxy S24,Camila,  Lima  ,5502.22,1,23/04/2022, sp ,sistema_legado
+300,80,402,Eletrônicos,Tablet,Galaxy Tab,Rafael,Olivéirá,2809.19,1,2022-04-30,SP,sistema_legado
+306,96,702,Eletrônicos,Monitor,Samsung Odyssey,Ana,Silva,2726.25,3,2022-04-30,SP,sistema_legado
+308,112,102,Eletrônicos,TV,LG OLED,Fernanda,Souza,4614.7,2,2022-05-07,SP,sistema_legado
+321,6,602,Acessórios,Smartwatch,Galaxy Watch,Maria,Oliveira,2008.86,5,2022-05-07,SP,sistema_legado
+328,71,202,Eletrônicos,Notebook,MacBook Air,João,Santos,7597.43,2,2022-05-14,SP,sistema_legado
+333,41,401,eletrônicos,TABLET,iPad Air,Maria,Limá,3628.24,2,2022-05-14,SP,sistema_legado
+349,115,303,Eletrônicos,Celular,Motorola Edge,Lucas,Almeida,3046.62,1,2022-05-21,SP,sistema_legado
+352,20,501,Acessórios,Fone,AirPods Pro,Ana,Oliveira,1848.05,2,2022-05-21,SP,sistema_legado
+365,1,302,  Eletrônicos  ,Celular,Galaxy S24,João,Santos,4691.92,2,2022-05-28,SP,sistema_legado
+366,107,303,Eletrônicos,  Celular  ,Motorola Edge,Beatriz,Costa,3101.67,1,2022-05-28,SP,sistema_legado
+369,73,501,Acessórios,FoNe,AirPods Pro,bruno,Costa,1864.64,4,05/28/2022,SP,sistema_legado
+378,74,201,Eletrônicos,Notebook,Dell G15,Ana,Souza,4708.72,2,2022-06-04,SP,sistema_legado
+379,76,202,Eletrônicos,Notebook,MacBook Air,João,Silva,7561.5,1,2022-06-04,SP,sistema_legado
+386,109,501,Acessórios,Fone,AirPods Pro,Lucas,Almeida,2045.24,6,2022-06-04,SP,sistema_legado
+388,19,601,Acessórios,Smartwatch,Apple Watch,Ana,Silva,3155.19,1,2022-06-04,SP,sistema_legado
+395,23,201,Eletrônicos,Notebook,Dell G15,Pedro,Santos,5504.41,4,2022-06-11,SP,sistema_legado
+401,74,401,Eletrônicos,Tablet,iPad Air,Fernanda,Almeida,4745.68,3,2022-06-11,SP,sistema_legado
+406,88,602,Acessórios,Smartwatch,  Galaxy Watch  ,BRUNO,Lima,1788.95,5,2022-06-11,SP,sistema_legado
+409,36,101,Eletrônicos,TV,Samsung 55,Carlos,Costa,4060.78,3,06/18/2022,SP,sistema_legado
+410,99,102,Eletrônicos,TV,LG OLED,Fernanda,Costa,6002.05,1,06/18/2022,SP,sistema_legado
+412,10,201,Eletrônicos,Notebook,Dell G15,Camila,  Pereira  ,5169.5,1,2022-06-18,SP,sistema_legado
+431,109,203,Eletrônicos,Notebook,Lenovo IdeaPad,Carlos,Oliveira,3806.59,1,2022-06-25,SP,sistema_legado
+442,117,702,Eletrônicos,Monitor,SaMsUnG OdYsSeY,Carlos,Santos,2767.11,5,2022-06-25,SP,sistema_legado
+448,31,203,Eletrônicos,NoTeBoOk,Lenovo IdeaPad,Fernanda,Oliveira,4263.72,1,2022-07-02,SP,sistema_legado
+462,42,103,Eletrônicos,TV,TCL 50,Ana,Lima,3719.13,1,2022-07-09,SP,sistema_legado
+465,119,203,Eletrônicos,notebook,Lenovo IdeaPad,Lucas,Lima,4215.02,3,2022-07-09,SP,sistema_legado
+473,38,601,Acessórios,Smartwatch,Apple Watch,,ALMEIDA,2812.53,4,2022-07-09,SP,sistema_legado
+478,10,102,Eletrônicos,TV,LG OLED,Carlos,Almeida,5035.65,4,2022-07-16,SP,sistema_legado
+479,25,103,Eletrônicos,TV,tcl 50,Beatriz,Souza,3141.11,2,2022-07-16,SP,sistema_legado
+482,32,203,Eletrônicos,Notebook,Lenovo IdeaPad,Ana,Santos,3747.6,3,2022-07-16,SP,sistema_legado
+489,63,502,Acessórios,Fone,JBL Tune,Fernanda,Santos,310.48,7,2022-07-16, sp ,sistema_legado
+490,101,601,Acessórios,Smartwatch,Apple Watch,Bruno,Limá,2899.28,2,16/07/2022,SP,sistema_legado
+504,82,402,Eletrônicos,Tablet,Galaxy Tab,Beatriz,,2757.95,4,data_invalida,SP,sistema_legado
+507,48,601,Acessórios,Smartwatch,Apple Watch,Fernanda,Silva,3138.28,2,2022-07-23,SP,sistema_legado
+509,47,701,Eletrônicos,Monitor,LG UltraWide,Lucas,Costa,2878.61,4,2022-07-23,SP,sistema_legado
+533,49,203,Eletrônicos,Notebook,Lenovo IdeaPad,Lucas,Souza,4056.93,2,data_invalida,SP,sistema_legado
+534,74,301,Eletrônicos,Célulár,iPhone 15,Lucas,Lima,,2,2022-08-06,SP,sistema_legado
+539,79,501,Acessórios,Fone,AirPóds Pró,Rafael,Costa,2084.14,4,2022-08-06,SP,sistema_legado
+541,25,601,Acessórios,Smartwatch,Apple Watch,Juliana,Santos,2825.45,,2022-08-06,SP,sistema_legado
+542,42,602,Acessórios,Smartwatch,Galaxy Watch,FERNANDA,SANTOS,1843.62,6,2022-08-06,SP,sistema_legado
+553,95,303,Eletrônicos,CeLuLaR,Motorola Edge,Rafael,Costa,3023.01,4,2022-08-13,SP,sistema_legado
+562,108,101,Eletrônicos,TV,Samsung 55,Rafael,Oliveira,4567.28,3,2022-08-20,SP,sistema_legado
+564,47,103,Eletrônicos,TV,TCL 50,João,Santos,2915.87,1,2022-08-20,SP,sistema_legado
+566,25,202,Eletrônicos,Notebook,MacBook Air,Pedro,  Oliveira  ,7866.2,1,2022-08-20,SP,sistema_legado
+567,117,203,Eletrônicos,Notebook,Lenovo IdeaPad,João,Santos,3872.34,4,2022-08-20,SP,sistema_legado
+568,39,301,Eletrônicos,Celular,iPhone 15,Carlos,Oliveira,7928.12,2,2022-08-20,SP,sistema_legado
+571,35,401,Eletrônicos,Tablet,ipad air,Rafael,Santos,4176.76,3,2022-08-20,SP,sistema_legado
+574,19,502,Acessórios,FoNe,JBL Tune,Fernanda,Pereira,396.1,4,2022-08-20,SP,sistema_legado
+576,53,602,Acessórios,Smártwátch,Galaxy Watch,Camila,Lima,1870.64,1,20/08/2022,SP,sistema_legado
+583,101,202,Eletrônicos,Notebook,MacBook Air,Pedro,Costa,9006.96,1,2022-08-27,SP,sistema_legado
+584,61,203,Eletrônicos,Notebook,Lenovo IdeaPad,AnA,Souza,3359.56,3,08/27/2022,SP,sistema_legado
+590,66,501,Acessórios,Fone,Airpods Pro,Fernanda,Silva,1701.09,3,2022-08-27,SP,sistema_legado
+598,105,103,Eletrônicos,TV,TCL 50,Ana,Silva,3164.66,1,2022-09-03,SP,sistema_legado
+599,88,201,Eletrônicos,Notebook,Dell G15,Fernanda,Almeida,5698.33,3,09/03/2022,SP,sistema_legado
+602,72,301,Eletrônicos,Celular,iPhone 15,Beatriz,Costa,8173.65,1,2022-09-03,SP,sistema_legado
+603,45,302,Eletrônicos,Celular,Galaxy S24,Brunó,Costa,5507.25,4,2022-09-03,SP,sistema_legado
+607,113,501,Acessórios,Fone,AirPods Pro,Maria,Almeida,1574.73,2,2022-09-03,SP,sistema_legado
+614,62,102,Eletrônicos,TV,LG OLED,Camila,Almeida,5436.73,3,2022-09-10,SP,sistema_legado
+623,43,402,Eletrônicos,Tablet,Galaxy Tab,Rafael,Silva,2561.15,3,2022-09-10,SP,sistema_legado
+638,17,303,Eletrônicos,Celular,Motorola Edge,Juliana,Pereira,3099.89,2,2022-09-17,SP,sistema_legado
+646,88,702,Eletrônicos,Monitor,Samsung Odyssey,Rafael,Lima,3113.73,3,2022-09-17,SP,sistema_legado
+654,66,302,Eletrônicos,Celular,Galaxy S24,Juliana,Pereira,4833.46,3,2022-09-24, sp ,sistema_legado
+656,113,401,eletrônicos,Tablet,iPad Air,Fernanda,Oliveira,3702.02,2,2022-09-24,SP,sistema_legado
+666,93,103,Eletrônicos,TV,TCL 50,Ana,Silva,3373.25,3,2022-10-01,SP,sistema_legado
+677,28,601,Acessórios,SmArTwAtCh,Apple Watch,Rafael,Oliveira,2834.12,1,2022-10-01,SP,sistema_legado
+680,37,702,Eletrônicos,Monitor,Samsung Odyssey,Bruno,Costa,2760.88,7,2022-10-01,SP,sistema_legado
+683,11,103,Eletrônicos,  TV  ,TCL 50,Camila,Pereira,3784.87,3,2022-10-08,SP,sistema_legado
+685,17,202,Eletrônicos,Notebook,MacBook Air,Fernanda,Santos,8296.15,2,2022-10-08,SP,sistema_legado
+686,99,203,Eletrônicos,Notebook,Lenovo IdeaPad,Maria,Santos,3939.76,2,2022-10-08,SP,sistema_legado
+698,25,101,Eletrônicos,TV,Samsung 55,Bruno,Pereira,5342.51,4,2022-10-15,SP,sistema_legado
+702,25,202,Eletrônicos,Notebook,MacBook Air,Fernanda,Santos,9525.1,qtd_errada,2022-10-15,SP,sistema_legado
+709,50,501,Acessórios,Fone,airpods pro,Lucas,  Silva  ,1936.09,4,15/10/2022,SP,sistema_legado
+715,26,101,Eletrônicos,Tv,Samsung 55,João,Santos,4057.0,1,2022-10-22,SP,sistema_legado
+720,93,203,Eletrônicos,Notebook,Lenovo IdeaPad,Rafael,Santos,3972.02,1,2022-10-22,SP,sistema_legado
+723,48,303,Eletrônicos,Celular,Motorola Edge,Bruno,Pereira,2778.54,3,2022-10-22,SP,sistema_legado
+735,34,201,Eletrônicos,Notebook,Dell G15,Camila,Costa,6587.02,2,2022-10-29,SP,sistema_legado
+736,67,202,Eletrônicos,Notebook,MACBOOK AIR,Maria,Oliveira,8392.56,1,2022-10-29,SP,sistema_legado
+740,116,303,Eletrônicos,Celular,Motorola Edge,Rafael,Silva,2406.97,3,2022-10-29,SP,sistema_legado
+751,23,103,Eletrônicos,TV,TCL 50,Pedro,Pereira,3762.73,3,2022-11-05,SP,sistema_legado
+755,92,301,  Eletrônicos  ,Celular,iPhone 15,João,Almeida,6709.71,1,2022-11-05,SP,sistema_legado
+757,101,303,Eletrônicos,Celular,Motorola Edge,Maria,Pereira,3078.37,3,2022-11-05,SP,sistema_legado
+762,111,601,Acessórios,Smartwatch,Apple Watch,Pedro,Pereira,3520.16,1,2022-11-05,SP,sistema_legado
+763,65,602,Acessórios,Smartwatch,Galaxy Watch,João,Silva,,3,2022-11-05, sp ,sistema_legado
+766,57,101,Eletrônicos,TV,Samsung 55,Camila,Costa,4256.66,3,2022-11-12,SP,sistema_legado
+768,81,103,Eletrônicos,TV,,Fernanda,Lima,3505.31,4,2022-11-12,SP,sistema_legado
+793,67,402,Eletrônicos,Tablet,Galaxy Tab,Bruno,Silva,2549.67,3,19/11/2022,SP,sistema_legado
+795,2,502,Acessórios,Fone,JBL Tune,Maria,Souza,403.6,1,2022-11-19,SP,sistema_legado
+798,65,701,Eletrônicos,Monitor,LG UltraWide,Fernanda,Silva,erro_preco,4,2022-11-19,SP,sistema_legado
+819,107,103,Eletrônicos,TV,TCL 50,Beatriz,Almeida,3270.03,4,2022-12-03,SP,sistema_legado
+820,55,201,Eletrônicos,Notebook,Dell G15,,Silva,6047.45,2,data_invalida,SP,sistema_legado
+827,106,402,Eletrônicos,Tablet,Galaxy Tab,  Fernanda  ,Lima,2549.9,2,2022-12-03,SP,sistema_legado
+830,87,601,Acessórios,Smartwatch,Apple Watch,Máriá,Pereira,3658.46,3,2022-12-03,SP,sistema_legado
+832,32,701,Eletrônicos,Monitor,Lg Ultrawide,Fernanda,Costa,2622.92,7,2022-12-03,SP,sistema_legado
+834,18,101,Eletrônicos,TV,Samsung 55,Ana,PEREIRA,4292.44,2,2022-12-10,SP,sistema_legado
+844,69,402,Eletrônicos,Tablet,Galaxy Tab,Fernanda,Souza,2905.97,3,2022-12-10,SP,sistema_legado
+845,103,501,  Acessórios  ,Fone,AirPods Pro,Ana,,1794.14,1,2022-12-10,SP,sistema_legado
+847,16,601,Acessórios,Smartwatch,,Camila,LIMA,2731.18,4,2022-12-10,SP,sistema_legado
+852,96,102,Eletrônicos,TV,LG OLED,Béátriz,Almeida,4496.41,2,12/17/2022,SP,sistema_legado
+853,104,103,Eletrônicos,TV,TCL 50,João,Silva,3804.23,4,2022-12-17,SP,sistema_legado
+858,96,302,Eletrônicos,Celular,Galaxy S24,Carlos,Pereira,4264.64,3,12/17/2022,SP,sistema_legado
+859,9,303,Eletrônicos,Celular,Motorola Edge,Carlos,Costa,2385.21,4,2022-12-17,SP,sistema_legado
+869,12,102,Eletrônicos,TV,LG OLED,Carlos,Pereira,5227.82,3,2022-12-24,SP,sistema_legado
+874,88,301,Eletrônicos,Celular,iPhone 15,João,Santos,6166.54,1,2022-12-24,SP,sistema_legado
+894,21,401,Eletrônicos,Tablet,iPad Air,CAMILA,Oliveira,4498.52,3,31/12/2022,SP,sistema_legado
+900,56,701,Eletrônicos,Monitor,LG UltraWide,,Costa,2840.97,5,2022-12-31,SP,sistema_legado
+918,24,702,Eletrônicos,Monitor,Samsung Odyssey,Beatriz,Pereira,3312.04,4,2023-01-07,SP,sistema_legado
+920,53,102,Eletrônicos,TV,LG OLED,Lucas,Costa,5181.87,1,2023-01-14,SP,sistema_legado
+922,15,201,Eletrônicos,Notebook,Dell G15,Fernanda,Costa,4761.55,3,2023-01-14,SP,sistema_legado
+936,103,101,Eletrônicos,TV,Samsung 55,Bruno,Sóuzá,4752.57,4,2023-01-21,SP,sistema_legado
+937,20,102,Eletrônicos,TV,LG OLED,Lucas,Santos,5105.29,1,2023-01-21,SP,sistema_legado
+940,90,202,Eletrônicos,Notebook,Macbook Air,Férnándá,Costa,9562.79,1,2023-01-21, sp ,sistema_legado
+952,86,702,Eletrônicos,Monitor,Samsung Odyssey,Maria,Pereira,2706.79,5,2023-01-21,SP,sistema_legado
+968,84,701,Eletrônicos,Monitor,LG UltraWide,Fernanda,Lima,2676.27,4,2023-01-28,SP,sistema_legado
+972,52,103,Eletrônicos,TV,TCL 50,Pedro,Lima,3541.95,1,2023-02-04,SP,sistema_legado
+989,60,103,Eletrônicos,TV,TCL 50,Bruno,Silva,2852.88,6,2023-02-11,SP,sistema_legado
+991,70,202,Eletrônicos,Notebook,MacBook Air,Carlos,Santos,9171.13,2,2023-02-11,SP,sistema_legado
+1012,87,303,Eletrônicos,Celular,MOTOROLA EDGE,Ana,Oliveira,2830.46,2,2023-02-18,SP,sistema_legado
+1014,87,402,Eletrônicos,Tablet,Galaxy Tab,Carlos,,2589.65,4,2023-02-18,SP,sistema_legado
+1015,74,501,Acessórios,Fone,AirPods Pro,Bruno,Pereira,2095.72,1,2023-02-18,SP,sistema_legado
+1017,75,601,Acessórios,Smartwatch,Apple Watch,Lucas,Costa,2746.55,5,2023-02-18,SP,sistema_legado
+1035,38,602,acessórios,Smartwatch,Galaxy Watch,Cámilá,Santos,1681.53,7,2023-02-25,SP,sistema_legado
+1041,59,201,Eletrônicos,Notebook,Dell G15,Carlos,Santos,5466.54,2,2023-03-04,SP,sistema_legado
+1061,36,301,Eletrônicos,Celular,iPhone 15,João,Lima,8379.06,2,2023-03-11,SP,sistema_legado
+1066,71,501,Acessórios,Fone,AirPods Pro,Béátriz,Silva,1609.55,7,2023-03-11,SP,sistema_legado
+1071,84,702,Eletrônicos,Monitor,Samsung Odyssey,Lucas,Almeida,3248.83,1,2023-03-11,SP,sistema_legado
+1087,46,701,Eletrônicos,Monitor,LG UltraWide,Bruno,  Santos  ,2542.82,1,2023-03-18,SP,sistema_legado
+1092,54,201,Eletrônicos,Notebook,Dell G15,João,Oliveira,5312.85,2,2023-03-25,SP,sistema_legado
+1093,7,202,Eletrônicos,Notebook,MacBook Air,Beatriz,pereira,8576.2,1,2023-03-25,SP,sistema_legado
+1094,87,203,Eletrônicos,Notebook,Lenovo IdeaPad,Beatriz,Olivéirá,4393.37,2,2023-03-25,SP,sistema_legado
+1100,81,501,Acessórios,FoNe,AirPods Pro,Bruno,Souza,2131.38,1,2023-03-25,SP,sistema_legado
+1103,17,602,Acessórios,Smartwatch,Galaxy Watch,Bruno,Sántós,1920.58,6,2023-03-25,SP,sistema_legado
+1108,37,103,Eletrônicos,TV,TCL 50,Bruno,Lima,2810.29,6,2023-04-01,SP,sistema_legado
+1113,101,302,Eletrônicos,Celular,Galaxy S24,Pedro,Pereira,4989.65,2,2023-04-01,SP,sistema_legado
+1129,8,301,Eletrônicos,Celular,iPhone 15,MARIA,lima,7355.97,1,08/04/2023,SP,sistema_legado
+1131,98,303,Eletrônicos,Celular,Motorola Edge,Pedro,Santos,2561.57,1,2023-04-08,SP,sistema_legado
+1132,10,401,Eletrônicos,Tablet,iPad Air,Juliana,Lima,4960.58,2,2023-04-08,SP,sistema_legado
+1137,63,602,Acessórios,Smartwatch,Galaxy Watch,Juliana,Oliveira,1952.37,3,data_invalida,SP,sistema_legado
+1142,47,103,Eletrônicos,TV,TCL 50,Carlos,Almeida,3753.13,3,2023-04-15,SP,sistema_legado
+1144,110,202,Eletrônicos,Notebook,MacBook Air,Béátriz,Lima,10085.81,1,2023-04-15,SP,sistema_legado
+1154,77,602,Acessórios,Smartwatch,Galaxy Watch,Ana,Costa,1904.08,7,2023-04-15, sp ,sistema_legado
+1157,91,101,Eletrônicos,TV,Samsung 55,Pedro,Costa,4236.33,1,2023-04-22,SP,sistema_legado
+1159,101,103,Eletrônicos,TV,TCL 50,Ana,Santos,3741.39,4,2023-04-22,SP,sistema_legado
+1174,93,101,Eletrônicos,TV,Samsung 55,Bruno,Costa,5292.49,2,2023-04-29,SP,sistema_legado
+1177,120,201,Eletrônicos,Notebook,Dell G15,Bruno,Santos,5476.31,1,2023-04-29,SP,sistema_legado
+1179,23,203,Eletrônicos,Notebook,Lenovo IdeaPad,Maria,Costa,3841.81,2,2023-04-29, sp ,sistema_legado
+1188,72,602,Acessórios,Smartwatch,Galaxy Watch,Maria,Souza,1581.92,4,29/04/2023,SP,sistema_legado
+1194,59,201,Eletrônicos,Notebook,Dell G15,Lucas,Oliveira,6238.0,2,2023-05-06,SP,sistema_legado
+1197,1,301,Eletrônicos,  Celular  ,iPhone 15,Fernanda,Santos,7114.92,2,2023-05-06,SP,sistema_legado
+1205,32,602,Acessórios,Smartwatch,Galaxy Watch,Ana,Costa,2157.15,4,2023-05-06,SP,sistema_legado
+1211,16,201,Eletrônicos,Notebook,Dell G15,Ana,oliveira,6317.49,2,2023-05-13,SP,sistema_legado
+1214,20,301,Eletrônicos,Celular,iPhone 15,Camila,Costa,5954.03,3,2023-05-13,SP,sistema_legado
+1217,38,401,Eletrônicos,Tablet,iPad Air,Carlos,Almeida,4647.3,1,2023-05-13,SP,sistema_legado
+1219,27,501,Acessórios,Fone,AirPods Pro,Beatriz,Souza,1766.14,1,2023-05-13,SP,sistema_legado
+1225,106,101,Eletrônicos,TV,Samsung 55,Lucas,Souza,4710.83,2,2023-05-20,SP,sistema_legado
+1229,88,202,Eletrônicos,Nótébóók,MacBook Air,Ana,Pereira,7429.23,2,2023-05-20,SP,sistema_legado
+1248,57,301,Eletrônicos,Celular,iPhone 15,Fernanda,Souza,7679.59,2,2023-05-27, sp ,sistema_legado
+1251,58,401,Eletrônicos,Tablet,iPad Air,Rafael,Almeida,4489.39,-2,2023-05-27,SP,sistema_legado
+1257,2,701,Eletrônicos,Monitor,LG UltraWide,Fernanda,Costa,2357.71,2,2023-05-27,SP,sistema_legado
+1260,41,102,Eletrônicos,TV,LG OLED,Juliana,Silva,4566.66,4,2023-06-03,SP,sistema_legado
+1264,18,203,Eletrônicos,Notebook,Lenovo IdeaPad,Bruno,Costa,4522.31,4,2023-06-03,SP,sistema_legado
+1267,20,303,Eletrônicos,Celular,,Rafael,Santos,2951.47,7,2023-06-03,SP,sistema_legado
+1270,92,501,Acessórios,Fone,AirPods Pro,Maria,Souza,1923.27,-5,2023-06-03,SP,sistema_legado
+1271,42,502,Acessórios,Fone,JBL Tune,Ana,Santos,365.31,4,2023-06-03,SP,sistema_legado
+1274,46,701,Eletrônicos,Monitor,,Lucas,,2497.46,5,,SP,sistema_legado
+1276,103,101,Eletrônicos,TV,Samsung 55,João,Lima,4387.25,4,,SP,sistema_legado
+1279,26,201,Eletrônicos,Notebook,Dell G15,Beatriz,Pereira,erro_preco,2,2023-06-10,SP,sistema_legado
+1302,21,401,Eletrônicos,Tablet,iPad Air,Fernanda,Santos,3771.16,2,2023-06-17,SP,sistema_legado
+1304,86,501,Acessórios,Fone,AirPods Pro,Bruno,Pereira,1741.88,7,2023-06-17,SP,sistema_legado
+1306,120,601,Acessórios,Smartwatch,Apple Watch,Fernanda,Lima,2921.15,1,2023-06-17,SP,sistema_legado
+1310,57,101,Eletrônicos,TV,Samsung 55,Fernanda,Costa,3908.07,2,2023-06-24,SP,sistema_legado
+1330,106,201,Eletrônicos,Notebook,Dell G15,Bruno,Costa,4741.28,4,2023-07-01,SP,sistema_legado
+1334,42,302,eletrônicos,Celular,Galaxy S24,Ana,Almeida,5000.13,1,01/07/2023,SP,sistema_legado
+1335,72,303,Eletrônicos,Celular,Motorola Edge,Bruno,Oliveira,3285.19,,2023-07-01,SP,sistema_legado
+1345,49,102,Eletrônicos,TV,LG OLED,Lucas,,5036.88,3,08/07/2023,SP,sistema_legado
+1346,59,103,Eletrônicos,TV,TCL 50,,Souza,3180.02,3,08/07/2023,SP,sistema_legado
+1368,18,302,Eletrônicos,Celular,Galaxy S24,Maria,Lima,4817.58,1,2023-07-15,SP,sistema_legado
+1369,65,303,Eletrônicos,Celular,Motorola Edge,Pedro,Oliveira,2955.87,2,2023-07-15,SP,sistema_legado
+1372,115,501,Acessórios,Fone,AirPods Pro,Fernanda,Silva,1692.99,1,2023-07-15,SP,sistema_legado
+1390,92,502,Acessórios,Fone,JBL TUNE,João,,382.04,7,2023-07-22,SP,sistema_legado
+1392,38,602,Acessórios,Smartwatch,Galaxy Watch,Juliana,Silva,1597.04,7,2023-07-22,SP,sistema_legado
+1395,66,101,Eletrônicos,TV,Samsung 55,Beatriz,Souza,4525.42,2,2023-07-29,SP,sistema_legado
+1400,86,203,Eletrônicos,Notebook,Lenovo IdeaPad,Beatriz,Costa,4616.26,3,2023-07-29,SP,sistema_legado
+1401,7,301,Eletrônicos,Celular,  iPhone 15  ,João,Souza,6572.26,2,2023-07-29,SP,sistema_legado
+1406,68,501,Acessórios,FONE,AirPods Pro,Rafael,Pereira,2000.36,5,2023-07-29,SP,sistema_legado
+1416,57,202,Eletrônicos,Notebook,MACBOOK AIR,Camila,Santos,7381.84,2,08/05/2023,SP,sistema_legado
+1418,70,301,Eletrônicos,Celular,,Lucas,Santos,6689.41,2,2023-08-05,SP,sistema_legado
+1419,79,302,Eletrônicos,Celular,Galaxy S24,  Juliana  ,Costa,5376.84,1,2023-08-05,SP,sistema_legado
+1422,79,402,Eletrônicos,Tablet,Galaxy Tab,Carlos,Almeida,2331.41,4,2023-08-05,SP,sistema_legado
+1430,3,102,Eletrônicos,TV,lg oled,João,Oliveira,5856.15,1,2023-08-12,SP,sistema_legado
+1433,65,202,Eletrônicos,Notebook,MacBook Air,Beatriz,Almeida,8754.83,1,2023-08-12,SP,sistema_legado
+1435,2,301,Eletrônicos,Celular,iPhone 15,Bruno,Costa,7974.66,2,2023-08-12,SP,sistema_legado
+1437,36,303,Eletrônicos,Celular,Motorola Edge,Lucas,Lima,2894.81,1,2023-08-12,SP,sistema_legado
+1443,102,602,Acessórios,Smartwatch,Galaxy Watch,Juliana,Lima,2058.47,3,2023-08-12,SP,sistema_legado
+1453,36,302,Eletrônicos,Celular,Galaxy S24,Carlos,Silva,4746.65,2,2023-08-19,SP,sistema_legado
+1460,88,602,Acessórios,Smartwatch,Galaxy Watch,Bruno,Costa,1678.29,4,2023-08-19,SP,sistema_legado
+1463,79,101,Eletrônicos,TV,Samsung 55,Carlos,  Oliveira  ,4071.9,1,2023-08-26,SP,sistema_legado
+1465,13,103,Eletrônicos,TV,TCL 50,Carlos,Almeida,3822.18,2,2023-08-26,SP,sistema_legado
+1470,112,302,Eletrônicos,Celular,Galaxy S24,Camila,  Almeida  ,5682.04,4,2023-08-26,SP,sistema_legado
+1482,5,103,Eletrônicos,TV,TCL 50,Bruno,Oliveira,3573.59,2,2023-09-02,SP,sistema_legado
+1486,29,301,Eletrônicos,Celular,iPhone 15,Carlos,Souza,7617.37,2,2023-09-02,SP,sistema_legado
+1489,82,401,Eletrônicos,Tablet,iPad Air,Bruno,Lima,4911.53,4,2023-09-02,SP,sistema_legado
+1490,57,402,Eletrônicos,Tablet,Galaxy Tab,Fernanda,Pereira,2402.4,4,2023-09-02,SP,sistema_legado
+1492,118,502,Acessórios,Fone,JBL Tune,Camila,Souza,418.59,5,2023-09-02,SP,sistema_legado
+1493,67,601,Acéssóriós,Smartwatch,Apple Watch,Maria,Souza,2832.17,4,2023-09-02,SP,sistema_legado
+1495,25,701,Eletrônicos,  Monitor  ,LG UltraWide,Beatriz,Oliveira,2635.53,7,2023-09-02, sp ,sistema_legado
+1498,44,102,Eletrônicos,TV,Lg Oled,,Almeida,5532.28,4,2023-09-09,SP,sistema_legado
+1501,43,202,Eletrônicos,Notebook,MacBook Air,Bruno,Santos,8386.13,1,2023-09-09,SP,sistema_legado
+1505,57,303,Eletrônicos,Celular,Motorola Edge,João,Lima,3319.9,3,2023-09-09,SP,sistema_legado
+1525,92,501,Acessórios,Fone,AirPods Pro,Beatriz,Costa,1917.13,2,2023-09-16,SP,sistema_legado
+1537,69,301,Eletrônicos,Celular,iPhone 15,Carlos,LIMA,6072.16,1,23/09/2023,SP,sistema_legado
+1539,31,303,Eletrônicos,Celular,Motorola Edge,Carlos,Lima,2872.58,1,23/09/2023,SP,sistema_legado
+1552,86,202,Eletrônicos,Notebook,MacBook Air,Juliana,,8177.17,2,2023-09-30,SP,sistema_legado
+1554,90,301,Eletrônicos,Celular,iPhone 15,Pedro,PeReIrA,7665.85,1,2023-09-30,SP,sistema_legado
+1565,38,101,Eletrônicos,TV,Samsung 55,Fernanda,Silva,4484.82,2,2023-10-07,SP,sistema_legado
+1569,58,202,Eletrônicos,Notebook,MacBook Air,LuCaS,Oliveira,7808.04,1,2023-10-07,SP,sistema_legado
+1603,71,202,Eletrônicos,  Notebook  ,MacBook Air,Maria,Souza,7507.18,2,2023-10-21, sp ,sistema_legado
+1613,19,602,Acessórios,Smartwatch,  Galaxy Watch  ,Rafael,Santos,1850.6,1,2023-10-21,SP,sistema_legado
+1619,91,201,Eletrônicos,Notebook,Dell G15,BEATRIZ,Almeida,4701.01,2,2023-10-28,SP,sistema_legado
+1623,65,302,Eletrônicos,CeLuLaR,Gáláxy S24,Juliana,Souza,4384.27,3,2023-10-28,SP,sistema_legado
+1624,113,303,Eletrônicos,Celular,Motorola Edge,Beatriz,Souza,2689.11,3,2023-10-28,SP,sistema_legado
+1640,86,302,Eletrônicos,Celular,,João,Oliveira,4404.25,1,2023-11-04,SP,sistema_legado
+1650,92,101,Eletrônicos,TV,,Pedro,Almeida,4798.14,,2023-11-11,SP,sistema_legado
+1654,54,202,Eletrônicos,Notebook,MacBook Air,Fernanda,Souza,9021.66,2,2023-11-11,SP,sistema_legado
+1671,71,202,Eletrônicos,Notebook,,Carlos,Almeida,7495.36,1,2023-11-18,SP,sistema_legado
+1674,19,302,Eletrônicos,Célulár,Galaxy S24,Pedro,Souza,4390.03,4,2023-11-18,SP,sistema_legado
+1675,75,303,Eletrônicos,Celular,Motorola Edge,Bruno,Almeida,3287.67,1,2023-11-18,SP,sistema_legado
+1678,61,501,Acessórios,Fone,airpods pro,Camila,Silva,1699.22,7,2023-11-18,SP,sistema_legado
+1684,6,101,Eletrônicos,Tv,Samsung 55,Lucas,Costa,4922.8,1,2023-11-25,SP,sistema_legado
+1687,92,201,Eletrônicos,Notebook,Dell G15,Camila,Oliveira,6456.75,1,2023-11-25,SP,sistema_legado
+1692,93,303,Eletrônicos,Celular,Motorola Edge,Ana,Costa,3263.87,4,2023-11-25,SP,sistema_legado
+1696,37,502,Acessórios,Fone,JBL Tune,Carlos,Pereira,301.95,6,25/11/2023,SP,sistema_legado
+1702,56,102,Eletrônicos,TV,LG OLED,Fernanda,Costa,5035.16,4,2023-12-02,SP,sistema_legado
+1717,94,702,eletrônicos,Monitor,Samsung Odyssey,  Bruno  ,Oliveira,2943.01,2,2023-12-02,SP,sistema_legado
+1721,83,201,Eletrônicos,  Notebook  ,Dell G15,João,Silva,5948.32,4,2023-12-09,SP,sistema_legado
+1722,22,202,Eletrônicos,Notebook,  MacBook Air  ,Rafael,almeida,7874.36,2,2023-12-09,SP,sistema_legado
+1729,88,501,Acessórios,Fóné,AirPods Pro,Bruno,Oliveira,2121.22,1,2023-12-09,SP,sistema_legado
+1733,25,701,Eletrônicos,Monitor,LG UltraWide,Fernanda,Souza,2187.49,6,2023-12-09,SP,sistema_legado
+1742,54,302,Eletrônicos,Celular,Galaxy S24,Ana,Costa,4468.67,1,2023-12-16,SP,sistema_legado
+1743,28,303,Eletrônicos,Celular,Motorola Edge,Rafael,Silvá,3322.38,4,2023-12-16,SP,sistema_legado
+1745,61,402,Elétrônicós,Tablet,Galaxy Tab,Ana,Almeida,2604.26,7,2023-12-16,SP,sistema_legado
+1747,70,502,Acessórios,Fone,,Rafael,Santos,303.88,1,2023-12-16,SP,sistema_legado
+1754,117,103,Eletrônicos,TV,TCL 50,Pedro,Souza,3043.5,4,2023-12-23, sp ,sistema_legado
+1761,23,401,Eletrônicos,Tablet,iPad Air,Carlos,Souza,4621.25,1,2023-12-23,SP,sistema_legado
+1764,40,502,  Acessórios  ,Fone,JBL Tune,Camila,Silva,383.76,5,2023-12-23,SP,sistema_legado
+1769,104,101,Eletrônicos,TV,Samsung 55,  Carlos  ,Pereira,3830.76,4,2023-12-30,SP,sistema_legado
+1771,67,103,Eletrônicos,TV,TCL 50,ana,,3577.1,2,30/12/2023,SP,sistema_legado
+1780,10,501,Acessórios,Fone,AirPods Pro,Bruno,Silva,erro_preco,5,2023-12-30,SP,sistema_legado
+1789,95,201,Eletrônicos,Notebook,Dell G15,  Lucas  ,Lima,5404.59,4,2024-01-06,SP,sistema_legado
+1790,83,202,Eletrônicos,Notebook,MacBook Air,Ana,Limá,7802.53,2,2024-01-06,SP,sistema_legado
+1792,89,301,Eletrônicos,Celular,iPhone 15,João,Costa,7921.84,2,2024-01-06,SP,sistema_legado
+1793,22,302,Eletrônicos,Celular,Galaxy S24,João,Souza,5464.28,2,2024-01-06,SP,sistema_legado
+1794,82,303,Eletrônicos,Celular,Motorola Edge,Fernanda,Almeida,3273.35,1,2024-01-06,SP,sistema_legado
+1797,119,501,Acessórios,Fone,AirPods Pro,Pedro,oliveira,1681.98,4,2024-01-06,SP,sistema_legado
+1807,62,202,Eletrônicos,  Notebook  ,MacBook Air,João,Lima,7458.02,1,2024-01-13,SP,sistema_legado
+1813,72,402,Eletrônicos,Tablet,Galaxy Tab,Bruno,,2662.79,3,,SP,sistema_legado
+1822,54,103,Eletrônicos,TV,TCL 50,Fernanda,Souza,3013.07,3,2024-01-20,SP,sistema_legado
+1825,52,203,eletrônicos,Notebook,Lenovo IdeaPad,João,Almeida,4390.18,4,2024-01-20,SP,sistema_legado
+1830,30,402,Eletrônicos,Tablet,Galaxy Tab,Bruno,Oliveira,2357.59,6,2024-01-20,SP,sistema_legado
+1832,3,502,Acessórios,Fone,JBL Tune,João,Souza,377.88,,2024-01-20,SP,sistema_legado
+1837,38,101,Eletrônicos,TV,Samsung 55,Fernanda,  Oliveira  ,4472.22,4,2024-01-27,SP,sistema_legado
+1849,31,502,Acessórios,Fone,JBL Tune,Juliana,Souza,348.99,,2024-01-27,SP,sistema_legado
+1850,23,601,Acessórios,Smartwatch,Apple Watch,Lucas,  Pereira  ,3019.28,4,2024-01-27,SP,sistema_legado
+1854,113,101,Eletrônicos,TV,Samsung 55,,Lima,5317.2,2,2024-02-03,SP,sistema_legado
+1866,114,502,Acessórios,Fone,JBL Tune,Beatriz,Costa,378.33,5,2024-02-03,SP,sistema_legado
+1868,59,602,Acessórios,Smartwatch,Galaxy Watch,Camila,Pereira,2085.03,qtd_errada,2024-02-03,SP,sistema_legado
+1870,69,702,Eletrônicos,Monitor,Samsung Odyssey,Cámilá,Silva,3678.62,2,2024-02-03,SP,sistema_legado
+1872,60,102,Eletrônicos,TV,LG OLED,Carlos,Silva,5055.28,2,02/10/2024,SP,sistema_legado
+1875,68,202,eletrônicos,Notebook,MacBook Air,Bruno,Almeida,8422.12,qtd_errada,2024-02-10,SP,sistema_legado
+1877,64,301,Eletrônicos,Celular,iPhone 15,Carlos,Silva,6046.27,2,2024-02-10,SP,sistema_legado
+1888,65,101,Eletrônicos,TV,Samsung 55,Pedro,Souza,4856.26,3,2024-02-17,SP,sistema_legado
+1912,105,302,Eletrônicos,Celular,Galaxy S24,Beatriz,Oliveira,4414.48,3,02/24/2024,SP,sistema_legado
+1914,113,401,Eletrônicos,Tablet,iPad Air,Beatriz,Lima,4913.31,2,2024-02-24,SP,sistema_legado
+1916,39,501,Acessórios,Fone,AirPods Pro,Pedro,Pereira,1740.51,5,2024-02-24,SP,sistema_legado
+1922,23,101,Eletrônicos,TV,Samsung 55,Juliana,Costa,4721.93,2,2024-03-02,SP,sistema_legado
+1930,51,303,Eletrônicos,Celular,Motorola Edge,  Maria  ,,3319.93,2,03/02/2024,SP,sistema_legado
+1933,39,501,Acessórios,Fone,AirPods Pro,Pedro,Silva,1653.32,2,2024-03-02,SP,sistema_legado
+1934,89,502,Acessórios,Fone,JBL Tune,João,Souza,404.67,3,2024-03-02,SP,sistema_legado
+1937,26,701,Eletrônicos,Monitor,Lg Ultrawide,Pedro,Costa,2460.49,1,2024-03-02,SP,sistema_legado
+1939,96,101,Eletrônicos,TV,Samsung 55,Pedro,Lima,4983.45,3,2024-03-09,SP,sistema_legado
+1940,31,102,Eletrônicos,TV,LG OLED,Rafael,Lima,5330.56,4,2024-03-09,SP,sistema_legado
+1944,21,203,Eletrônicos,Notebook,Lenovo IdeaPad,Camila,Oliveira,4297.94,1,2024-03-09,SP,sistema_legado
+1951,41,502,acessórios,Fone,JBL Tune,Pedro,Almeida,323.37,3,2024-03-09,SP,sistema_legado
+1962,86,301,Eletrônicos,Celular,iPhone 15,Rafael,Silva,7344.74,2,2024-03-16,SP,sistema_legado
+1964,7,303,Eletrônicos,Celular,Motorola Edge,Pedro,Costa,3091.67,3,2024-03-16,SP,sistema_legado
+1973,90,101,Eletrônicos,TV,Samsung 55,Jóãó,Costa,5238.66,1,2024-03-23,SP,sistema_legado
+1987,9,602,Acessórios,Smartwatch,Galaxy Watch,Beatriz,pereira,2043.67,7,2024-03-23,SP,sistema_legado
+2026,44,103,Eletrônicos,TV,TCL 50,Juliana,Lima,2770.02,5,2024-04-13,SP,sistema_legado
+2028,11,202,Eletrônicos,Notebook,MacBook Air,Fernanda,Silva,8824.04,1,04/13/2024, sp ,sistema_legado
+2031,20,302,Eletrônicos,Celular,Galaxy S24,João,Oliveira,4803.01,1,2024-04-13,SP,sistema_legado
+2050,25,401,Eletrônicos,Tablet,iPad Air,Rafael,Costa,4628.79,2,2024-04-20,SP,sistema_legado
+2052,109,501,Acessórios,Fone,AirPods Pro,Rafael,Souza,1588.18,7,2024-04-20, sp ,sistema_legado
+2058,11,101,Eletrônicos,TV,Samsung 55,Maria,Souza,4381.73,2,2024-04-27, sp ,sistema_legado
+2067,56,401,Eletrônicos,  Tablet  ,iPad Air,Fernanda,Silva,3591.84,,2024-04-27,SP,sistema_legado
+2068,84,402,Eletrônicos,Tablet,Galaxy Tab,Rafael,Souza,2729.3,2,2024-04-27,SP,sistema_legado
+2071,93,601,Acessórios,Smartwatch,Apple Watch,Ana,Santos,3785.62,3,2024-04-27,SP,sistema_legado
+2087,106,502,Acessórios,Fone,,Lucas,Pereira,346.84,2,2024-05-04,SP,sistema_legado
+2096,1,202,Eletrônicos,Notebook,MacBook Air,Rafael,Costa,7927.12,1,2024-05-11, sp ,sistema_legado
+2098,117,301,Eletrônicos,Celular,iPhone 15,Ana,Lima,6784.08,2,2024-05-11,SP,sistema_legado
+2099,61,302,Eletrônicos,Celular,Galaxy S24,Beatriz,Pereira,5160.28,2,2024-05-11,SP,sistema_legado
+2103,13,501,Acessórios,Fone,AirPods Pro,ana,Lima,1785.94,2,2024-05-11,SP,sistema_legado
+2105,7,601,Acessórios,Smartwatch,Apple Watch,Beatriz,Santos,3572.05,1,2024-05-11,SP,sistema_legado
+2116,33,302,Eletrônicos,Celular,Galaxy S24,Juliana,Silva,5993.16,4,18/05/2024,SP,sistema_legado
+2120,78,501,Acessórios,Fone,AirPods Pro,Bruno,Costa,1841.7,5,2024-05-18,SP,sistema_legado
+2121,100,502,Acessórios,Fone,JBL Tune,,Almeida,388.42,3,18/05/2024,SP,sistema_legado
+2128,9,103,Eletrônicos,TV,TcL 50,Pedro,Santos,3295.35,2,2024-05-25,SP,sistema_legado
+2133,52,302,Eletrônicos,Celular,Galaxy S24,Juliana,Lima,4479.13,,2024-05-25,SP,sistema_legado
+2138,45,502,Acessórios,Fone,JBL Tune,Bruno,Costa,319.53,7,2024-05-25,SP,sistema_legado
+2141,81,701,Eletrônicos,Monitor,LG UltraWide,maria,Oliveira,2205.74,6,2024-05-25,SP,sistema_legado
+2142,53,702,Eletrônicos,Monitor,Samsung Odyssey,CAMILA,Silva,erro_preco,3,25/05/2024,SP,sistema_legado
+2151,6,303,Eletrônicos,Celular,Motorola Edge,João,Oliveira,3330.17,3,2024-06-01,SP,sistema_legado
+2160,100,101,Eletrônicos,TV,Samsung 55,Pedro,Costa,4247.64,3,2024-06-08,SP,sistema_legado
+2161,77,102,Eletrônicos,TV,  LG OLED  ,Pedro,Lima,4782.33,3,2024-06-08,SP,sistema_legado
+2164,105,202,Eletrônicos,Notebook,MacBook Air,Beatriz,Pereira,8840.21,2,2024-06-08,SP,sistema_legado
+2168,88,303,Eletrônicos,Celular,Motorola Edge,,Costa,3317.68,4,2024-06-08,SP,sistema_legado
+2170,103,402,Eletrônicos,TaBlEt,Galaxy Tab,Maria,Pereira,2491.05,7,08/06/2024,SP,sistema_legado
+2177,34,101,Eletrônicos,TV,Samsung 55,Ana,Almeida,5391.0,1,2024-06-15,SP,sistema_legado
+2179,118,103,Eletrônicos,TV,TCL 50,Lucas,Cóstá,2891.77,3,2024-06-15,SP,sistema_legado
+2186,104,401,Eletrônicos,Tablet,IPAD AIR,Pedro,Olivéirá,4993.9,-3,2024-06-15,SP,sistema_legado
+2191,23,602,Acessórios,Smartwatch,Galaxy Watch,Rafael,Pereira,1774.52,qtd_errada,2024-06-15,SP,sistema_legado
+2198,70,202,Eletrônicos,Notebook,MácBóók Air,Beatriz,Costa,9240.89,2,2024-06-22,SP,sistema_legado
+2199,84,203,Eletrônicos,Notebook,Lenovo IdeaPad,Maria,Oliveira,3609.57,2,2024-06-22,SP,sistema_legado
+2203,75,401,Eletrônicos,Tablet,iPad Air,  Ana  ,Pereira,4348.58,1,2024-06-22,SP,sistema_legado
+2209,117,701,Eletrônicos,Monitor,LG UltraWide,Rafael,Santos,2125.87,4,2024-06-22,SP,sistema_legado
+2215,96,202,Eletrônicos,Notebook,  MacBook Air  ,Camila,Silva,8044.45,1,2024-06-29,SP,sistema_legado
+2227,39,702,Eletrônicos,Monitor,Samsung Odyssey,BRUNO,Lima,2839.04,4,2024-06-29,SP,sistema_legado
+2228,12,101,Eletrônicos,tv,Samsung 55,bruno,PEREIRA,3843.74,4,2024-07-06, sp ,sistema_legado
+2239,72,501,Acessórios,Fone,AirPods Pro,Beatriz,Souza,1707.46,6,2024-07-06,SP,sistema_legado
+2241,15,601,Acessórios,Smartwatch,Apple Watch,Beatriz,Lima,2780.4,3,2024-07-06,SP,sistema_legado
+2244,91,702,eletrônicos,Monitor,Samsung Odyssey,João,Pereira,3026.97,3,2024-07-06,SP,sistema_legado
+2262,80,101,Eletrônicos,TV,Samsung 55,Lucas,Lima,4849.22,1,2024-07-20,SP,sistema_legado
+2267,18,203,Eletrônicos,Notebook,Lenovo IdeaPad,Carlos,Péréirá,3568.09,2,2024-07-20,SP,sistema_legado
+2270,8,303,Eletrônicos,Celular,Motorola Edge,Beatriz,Pereira,2589.99,3,2024-07-20,SP,sistema_legado
+2276,78,602,Acessórios,Smartwatch,Galaxy Watch,Camila,Silva,1898.63,2,20/07/2024,SP,sistema_legado
+2283,48,202,Eletrônicos,Notebook,MacBook Air,Juliana,  Santos  ,9089.68,2,2024-07-27,SP,sistema_legado
+2286,96,302,Eletrônicos,Celular,GALAXY S24,Maria,Santos,5306.78,1,2024-07-27,SP,sistema_legado
+2299,22,201,Eletrônicos,Notebook,Dell G15,João,Costa,4803.49,1,2024-08-03,SP,sistema_legado
+2306,16,402,Eletrônicos,Tablet,Galaxy Tab,,CoStA,2297.9,5,2024-08-03,SP,sistema_legado
+2308,61,502,Acessórios,Fone,JBL Tune,Carlos,,381.99,7,2024-08-03,SP,sistema_legado
+2327,64,602,Acessórios,Smartwatch,Galaxy Watch,Beatriz,Almeida,2056.73,2,2024-08-10,SP,sistema_legado
+2328,13,701,Eletrônicos,Mónitór,LG UltraWide,,Oliveira,2323.89,5,2024-08-10,SP,sistema_legado
+2334,39,202,Eletrônicos,Notebook,MacBook Air,Carlos,Lima,9355.59,2,2024-08-17,SP,sistema_legado
+2349,34,103,Eletrônicos,TV,TCL 50,Maria,Pereira,3738.06,2,2024-08-24,SP,sistema_legado
+2375,87,501,Acessórios,Fone,AirPods Pro,Maria,Souza,2016.52,3,2024-08-31,SP,sistema_legado
+2378,101,602,Acessórios,Smartwatch,galaxy watch,João,Lima,2040.63,4,2024-08-31,SP,sistema_legado
+2397,16,702,ELETRÔNICOS,Monitor,Samsung Odyssey,Bruno,Lima,3076.19,3,2024-09-07,SP,sistema_legado
+2405,100,302,Eletrônicos,CeLuLaR,Galaxy S24,Rafael,Silva,,3,2024-09-14,SP,sistema_legado
+2413,76,701,Eletrônicos,Monitor,LG UltraWide,João,Silva,2172.2,1,2024-09-14,SP,sistema_legado
+2418,5,201,Eletrônicos,Notebook,Dell G15,Rafael,Silva,6259.06,1,2024-09-21,SP,sistema_legado
+2423,22,303,Eletrônicos,Celular,Motorola Edge,Beatriz,Souza,2809.2,4,2024-09-21,SP,sistema_legado
+2443,52,501,Acessórios,Fone,AirPods Pro,Rafael,Lima,1758.77,3,2024-09-28,SP,sistema_legado
+2451,21,103,Eletrônicos,TV,TCL 50,Beatriz,Souza,3460.58,3,2024-10-05,SP,sistema_legado
+2454,16,203,Eletrônicos,Notebook,lenovo ideapad,Carlos,Almeida,3796.08,2,2024-10-05,SP,sistema_legado
+2473,113,302,Eletrônicos,Celular,Galaxy S24,Pedro,Costa,5977.54,1,2024-10-12,SP,sistema_legado
+2486,36,201,Eletrônicos,Notebook,Dell G15,Juliana,Alméidá,4895.42,1,2024-10-19,SP,sistema_legado
+2489,10,301,Eletrônicos,Celular,iPhone 15,Carlos,Pereira,7174.94,2,2024-10-19,SP,sistema_legado
+2493,72,402,Eletrônicos,Tablet,Galaxy Tab,Beatriz,Lima,2335.83,2,19/10/2024,SP,sistema_legado
+2497,72,602,Acessórios,Smartwatch,Galaxy Watch,BeAtRiZ,Almeida,1797.87,4,2024-10-19,SP,sistema_legado
+2501,83,102,Eletrônicos,TV,LG OLED,ana,Lima,4861.74,1,2024-10-26,SP,sistema_legado
+2502,53,103,Eletrônicos,TV,TCL 50,Camila,Santos,3756.3,3,2024-10-26,SP,sistema_legado
+2504,53,202,Eletrônicos,Notebook,MaCbOoK AiR,Juliana,Souza,10158.43,1,2024-10-26,SP,sistema_legado
+2509,117,401,Eletrônicos,Tablet,iPad Air,Ana,Silva,3880.4,4,2024-10-26,SP,sistema_legado
+2518,51,102,Eletrônicos,Tv,LG OLED,Camila,Lima,5285.78,4,2024-11-02,SP,sistema_legado
+2519,112,103,Eletrônicos,TV,TCL 50,Fernanda,SANTOS,2733.58,7,2024-11-02,SP,sistema_legado
+2529,13,502,Acessórios,Fone,JBL Tune,Bruno,Souza,318.89,4,2024-11-02,SP,sistema_legado
+2539,116,203,Eletrônicos,Notebook,Lenovo IdeaPad,Juliana,Almeida,,4,2024-11-09,SP,sistema_legado
+2542,48,303,Eletrônicos,Celular,Motorola Edge,Ana,LiMa,2652.28,5,2024-11-09,SP,sistema_legado
+2543,57,401,Eletrônicos,Tablet,iPad Air,Beatriz,Souza,4351.91,3,2024-11-09,SP,sistema_legado
+2544,41,402,Eletrônicos,Tablet,Galaxy Tab,Beatriz,Silva,2916.53,4,2024-11-09,SP,sistema_legado
+2548,68,602,Acessórios,Smartwatch,Galaxy Watch,CARLOS,Souza,1699.97,4,2024-11-09,SP,sistema_legado
+2557,68,301,Eletrônicos,Celular,iPhone 15,Beatriz,PEREIRA,7369.76,1,2024-11-16, sp ,sistema_legado
+2559,94,303,Eletrônicos,Celular,,Lucas,Santos,3308.91,3,11/16/2024,SP,sistema_legado
+2563,73,502,Acessórios,Fone,JBL Tune,Beatriz,Santos,412.57,3,2024-11-16,SP,sistema_legado
+2576,109,303,Eletrônicos,Célulár,Motorola Edge,Carlos,Oliveira,2563.97,6,2024-11-23,SP,sistema_legado
+2588,54,201,Eletrônicos,Notebook,Dell G15,João,Almeida,5603.82,3,2024-11-30,SP,sistema_legado
+2594,56,401,eletrônicos,Tablet,iPad Air,Fernanda,Souza,4453.09,4,2024-11-30,SP,sistema_legado
+2595,119,402,Eletrônicos,Tablet,Galaxy Tab,BeAtRiZ,Santos,2628.89,4,2024-11-30,SP,sistema_legado
+2598,93,601,Acessórios,Smartwatch,Apple Watch,  Carlos  ,Oliveira,2799.69,4,2024-11-30,SP,sistema_legado
+2609,64,302,Eletrônicos,Celular,Galaxy S24,Carlos,  Costa  ,4548.48,1,2024-12-07,SP,sistema_legado
+2614,80,502,Acessórios,Fone,JBL Tune,Pedro,Santos,317.98,5,2024-12-07,SP,sistema_legado
+2616,62,602,Acessórios,Smartwatch,Galaxy Watch,Pédró,Santos,2023.96,6,2024-12-07,SP,sistema_legado
+2619,2,101,Eletrônicos,TV,Samsung 55,Carlos,Costa,4938.2,3,2024-12-14,SP,sistema_legado
+2628,119,401,Eletrônicos,Tablet,iPad Air,Fernanda,Lima,3693.48,4,2024-12-14,SP,sistema_legado
+2634,58,701,Eletrônicos,Monitor,LG UltraWide,Bruno,Santos,2354.77,1,2024-12-14,SP,sistema_legado
+2643,24,302,Eletrônicos,Celular,Galaxy S24,PeDrO,Almeida,5086.28,4,2024-12-21,SP,sistema_legado
+2650,41,602,Acessórios,Smartwatch,Galaxy Watch,João,Lima,1619.5,2,2024-12-21,SP,sistema_legado
+2656,104,201,Eletrônicos,Notebook,Dell G15,Lucas,Souza,5412.43,2,2024-12-28,SP,sistema_legado
+2664,116,501,Acessórios,Fone,AirPods Pro,Camila,Silva,2063.93,3,2024-12-28,SP,sistema_legado
+2677,27,302,Eletrônicos,Celular,Galaxy S24,Juliana,pereira,4696.97,1,2025-01-04,SP,sistema_legado
+2680,77,402,Eletrônicos,Tablet,Galaxy Tab,Camila,Costa,2341.82,6,2025-01-04,SP,sistema_legado
+2685,19,702,Eletrônicos,Monitor,Samsung Odyssey,Camila,Oliveira,3163.67,4,2025-01-04,SP,sistema_legado
+2691,62,203,Eletrônicos,Notebook,Lenovo IdeaPad,LuCaS,Silva,3365.85,3,2025-01-11,SP,sistema_legado
+2692,23,301,Eletrônicos,CELULAR,iPhone 15,JuLiAnA,Costa,6102.21,1,2025-01-11,SP,sistema_legado
+2693,110,302,Eletrônicos,Celular,Galaxy S24,Juliana,Almeida,5147.54,4,2025-01-11,SP,sistema_legado
+2694,26,303,Eletrônicos,Celular,Motorola Edge,Camila,Almeida,2543.79,5,2025-01-11,SP,sistema_legado
+2702,75,702,Eletrônicos,Monitor,Samsung Odyssey,  João  ,Silva,2707.06,1,2025-01-11,SP,sistema_legado
+2703,58,101,eletrônicos,TV,Samsung 55,Pedro,ALMEIDA,4469.92,3,18/01/2025,SP,sistema_legado
+2707,95,202,Eletrônicos,NoTeBoOk,Macbook Air,  Lucas  ,Costa,7495.76,2,2025-01-18,SP,sistema_legado
+2711,108,303,Eletrônicos,Celular,Motorola Edge,  Ana  ,Santos,,4,2025-01-18,SP,sistema_legado
+2712,17,402,Eletrônicos,Tablet,Galaxy Tab,Bruno,Santos,2826.86,5,2025-01-18,SP,sistema_legado
+2714,68,502,Acessórios,Fone,JBL Tune,BRUNO,Silva,374.17,3,2025-01-18,SP,sistema_legado
+2719,48,101,Eletrônicos,TV,Samsung 55,Maria,Oliveira,4874.25,3,2025-01-25,SP,sistema_legado
+2725,116,302,Eletrônicos,Celular,Galaxy S24,LUCAS,Oliveira,5929.02,1,2025-01-25,SP,sistema_legado
+2726,36,303,Eletrônicos,Celular,Motorola Edge,Carlos,Costa,2640.23,1,2025-01-25,SP,sistema_legado
+2729,69,501,Acessórios,Fone,AirPods Pro,Rafael,Souza,1777.24,7,01/25/2025,SP,sistema_legado
+2733,27,701,Eletrônicos,  Monitor  ,LG UltraWide,Juliana,Pereira,2156.92,2,2025-01-25,SP,sistema_legado
+2738,113,201,Eletrônicos,Notebook,Dell G15,Carlos,PeReIrA,5520.94,2,2025-02-01,SP,sistema_legado
+2742,89,302,Eletrônicos,Celular,Galaxy S24,Carlos,Oliveira,4482.75,4,2025-02-01,SP,sistema_legado
+2748,88,601,Acessórios,Smartwatch,Apple Watch,Rafael,Lima,3161.98,4,2025-02-01,SP,sistema_legado
+2753,104,102,Eletrônicos,tv,LG OLED,Beatriz,Almeida,5474.89,qtd_errada,08/02/2025,SP,sistema_legado
+2763,75,501,Acessórios,Fone,airpods pro,Bruno,Pereira,1985.13,2,2025-02-08, sp ,sistema_legado
+2764,84,502,Acessórios,Fone,JBL Tune,Lucas,Costa,407.44,2,2025-02-08,SP,sistema_legado
+2774,102,301,Eletrônicos,Celular,iPhone 15,Rafael,Costa,7192.65,1,2025-02-15,SP,sistema_legado
+2777,6,401,Eletrônicos,Tablet,iPad Air,Juliana,Souza,4526.79,4,2025-02-15,SP,sistema_legado
+2781,75,601,Acessórios,Smartwatch,Apple Watch,Rafael,Costa,3608.82,4,2025-02-15,SP,sistema_legado
+2783,34,701,Eletrônicos,Monitor,LG UltraWide,Camila,Lima,2426.68,4,2025-02-15,SP,sistema_legado
+2792,118,302,ElEtRôNiCoS,Celular,Galaxy S24,Ana,Silva,5092.69,4,2025-02-22,SP,sistema_legado
+2804,36,201,Eletrônicos,Notebook,Dell G15,Pedro,Pereira,4714.04,2,2025-03-01,SP,sistema_legado
+2807,75,301,Eletrônicos,Celular,iPhone 15,Beatriz,Lima,6807.67,2,2025-03-01,SP,sistema_legado
+2808,84,302,Eletrônicos,Celular,Galaxy S24,Maria,Santos,4391.48,3,2025-03-01,SP,sistema_legado
+2822,107,202,Eletrônicos,Notebook,MacBook Air,Maria,Souza,9812.33,2,2025-03-08,SP,sistema_legado
+2823,107,203,Eletrônicos,Notebook,Lenovo IdeaPad,Lucas,Souza,4014.82,1,2025-03-08,SP,sistema_legado
+2835,36,101,Eletrônicos,TV,Samsung 55,Pedro,Souza,4490.11,4,2025-03-15,SP,sistema_legado
+2843,104,303,Eletrônicos,Celular,Motorola Edge,Beatriz,Almeida,3134.05,3,2025-03-15,SP,sistema_legado
+2848,74,601,Acessórios,Smartwatch,Apple Watch,Rafael,Souza,3725.5,4,2025-03-15,SP,sistema_legado
+2852,21,101,Eletrônicos,TV,Samsung 55,Lucas,Silva,5224.99,1,2025-03-22,SP,sistema_legado
+2857,78,203,Eletrônicos,Notebook,Lenovo IdeaPad,Ana,Souza,3342.6,4,2025-03-22,SP,sistema_legado
+2865,118,601,Acessórios,Smartwatch,Apple Watch,Maria,Almeida,3026.54,,2025-03-22,SP,sistema_legado
+2867,111,701,Eletrônicos,Monitor,LG UltraWide,Lucas,Almeida,2489.78,2,2025-03-22, sp ,sistema_legado
+2868,62,702,Eletrônicos,Monitor,Samsung Odyssey,PeDrO,Lima,2801.5,4,2025-03-22,SP,sistema_legado
+2874,119,203,Eletrônicos,Notebook,Lenovo IdeaPad,Rafael,  Silva  ,3375.02,3,2025-03-29,SP,sistema_legado
+2882,21,601,Acessórios,Smartwatch,Apple Watch,Lucas,Pereira,3109.84,2,2025-03-29,SP,sistema_legado
+2894,23,303,Eletrônicos,Celular,Motorola Edge,Camila,Silva,2628.95,7,2025-04-05,SP,sistema_legado
+2901,113,701,Eletrônicos,Monitor,LG UltraWide,Pedro,SiLvA,2526.42,5,2025-04-05,SP,sistema_legado
+2902,98,702,Eletrônicos,Monitor,Samsung Odyssey,Rafael,Oliveira,2975.4,7,2025-04-05,SP,sistema_legado
+2913,47,402,Eletrônicos,Tablet,Galaxy Tab,Ana,Costa,2289.58,6,2025-04-12,SP,sistema_legado
+2925,62,301,Eletrônicos,Celular,iPhone 15,Juliana,Pereira,7889.15,2,2025-04-19,SP,sistema_legado
+2926,65,302,Eletrônicos,Celular,Galaxy S24,Rafael,Almeida,4977.85,4,2025-04-19,SP,sistema_legado
+2930,29,501,Acessórios,FoNe,AirPods Pro,Beatriz,Santos,1829.43,4,2025-04-19,SP,sistema_legado
+2935,79,702,ElEtRôNiCoS,Monitor,,Bruno,Lima,3570.02,1,04/19/2025,SP,sistema_legado
+2938,64,103,Eletrônicos,TV,TCL 50,Beatriz,Souza,3422.4,1,2025-04-26,SP,sistema_legado
+2952,67,101,Eletrônicos,TV,Samsung 55,Fernanda,Costa,4416.65,4,2025-05-03,SP,sistema_legado
+2953,100,102,Eletrônicos,TV,LG OLED,Carlos,Souza,5709.87,4,03/05/2025,SP,sistema_legado
+2954,82,103,Eletrônicos,TV,TCL 50,Rafael,Lima,3567.26,4,2025-05-03,SP,sistema_legado
+2960,26,401,Eletrônicos,Tablet,iPad Air,Fernanda,Almeida,4971.17,4,2025-05-03,SP,sistema_legado
+2964,6,601,Acessórios,Smartwatch,Apple Watch,Bruno,Oliveira,3625.37,1,03/05/2025,SP,sistema_legado
+2979,39,501,Acessórios,Fone,AIRPODS PRO,Fernanda,Souza,1890.99,2,2025-05-10, sp ,sistema_legado
+2990,14,203,Eletrônicos,Notebook,Lenovo IdeaPad,Rafael,Silva,3774.6,1,2025-05-17,SP,sistema_legado
+3011,45,501,AcEsSóRiOs,Fone,AiRpOdS PrO,Ana,Silva,1800.47,5,2025-05-24,SP,sistema_legado
+3012,65,502,Acessórios,Fone,JBL Tune,LuCaS,Souza,403.79,6,2025-05-24,SP,sistema_legado
+3032,39,701,Eletrônicos,Monitor,LG UltraWide,Fernanda,Costa,2661.35,7,31/05/2025,SP,sistema_legado
+3041,25,401,Eletrônicos,TABLET,iPad Air,Ana,Silva,3924.37,3,2025-06-07,SP,sistema_legado
+3043,77,501,Acessórios,Fone,AirPods Pro,Rafael,Silva,1826.92,6,2025-06-07,SP,sistema_legado
+3045,91,601,Acessórios,Smartwatch,Apple Watch,Maria,Lima,,3,2025-06-07,SP,sistema_legado
+3058,97,401,Eletrônicos,TABLET,iPad Air,João,Santos,3954.09,2,2025-06-14,SP,sistema_legado
+3064,64,701,Eletrônicos,Monitor,LG UltraWide,Beatriz,Lima,2706.18,4,2025-06-14,SP,sistema_legado
+3065,53,702,Eletrônicos,Monitor,Samsung Odyssey,Carlos,Souza,3450.7,1,2025-06-14,SP,sistema_legado
+3066,51,102,Eletrônicos,TV,LG OLED,Carlos,Pereira,4707.8,4,2025-06-21,SP,sistema_legado
+3080,86,701,Eletrônicos,Monitor,LG UltraWide,Ana,Pereira,2299.79,7,06/21/2025, sp ,sistema_legado
+3091,45,501,Acessórios,Fone,AirPods Pro,Fernanda,Oliveira,1791.5,3,2025-06-28,SP,sistema_legado
+3093,104,601,Acessórios,Smartwatch,Apple Watch,Bruno,SiLvA,2746.84,6,28/06/2025,SP,sistema_legado
+3097,119,101,Eletrônicos,TV,Samsung 55,,Costa,4991.32,1,2025-07-05, sp ,sistema_legado
+3104,116,302,Eletrônicos,Celular,Galaxy S24,Pedro,Pereira,,,2025-07-05,SP,sistema_legado
+3107,34,402,Eletrônicos,Tablet,Galaxy Tab,Bruno,Souza,2784.8,1,2025-07-05,SP,sistema_legado
+3111,69,602,Acessórios,Smartwatch,Galaxy Watch,Juliana,  Silva  ,1628.43,1,2025-07-05,SP,sistema_legado
+3117,103,201,Eletrônicos,Notebook,Dell G15,Juliana,Lima,6367.88,2,2025-07-12,SP,sistema_legado
+3118,90,202,Eletrônicos,Notebook,MacBook Air,Maria,Souza,7771.1,2,2025-07-12, sp ,sistema_legado
+3122,71,303,Eletrônicos,Celular,Motorola Edge,Ana,Pereira,2565.15,6,2025-07-12,SP,sistema_legado
+3124,31,402,Eletrônicos,Tablet,Galaxy Tab,Bruno,Oliveira,2646.37,5,2025-07-12,SP,sistema_legado
+3125,109,501,Acessórios,Fone,AirPods Pro,Pedro,Lima,1612.19,4,2025-07-12,SP,sistema_legado
+3133,11,201,Eletrônicos,Notebook,Dell G15,Lucas,Costa,6539.58,2,2025-07-19,SP,sistema_legado
+3135,80,203,Eletrônicos,Notebook,Lenovo IdeaPad,juliana,Pereira,4580.72,4,2025-07-19,SP,sistema_legado
+3136,39,301,Eletrônicos,Celular,iPhone 15,Camila,Oliveira,6463.08,2,2025-07-19,SP,sistema_legado
+3156,54,502,Acessórios,Fone,JBL Tune,Maria,Santos,414.68,7,2025-07-26,SP,sistema_legado
+3159,114,701,Eletrônicos,Monitor,LG UltraWide,Beatriz,CoStA,2722.11,3,2025-07-26,SP,sistema_legado
+3163,94,201,Eletrônicos,Notebook,,Beatriz,Santos,5506.02,4,2025-08-02,SP,sistema_legado
+3164,72,202,Eletrônicos,Notebook,MacBook Air,Juliana,Silva,8704.71,2,2025-08-02,SP,sistema_legado
+3168,106,303,Eletrônicos,Celular,Motorola Edge,Lucas,Souza,2469.7,7,2025-08-02,SP,sistema_legado
+3169,92,401,Eletrônicos,Tablet,iPad Air,João,Santos,4680.89,4,08/02/2025,SP,sistema_legado
+3171,41,501,Acessórios,Fone,AirPods Pro,Beatriz,Almeida,2051.31,5,2025-08-02,SP,sistema_legado
+3172,69,502,AcEsSóRiOs,Fone,JBL TUNE,AnA,Oliveira,363.1,2,2025-08-02,SP,sistema_legado
+3176,82,702,Eletrônicos,Monitor,Samsung Odyssey,Carlos,Lima,2828.73,3,02/08/2025,SP,sistema_legado
+3178,5,102,Eletrônicos,TV,LG OLED,Rafael,,4693.82,1,2025-08-09,SP,sistema_legado
+3183,76,301,Eletrônicos,Celular,iPhone 15,Ana,Almeida,7455.3,1,2025-08-09,SP,sistema_legado
+3191,95,602,Acessórios,Smartwatch,Galaxy Watch,Lucas,Santos,1738.1,3,2025-08-09,SP,sistema_legado
+3210,88,702,Eletrônicos,MONITOR,Samsung Odyssey,Juliana,Santos,2656.3,7,2025-08-16,SP,sistema_legado
+3224,42,602,Acéssóriós,Smartwatch,Gáláxy Wátch,Ana,Silva,1772.94,3,2025-08-23,SP,sistema_legado
+3230,118,201,ELETRÔNICOS,Notebook,Dell G15,Ana,Costa,4751.97,2,2025-08-30,SP,sistema_legado
+3233,95,301,Eletrônicos,Celular,iPhone 15,Fernanda,Costa,8014.6,2,2025-08-30,SP,sistema_legado
+3247,86,202,Eletrônicos,Notebook,MacBook Air,Beatriz,SILVA,9408.84,2,2025-09-06,SP,sistema_legado
+3249,92,301,Eletrônicos,Celular,iPhone 15,Rafael,Souza,6285.56,1,2025-09-06,SP,sistema_legado
+3252,7,401,ElEtRôNiCoS,Tablet,iPad Air,Bruno,Pereira,4542.98,3,2025-09-06,SP,sistema_legado
+3253,51,402,Eletrônicos,Tablet,Gáláxy Táb,Bruno,Santos,2261.3,4,2025-09-06,SP,sistema_legado
+3254,61,501,Acessórios,Fone,AirPods Pro,Beatriz,,1583.35,4,2025-09-06,SP,sistema_legado
+3261,71,102,Eletrônicos,TV,LG OLED,Camila,Almeida,4739.62,1,13/09/2025,SP,sistema_legado
+3262,52,103,Eletrônicos,TV,TCL 50,Pedro,Santos,3618.18,1,2025-09-13,SP,sistema_legado
+3263,53,201,Eletrônicos,Notebook,Dell G15,Juliana,Souza,5393.63,2,2025-09-13,SP,sistema_legado
+3265,52,203,Eletrônicos,Notebook,Lenovo IdeaPad,João,Silva,4059.88,4,2025-09-13,SP,sistema_legado
+3272,49,502,Acessórios,Fóné,JBL Tune,Pedro,Almeida,317.4,6,2025-09-13,SP,sistema_legado
+3285,15,401,Eletrônicos,tablet,iPad Air,Ana,Costa,4725.86,4,2025-09-20,SP,sistema_legado
+3307,19,602,Acessórios,Smartwatch,Galaxy Watch,Ráfáél,Santos,1537.47,7,2025-09-27,SP,sistema_legado
+3317,63,302,Eletrônicos,Celular,Galaxy S24,Fernanda,Alméidá,5528.49,1,10/04/2025,SP,sistema_legado
+3328,67,202,Eletrônicos,Notebook,MacBook Air,Beatriz,Costa,9424.77,1,2025-10-11,SP,sistema_legado
+3332,44,303,Eletrônicos,Celular,Motorola Edge,Carlos,Almeida,2630.26,2,2025-10-11,SP,sistema_legado
+3333,55,401,Eletrônicos,Tablet,iPad Air,Lucas,Almeida,4018.25,1,2025-10-11,SP,sistema_legado
+3340,111,702,Eletrônicos,Monitor,Samsung Odyssey,João,Costa,3052.67,3,2025-10-11,SP,sistema_legado
+3341,118,101,Eletrônicos,TV,Samsung 55,João,Lima,5079.56,3,2025-10-18,SP,sistema_legado
+3343,8,103,Eletrônicos,TV,TCL 50,Juliana,Silva,3475.37,1,2025-10-18,SP,sistema_legado
+3355,55,701,Eletrônicos,Monitor,LG UltraWide,  Maria  ,Souza,2590.06,2,2025-10-18,SP,sistema_legado
+3358,72,102,Eletrônicos,TV,LG OLED,Pedro,Almeida,5536.49,2,2025-10-25,SP,sistema_legado
+3365,57,303,Eletrônicos,Celular,motorola edge,Maria,Souza,2906.9,7,25/10/2025,SP,sistema_legado
+3371,109,602,Acessórios,Smartwatch,Galaxy Watch,Lucas,Pereira,1847.63,5,2025-10-25,SP,sistema_legado
+3372,92,702,Eletrônicos,Monitor,Samsung Odyssey,Rafael,Oliveira,3671.08,3,25/10/2025,SP,sistema_legado
+3373,38,101,Eletrônicos,TV,Samsung 55,Lucas,Silvá,3939.48,4,2025-11-01,SP,sistema_legado
+3384,30,502,Acessórios,Fone,JBL Tune,Carlos,Lima,300.52,2,2025-11-01,SP,sistema_legado
+3385,17,601,Acessórios,Smartwatch,Apple Watch,Beatriz,Almeida,3496.87,2,2025-11-01,SP,sistema_legado
+3393,30,203,Eletrônicos,Notebook,Lenovo IdeaPad,Juliana,Lima,3905.2,2,2025-11-08,SP,sistema_legado
+3399,119,501,Acessórios,Fone,AirPods Pro,Camila,Costa,1530.84,2,2025-11-08,SP,sistema_legado
+3400,55,502,Acessórios,Fone,JBL Tune,Pedro,Souza,386.59,2,2025-11-08,SP,sistema_legado
+3405,9,102,Eletrônicos,TV,LG OLED,Carlos,Lima,5292.93,1,2025-11-15,SP,sistema_legado
+3407,100,201,Eletrônicos,Notebook,Dell G15,Maria,Oliveira,5308.55,2,2025-11-15,SP,sistema_legado
+3411,69,302,Eletrônicos,Celular,Galaxy S24,Lucas,Lima,4683.49,1,2025-11-15,SP,sistema_legado
+3419,119,701,Eletrônicos,Monitor,  LG UltraWide  ,Carlos,Almeida,2756.29,4,2025-11-15,SP,sistema_legado
+3425,64,202,Eletrônicos,Notebook,MacBook Air,Beatriz,Oliveira,9869.75,1,2025-11-22,SP,sistema_legado
+3428,119,302,Eletrônicos,Celular,Galaxy S24,Camila,,5053.76,4,11/22/2025,SP,sistema_legado
+3435,15,602,Acessórios,Smartwatch,Galaxy Watch,Lucas,Lima,1962.12,2,2025-11-22,SP,sistema_legado
+3451,101,601,Acessórios,Smartwatch,Apple Watch,  Pedro  ,Almeida,3460.95,1,2025-11-29,SP,sistema_legado
+3453,15,702,Eletrônicos,Monitor,,Juliana,Almeida,3404.22,2,2025-11-29,SP,sistema_legado
+3463,111,401,Eletrônicos,Tablet,iPad Air,Carlos,Souza,4130.61,3,2025-12-06,SP,sistema_legado
+3464,6,402,Eletrônicos,Tablet,Galaxy Tab,Maria,Silva,3005.18,2,2025-12-06,SP,sistema_legado
+3465,30,501,Acessórios,Fone,AirPods Pro,,Lima,2088.57,4,2025-12-06,SP,sistema_legado
+3466,19,502,Acessórios,Fone,JBL Tune,Juliana,costa,407.74,2,2025-12-06,SP,sistema_legado
+3470,117,702,Eletrônicos,Monitor,Samsung Odyssey,Fernanda,Almeida,erro_preco,3,2025-12-06,SP,sistema_legado
+3476,78,203,Eletrônicos,Notebook,Lenovo IdeaPad,João,Souza,3718.19,1,2025-12-13,SP,sistema_legado
+3478,67,302,Eletrônicos,Celular,Galaxy S24,Fernanda,Silva,4988.51,2,2025-12-13,SP,sistema_legado
+3480,10,401,Eletrônicos,Tablet,iPad Air,  Ana  ,Lima,4950.66,qtd_errada,2025-12-13,SP,sistema_legado
+3482,31,501,Acessórios,Fone,AirPods Pro,Carlos,Oliveira,1895.07,6,2025-12-13,SP,sistema_legado
+3485,104,602,Acessórios,Smartwatch,Galaxy Watch,João,Pereira,1797.55,4,2025-12-13,SP,sistema_legado
+3498,14,402,Eletrônicos,  Tablet  ,Galaxy Tab,Maria,Pereira,3118.03,1,2025-12-20,SP,sistema_legado
+3506,79,102,Eletrônicos,TV,LG OLED,Pedro,Santos,5795.69,3,12/27/2025,SP,sistema_legado
+3513,96,303,Eletrônicos,Celular,Motorola Edge,Cámilá,Lima,3350.66,4,2025-12-27,SP,sistema_legado
+3519,82,602,Acessórios,Smartwatch,Galaxy Watch,Maria,Pereira,,2,12/27/2025,SP,sistema_legado
+3527,24,301,Eletrônicos,Celular,iPhone 15,Fernanda,silva,6820.08,2,2026-01-03,SP,sistema_legado
+3529,113,303,Eletrônicos,Celular,Motorola Edge,Camila,Santos,2625.79,4,2026-01-03,SP,sistema_legado
+3532,101,501,Acessórios,Fone,AirPods Pro,Beatriz,Pereira,1537.32,6,2026-01-03,SP,sistema_legado
+3534,72,601,Acessórios,Smartwatch,Apple Watch,,Pereira,3737.51,2,2026-01-03,SP,sistema_legado
+3541,88,201,Eletrônicos,Notebook,Dell G15,Beatriz,Oliveira,6094.67,2,10/01/2026,SP,sistema_legado
+3553,106,701,Eletrônicos,Monitor,LG UltraWide,Ana,Pereira,2811.94,4,2026-01-10,SP,sistema_legado
+3554,74,702,ELETRÔNICOS,Monitor,Samsung Odyssey,Bruno,Costa,2654.31,-6,2026-01-10,SP,sistema_legado
+3555,62,101,Eletrônicos,TV,Samsung 55,João,Souza,4285.18,4,2026-01-17,SP,sistema_legado
+3556,87,103,Eletrônicos,TV,TCL 50,Carlos,ALMEIDA,3136.22,2,2026-01-17,SP,sistema_legado
+3558,93,202,Eletrônicos,Notebook,MacBook Air,Maria,Souza,8759.32,2,2026-01-17,SP,sistema_legado
+3566,41,502,Acessórios,Fone,JBL Tune,Juliana,Oliveira,373.0,3,2026-01-17,SP,sistema_legado
+3569,13,701,Eletrônicos,  Monitor  ,LG UltraWide,Fernanda,Santos,2105.61,2,2026-01-17, sp ,sistema_legado
+3570,80,702,Eletrônicos,Monitor,Samsung Odyssey,Rafael,Santos,erro_preco,3,2026-01-17,SP,sistema_legado
+3571,53,101,Eletrônicos,TV,Samsung 55,Ana,Pereira,4951.43,4,01/24/2026,SP,sistema_legado
+3583,67,601,Acessórios,Smartwatch,Apple Watch,Juliana,Souza,3450.21,3,2026-01-24,SP,sistema_legado
+3589,28,103,Eletrônicos,TV,TCL 50,Fernanda,Pereira,3273.17,2,2026-01-31,SP,sistema_legado
+3591,83,202,Eletrônicos,Notebook,MacBook Air,Camila,Lima,9867.33,2,2026-01-31,SP,sistema_legado
+3596,111,401,Eletrônicos,Tablet,ipad air,Juliana,Costa,4530.54,1,2026-01-31,SP,sistema_legado
+3600,59,601,Acessórios,Smartwatch,  Apple Watch  ,Camila,Almeida,3055.9,3,2026-01-31,SP,sistema_legado
+3608,51,202,Eletrônicos,Notebook,MacBook Air,JULIANA,Silva,8787.65,1,2026-02-07,SP,sistema_legado
+3616,89,502,Acessórios,Fone,JBL Tune,João,pereira,311.46,5,07/02/2026,SP,sistema_legado
+3634,97,601,Acessórios,Smartwatch,Applé Wátch,Juliana,Almeida,3530.87,1,2026-02-14,SP,sistema_legado
+3640,113,201,Eletrônicos,Notebook,Dell G15,Rafael,Almeida,6563.33,2,2026-02-21,SP,sistema_legado
+3649,70,502,Acessórios,Fone,Jbl Tune,juliana,Costa,413.85,2,2026-02-21,SP,sistema_legado
+3650,71,601,Acessórios,Smartwatch,Apple Watch,Bruno,Santos,2844.61,3,2026-02-21,SP,sistema_legado
+3655,41,102,Eletrônicos,TV,LG OLED,Maria,Almeida,4841.36,4,2026-02-28,SP,sistema_legado
+3658,23,202,Eletrônicos,Notebook,MacBook Air,Fernanda,Souza,7262.61,1,2026-02-28, sp ,sistema_legado
+3663,119,401,Eletrônicos,Tablet,iPad Air,Camila,Costa,3920.89,4,2026-02-28,SP,sistema_legado
+3674,71,201,  Eletrônicos  ,Notebook,Dell G15,Rafael,Oliveira,6200.54,2,2026-03-07,SP,sistema_legado
+3680,66,401,Eletrônicos,Tablet,Ipad Air,,Costa,4723.95,3,2026-03-07,SP,sistema_legado
+3682,111,501,Acessórios,Fone,AirPods Pro,Fernanda,Oliveira,1744.41,1,2026-03-07,SP,sistema_legado
+3686,52,701,Eletrônicos,Monitor,LG UltraWide,Beatriz,Silva,2689.65,4,2026-03-07,SP,sistema_legado
+3690,29,103,Eletrônicos,  TV  ,,MARIA,Lima,2971.73,5,2026-03-14,SP,sistema_legado
+3691,45,201,Eletrônicos,Notebook,Dell G15,MARIA,Souza,5870.18,2,03/14/2026,SP,sistema_legado
+3699,104,501,Acéssóriós,Fone,AirPods Pro,Ana,Costa,2156.38,3,2026-03-14,SP,sistema_legado
+3708,23,201,Eletrônicos,Notebook,Dell G15,Camila,Costa,4816.26,3,2026-03-21,SP,sistema_legado
+3713,31,303,Eletrônicos,Celular,Motorola Edge,Camila,Costa,2433.95,7,2026-03-21,SP,sistema_legado
+3716,114,501,Acessórios,Fone,AirPods Pro,Carlos,Santos,1768.36,4,2026-03-21,SP,sistema_legado
+3718,118,601,Acessórios,Smartwatch,Apple Watch,Beatriz,Pereira,3774.94,3,2026-03-21,SP,sistema_legado
+3720,118,701,Eletrônicos,Monitor,LG UltraWide,João,Costa,2629.31,5,2026-03-21,SP,sistema_legado
+3722,65,101,Eletrônicos,TV,Samsung 55,Pedro,Pereira,4788.16,1,2026-03-28,SP,sistema_legado
+3730,35,303,Eletrônicos,Celular,Motorola Edge,Camila,Pereira,3251.5,4,2026-03-28,SP,sistema_legado
+3732,111,402,Eletrônicos,Tablet,Galaxy Tab,Juliana,Almeida,2521.31,6,2026-03-28,SP,sistema_legado
+3734,11,502,Acéssóriós,Fone,JBL Tune,Lucas,Santos,375.93,5,2026-03-28,SP,sistema_legado
+3738,65,702,Eletrônicos,Monitor,Samsung Odyssey,JULIANA,Oliveira,3065.25,2,2026-03-28,SP,sistema_legado
+3755,18,101,Eletrônicos,Tv,Samsung 55,JoÃo,Costa,5204.17,4,2026-04-11,SP,sistema_legado
+3768,63,601,Acessórios,Smartwatch,  Apple Watch  ,Bruno,Souza,3820.28,4,2026-04-11,SP,sistema_legado
+3782,110,501,Acessórios,Fone,AirPods Pro,Beatriz,Souza,2146.16,1,2026-04-18,SP,sistema_legado
+3788,21,101,Eletrônicos,TV,Samsung 55,Fernanda,Souza,4281.65,3,2026-04-25,SP,sistema_legado
+3803,115,702,Elétrônicós,Monitor,Samsung Odyssey,Pedro,Pereira,3570.08,1,2026-04-25,SP,sistema_legado
+3815,55,602,Acessórios,Smartwatch,Galaxy Watch,Carlos,Lima,1980.76,2,2026-05-02,SP,sistema_legado
+3824,83,301,Eletrônicos,Celular,iPhone 15,Maria,Almeida,6822.46,2,2026-05-09,SP,sistema_legado
+3825,112,302,Eletrônicos,Celular,Galaxy S24,João,Lima,4853.84,2,2026-05-09,SP,sistema_legado
+3830,12,502,Acessórios,Fone,JBL Tune,Maria,Santos,391.67,7,2026-05-09,SP,sistema_legado
+3831,69,602,Acessórios,Smartwatch,Galaxy Watch,Maria,Costa,2018.95,7,2026-05-09,SP,sistema_legado
+3832,43,701,Eletrônicos,Monitor,LG UltraWide,Ana,Almeida,2747.66,4,2026-05-09,SP,sistema_legado
+3835,23,102,Eletrônicos,TV,LG OLED,Rafael,Santos,5248.58,2,2026-05-16,SP,sistema_legado
+3836,111,103,Eletrônicos,TV,TCL 50,Rafael,Costa,3227.05,4,2026-05-16,SP,sistema_legado
+3837,89,201,Eletrônicos,Notebook,Dell G15,Beatriz,Oliveira,6483.0,2,05/16/2026,SP,sistema_legado
+3844,120,402,Eletrônicos,Tablet,Galaxy Tab,Ana,Oliveira,2982.36,3,2026-05-16,SP,sistema_legado
+3845,23,501,Acessórios,Fone,AirPods Pro,Juliana,Costa,2100.17,6,2026-05-16,SP,sistema_legado
+3846,98,502,Acessórios,Fone,JBL Tune,João,Lima,erro_preco,6,2026-05-16,SP,sistema_legado
+3849,74,702,Eletrônicos,Monitor,Samsung Odyssey,Lucas,Lima,3295.85,3,2026-05-16,SP,sistema_legado
+3852,86,103,Eletrônicos,TV,TCL 50,Fernanda,Souza,3491.99,1,2026-05-23,SP,sistema_legado
+3857,85,303,Eletrônicos,Celular,,Ana,souza,2569.15,2,2026-05-23,SP,sistema_legado
+3860,103,501,Acessórios,Fone,AirPods Pro,Camila,Costa,1557.23,2,2026-05-23,SP,sistema_legado
+3872,95,302,Eletrônicos,Celular,Galaxy S24,Bruno,Oliveira,4728.33,2,2026-05-30,SP,sistema_legado
+3876,98,502,Acessórios,Fone,JBL Tune,Ana,PEREIRA,311.52,7,2026-05-30,SP,sistema_legado
+3885,80,301,Eletrônicos,Celular,iPhone 15,Fernanda,Santos,6614.49,1,2026-06-06,SP,sistema_legado
+3886,45,302,Eletrônicos,Celular,Galaxy S24,Beatriz,Souza,4742.02,3,2026-06-06,SP,sistema_legado
+3887,81,303,Eletrônicos,Celular,Motorola Edge,Carlos,ALMEIDA,3040.05,3,2026-06-06,SP,sistema_legado
+3892,105,602,Acessórios,Smartwatch,Galaxy Watch,Maria,Oliveira,2031.2,5,2026-06-06,SP,sistema_legado
+3893,89,701,ElEtRôNiCoS,Monitor,LG UltraWide,João,Oliveira,2140.57,3,, sp ,sistema_legado
+3895,10,101,Eletrônicos,TV,Samsung 55,Beatriz,Pereira,4465.3,1,06/13/2026,SP,sistema_legado
+3900,53,203,Eletrônicos,Notebook,,Lucas,Oliveira,4671.81,2,2026-06-13,SP,sistema_legado
+3901,79,301,Eletrônicos,Celular,iPhone 15,Pedro,Santos,7695.88,1,2026-06-13,SP,sistema_legado
+3904,46,401,Eletrônicos,Tablet,iPad Air,Rafael,Souza,4927.7,3,2026-06-13,SP,sistema_legado
+3906,84,501,Acessórios,Fone,AirPods Pro,Camila,Santos,2058.1,7,2026-06-13,SP,sistema_legado
+3911,34,101,Eletrônicos,Tv,Samsung 55,Rafael,Oliveira,5160.64,3,2026-06-20,SP,sistema_legado
+3916,25,203,Eletrônicos,Notebook,Lenovo IdeaPad,Camila,SiLvA,3749.66,4,,SP,sistema_legado
+3919,111,303,  Eletrônicos  ,Celular,Motorola Edge,Ana,santos,2906.65,2,2026-06-20,SP,sistema_legado
+3920,68,401,Eletrônicos,Tablet,ipad air,Juliana,Oliveira,3601.81,1,2026-06-20,SP,sistema_legado
+3923,12,502,Acessórios,Fone,JBL Tune,Carlos,Silva,417.09,7,2026-06-20,SP,sistema_legado
+3950,81,302,Eletrônicos,Celular,Galaxy S24,Fernanda,CoStA,4321.74,2,2026-07-04,SP,sistema_legado
+3955,32,502,Acessórios,Fone,JBL Tune,Bruno,Pereira,419.24,1,2026-07-04,SP,sistema_legado
+3956,6,602,Acessórios,smartwatch,Galaxy Watch,Camila,lima,2093.43,2,2026-07-04,SP,sistema_legado
+3957,95,701,Eletrônicos,Monitor,LG UltraWide,João,Santos,2610.83,4,2026-07-04,SP,sistema_legado
+3959,16,101,Eletrônicos,TV,Samsung 55,Carlos,Silva,5354.23,3,2026-07-11,SP,sistema_legado
+3963,41,202,Eletrônicos,Notebook,MacBook Air,Camila,Souza,8679.18,2,2026-07-11,SP,sistema_legado
+3964,119,203,Eletrônicos,Notebook,Lenovo IdeaPad,Juliana,Souza,4301.42,2,2026-07-11,SP,sistema_legado
+3967,62,303,Eletrônicos,Celular,Motorola Edge,Pedro,Costa,2762.24,7,2026-07-11,SP,sistema_legado
+3970,11,501,Acessórios,Fone,AirPods Pro,Fernanda,Silva,1647.26,1,2026-07-11,SP,sistema_legado
+3972,89,602,Acessórios,Smartwatch,Galaxy Watch,carlos,Oliveira,2043.23,5,2026-07-11,SP,sistema_legado
+3975,86,101,Eletrônicos,TV,  Samsung 55  ,,Lima,5170.36,3,2026-07-18,SP,sistema_legado
+3980,70,301,Eletrônicos,Celular,iPhone 15,Maria,AlMeIdA,6916.13,1,2026-07-18,SP,sistema_legado
+3981,74,302,eletrônicos,Celular,Galaxy S24,Rafael,Cóstá,4860.52,4,18/07/2026,SP,sistema_legado
+3983,60,401,Eletrônicos,Tablet,iPad Air,Fernanda,PeReIrA,3892.54,1,2026-07-18,SP,sistema_legado
+3984,54,402,Eletrônicos,Tablet,Galaxy Tab,,Oliveira,2748.11,2,2026-07-18,SP,sistema_legado
+4001,92,602,Acessórios,Smartwatch,Galaxy Watch,Beatriz,Santos,1843.97,5,2026-07-25,SP,sistema_legado
+4008,73,202,Eletrônicos,Notebook,MacBook Air,Beatriz,Costa,8401.0,2,08/01/2026,SP,sistema_legado
+4011,71,302,Eletrônicos,Celular,Galaxy S24,João,Oliveira,4346.93,3,2026-08-01,SP,sistema_legado
+4017,11,602,Acessórios,Smartwatch,Galaxy Watch,Rafael,Pereira,1899.65,2,2026-08-01,SP,sistema_legado
+4029,111,402,Eletrônicos,Tablet,Galaxy Tab,Rafael,Cóstá,2816.75,6,2026-08-08,SP,sistema_legado
+4030,20,501,Acessórios,Fone,AirPods Pro,Juliana,Silva,1798.14,7,,SP,sistema_legado
+4036,54,103,Eletrônicos,TV,TCL 50,Bruno,Silva,3135.65,3,2026-08-15,SP,sistema_legado
+4046,117,702,Eletrônicos,Monitor,Samsung Odyssey,João,Santos,2692.96,7,2026-08-15,SP,sistema_legado
+4047,33,101,Eletrônicos,TV,Samsung 55,Lucas,Lima,4895.49,2,2026-08-22,SP,sistema_legado
+4054,117,302,Eletrônicos,Celular,Galaxy S24,Juliana,Costa,5059.52,4,08/22/2026,SP,sistema_legado
+4064,84,202,Eletrônicos,Notebook,MacBook Air,Fernanda,Santos,7324.02,1,2026-08-29,SP,sistema_legado
+4068,114,401,Eletrônicos,Tablet,iPad Air,JULIANA,Lima,3752.93,4,29/08/2026,SP,sistema_legado
+4077,106,201,Eletrônicos,Notebook,Dell G15,Camila,CoStA,4950.85,,2026-09-05,SP,sistema_legado
+4082,47,501,Acessórios,Fone,AirPods Pro,Ana,Santos,1617.89,3,2026-09-05,SP,sistema_legado
+4085,94,102,Eletrônicos,TV,LG OLED,Pedro,Santos,4823.11,4,2026-09-12,SP,sistema_legado
+4089,118,302,  Eletrônicos  ,Celular,Galaxy S24,Ana,Costa,4528.54,2,2026-09-12,SP,sistema_legado
+4093,67,101,Eletrônicos,TV,Samsung 55,Maria,Santos,5227.24,3,2026-09-19,SP,sistema_legado
+4097,89,202,Eletrônicos,Notebook,MacBook Air,Lucas,Pereira,8389.52,1,2026-09-19,SP,sistema_legado
+4104,70,101,Eletrônicos,TV,Samsung 55,Carlos,Oliveira,4312.71,3,2026-09-26,SP,sistema_legado
+4107,14,201,ElEtRôNiCoS,Notebook,Dell G15,Carlos,Silva,6209.39,1,2026-09-26,SP,sistema_legado
+4124,81,101,Eletrônicos,TV,Samsung 55,Beatriz,Silva,4292.9,4,10/10/2026,SP,sistema_legado
+4137,90,202,Eletrônicos,Notebook,MacBook Air,Pedro,Costa,9157.5,1,2026-10-17,SP,sistema_legado
+4142,43,602,Acessórios,Smartwatch,Galaxy Watch,Pedro,Oliveira,erro_preco,6,2026-10-17,SP,sistema_legado
+4143,96,702,Eletrônicos,Monitor,Samsung Odyssey,Ana,Costa,3713.56,3,2026-10-17,SP,sistema_legado
+4156,104,202,Eletrônicos,Notebook,MacBook Air,João,Almeida,10146.24,2,2026-10-31,SP,sistema_legado
+4158,86,302,Eletrônicos,Celular,Galaxy S24,Pedro,Souza,4954.07,1,,SP,sistema_legado
+4167,49,301,Eletrônicos,Celular,iPhone 15,,Oliveira,8349.12,1,2026-11-07,SP,sistema_legado
+4169,12,401,Eletrônicos,Tablet,iPad Air,João,Sóuzá,3950.17,1,2026-11-07,SP,sistema_legado
+4171,94,602,Acessórios,Smartwatch,Galaxy Watch,Fernanda,Almeida,1927.54,4,2026-11-07,SP,sistema_legado
+4178,110,401,Eletrônicos,Tablet,,carlos,Oliveira,4604.52,1,14/11/2026,SP,sistema_legado
+3963,41,202,Eletrônicos,Notebook,MacBook Air,Camila,Souza,8679.18,2,2026-07-11,SP,sistema_legado
+1264,18,203,Eletrônicos,Notebook,Lenovo IdeaPad,Bruno,Costa,4522.31,4,2023-06-03,SP,sistema_legado
+2160,100,101,Eletrônicos,TV,  Samsung 55  ,Pedro,Costa,4247.64,3,2024-06-08,SP,sistema_legado
+33,105,701,Eletrônicos,Monitor,LG UltraWide,Juliana,Oliveira,2296.02,6,2022-01-08,SP,sistema_legado
+1197,1,301,Eletrônicos,Celular,iPhone 15,Fernanda,Santos,7114.92,2,2023-05-06,SP,sistema_legado
+1678,61,501,Acessórios,Fone,AirPods Pro,Camila,Silva,1699.22,7,2023-11-18,SP,sistema_legado
+3125,109,501,Acessórios,Fone,AirPods Pro,Pedro,Lima,1612.19,4,2025-07-12,SP,sistema_legado
+3674,71,201,Eletrônicos,Notebook,Dell G15,Rafael,Oliveira,6200.54,2,03/07/2026,SP,sistema_legado
+2628,119,401,Eletrônicos,Tablet,iPad Air,  Fernanda  ,Lima,3693.48,4,2024-12-14,SP,sistema_legado
+3032,39,701,Eletrônicos,Monitor,LG UltraWide,Fernanda,Costa,2661.35,7,2025-05-31,SP,sistema_legado
+1761,23,401,Eletrônicos,Tablet,iPad Air,Carlos,Souza,4621.25,1,2023-12-23,SP,sistema_legado
+1939,96,101,Eletrônicos,TV,Samsung 55,Pedro,LiMa,4983.45,3,2024-03-09,SP,sistema_legado
+2328,13,701,Eletrônicos,Monitor,LG UltraWide,Carlos,Oliveira,2323.89,5,2024-08-10,SP,sistema_legado
+936,103,101,Eletrônicos,  TV  ,Samsung 55,Bruno,Souza,4752.57,4,2023-01-21,SP,sistema_legado
+2349,34,103,Eletrônicos,Tv,TCL 50,Maria,Pereira,3738.06,2,2024-08-24,SP,sistema_legado
+2913,47,402,Eletrônicos,Tablet,Galaxy Tab,Ana,CoStA,2289.58,6,2025-04-12,SP,sistema_legado
+2199,84,203,Eletrônicos,Notebook,Lenovo IdeaPad,Maria,Oliveira,3609.57,2,2024-06-22,SP,sistema_legado
+3428,119,302,Eletrônicos,Celular,Galaxy S24,Camila,Souza,5053.76,4,2025-11-22, sp ,sistema_legado
+308,112,102,Eletrônicos,TV,LG OLED,Fernanda,Souza,4614.7,2,2022-05-07,SP,sistema_legado
+1640,86,302,Eletrônicos,Celular,Galaxy S24,João,Oliveira,4404.25,1,2023-11-04,SP,sistema_legado
+1012,87,303,Eletrônicos,Celular,Motorola Edge,Aná,Oliveira,2830.46,2,2023-02-18,SP,sistema_legado

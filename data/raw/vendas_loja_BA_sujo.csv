@@ -1,0 +1,740 @@
+﻿id_pedido,id_cliente,id_produto,categoria,produto,modelo,nome,sobrenome,preco,quantidade,data,loja
+4,53,201,Eletrônicos,Notebook,Dell G15,Lucas,Souza,6542.08,2,2022-01-01,BA
+5,21,202,Eletrônicos,Notebook,MacBook Air,lucas,Costa,9062.01,2,2022-01-01,BA
+6,89,203,Eletrônicos,Notebook,Lenovo Ideapad,Brunó,Lima,3712.53,qtd_errada,2022-01-01,BA
+7,60,301,Eletrônicos,Celular,iPhone 15,Maria,Santos,6847.59,2,2022-01-01,BA
+10,114,401,Eletrônicos,Tablet,iPad Air,Pedro,Souza,4136.56,2,2022-01-01,BA
+16,82,701,Eletrônicos,Mónitór,,Camila,Santos,2493.34,2,2022-01-01,BA
+26,63,303,Eletrônicos,Celular,Motorola Edge,João,Costa,3257.85,1,2022-01-08,BA
+27,94,401,Eletrônicos,Tablet,iPad Air,Rafael,Costa,3774.82,3,2022-01-08,BA
+28,13,402,Eletrônicos,Tablet,Galaxy Tab,Maria,Pereira,2280.05,3,2022-01-08,BA
+39,96,202,Eletrônicos,Notebook,MacBook Air,Carlos,Costa,9927.09,1,15/01/2022,BA
+43,73,303,Eletrônicos,Celular,Motorola Edge,Maria,SaNtOs,2694.36,6,2022-01-15,BA
+47,23,502,Acessórios,Fone,JBL Tune,Maria,Almeida,363.83,2,2022-01-15,BA
+55,35,201,Eletrônicos,Notebook,Dell G15,João,Silva,5930.03,1,2022-01-22,BA
+60,30,303,Eletrônicos,Celular,Motorola Edge,Ana,Costa,3012.2,3,2022-01-22,BA
+71,60,103,Eletrônicos,TV,TCL 50,  João  ,Costa,3292.7,1,2022-01-29,BA
+72,65,201,Eletrônicos,Notebook,Dell G15,Beatriz,Oliveira,4811.56,2,2022-01-29,BA
+76,107,302,Eletrônicos,Celular,Galaxy S24,Juliana,Costa,,1,2022-01-29,BA
+78,96,401,Eletrônicos,Tablet,iPad Air,Maria,Almeida,4351.09,3,2022-01-29,BA
+91,58,203,Eletrônicos,Notebook,Lenovo IdeaPad,Pedro,Costa,3998.92,4,2022-02-05,BA
+92,16,301,Eletrônicos,Celular,iPhone 15,Carlos,Silva,6122.89,1,2022-02-05,BA
+94,33,303,Eletrônicos,Celular,Motorola Edge,Rafael,Costa,2829.09,3,2022-02-05,BA
+95,67,401,Eletrônicos,Tablet,iPad Air,Bruno,Oliveira,4776.03,qtd_errada,2022-02-05,BA
+104,99,102,Eletrônicos,TV,LG OLED,AnA,Pereira,4607.69,1,2022-02-12,BA
+117,4,602,Acessórios,Smartwatch,Galaxy Watch,Maria,Costa,1750.64,4,2022-02-12,BA
+121,3,102,Eletrônicos,TV,LG OLED,Camila,Almeida,5481.73,2,2022-02-19,BA
+128,76,303,Eletrônicos,Celular,Motorola Edge,Juliana,Souza,2484.62,5,2022-02-19,BA
+129,36,401,Eletrônicos,Táblét,iPad Air,Beatriz,Souza,4251.64,2,2022-02-19,BA
+147,66,402,Eletrônicos,Tablet,Galaxy Tab,Lucas,Lima,2942.59,7,2022-02-26,BA
+169,90,701,ElEtRôNiCoS,Monitor,LG UltraWide,Ana,Costa,2489.68,1,2022-03-05, ba 
+172,108,102,Eletrônicos,TV,LG OLED,pedro,Pereira,4652.2,1,data_invalida,BA
+177,119,301,Eletrônicos,Celular,iPhone 15,Juliana,Costa,6076.51,1,2022-03-12,BA
+182,68,501,Acessórios,Fone,AirPods Pro,João,Silva,1798.02,1,2022-03-12,BA
+189,78,102,Eletrônicos,TV,LG OLED,Camila,Souza,6117.95,1,2022-03-19,BA
+204,2,702,Eletrônicos,MoNiToR,,  Maria  ,Santos,2648.24,3,2022-03-19,BA
+208,89,201,Eletrônicos,Notebook,Dell G15,Beatriz,Oliveira,5167.83,4,2022-03-26,BA
+221,28,702,Eletrônicos,Monitor,Samsung Odyssey,Fernanda,Silva,2865.76,1,2022-03-26,BA
+229,110,302,Eletrônicos,Celular,Galaxy S24,Fernanda,Almeida,5171.51,1,2022-04-02,BA
+240,38,102,Eletrônicos,TV,LG OLED,Carlos,Costa,5828.38,1,2022-04-09,BA
+246,75,302,Eletrônicos,Celular,Galaxy S24,Pedro,Souza,5689.52,4,2022-04-09,BA
+249,57,402,Eletrônicos,Tablet,Galaxy Tab,Juliana,Souza,2452.51,3,2022-04-09,BA
+253,26,602,Acessórios,Smartwatch,Galaxy Watch,  Juliana  ,,1573.0,3,09/04/2022,BA
+255,22,702,Eletrônicos,Monitor,Samsung Odyssey,Bruno,Santos,,1,2022-04-09,BA
+270,59,602,Acessórios,Smartwatch,Galaxy Watch,Juliana,Oliveira,2052.22,1,2022-04-16,BA
+272,55,702,Eletrônicos,Mónitór,,Juliana,Silva,3073.87,3,,BA
+281,53,303,Eletrônicos,Celular,motorola edge,Ana,Silva,3347.97,1,2022-04-23,BA
+282,12,401,Eletrônicos,TaBlEt,iPad Air,Pedro,Oliveira,4975.93,1,2022-04-23,BA
+291,102,102,Eletrônicos,TV,LG OLED,Camila,Silva,5553.75,1,2022-04-30,BA
+293,92,201,Eletrônicos,Notebook,Dell G15,Camila,Souza,5592.6,3,2022-04-30,BA
+296,5,301,Eletrônicos,Celular,iPhone 15,Lucas,Costa,6069.52,2,2022-04-30,BA
+301,13,501,AcEsSóRiOs,Fone,,Pedro,Souza,2057.32,1,2022-04-30,BA
+310,37,201,Eletrônicos,Notebook,Dell G15,João,Lima,4872.33,4,2022-05-07,BA
+316,87,401,Eletrônicos,Tablet,iPad Air,Carlos,Costa,4225.48,2,2022-05-07,BA
+319,27,502,Acessórios,Fone,JBL Tune,Béátriz,Lima,403.84,6,2022-05-07,BA
+320,93,601,Acessórios,Smartwatch,Apple Watch,Pedro,Oliveira,3776.85,4,2022-05-07,BA
+323,64,702,Eletrônicos,Monitor,Samsung Odyssey,Beatriz,Souza,3576.91,4,2022-05-07,BA
+334,17,402,Eletrônicos,Tablet,Galaxy Tab,Lucas,PeReIrA,2303.54,6,2022-05-14,BA
+336,97,502,Acessórios,Fone,JBL Tune,Ana,Costa,308.26,5,2022-05-14,BA
+338,46,602,Acessórios,Smartwatch,Galaxy Watch,Carlos,Souza,1966.71,7,2022-05-14,BA
+340,9,702,Eletrônicos,Monitor,Samsung Odyssey,Camila,Souza,3650.79,3,2022-05-14,BA
+344,14,201,Eletrônicos,Notebook,Dell G15,Beatriz,Almeida,4832.14,2,2022-05-21,BA
+351,61,402,Eletrônicos,Tablet,Galaxy Tab,João,Santos,2980.08,5,2022-05-21,BA
+360,103,103,Eletrônicos,TV,TCL 50,Camila,SILVA,2903.15,3,2022-05-28,BA
+361,66,201,Eletrônicos,Notebook,  Dell G15  ,Ana,Limá,6326.62,1,2022-05-28,BA
+364,105,301,Eletrônicos,Celular,iPhone 15,Juliana,Oliveira,7005.67,2,2022-05-28,BA
+371,33,601,Acessórios,Smartwatch,Apple Watch,Beatriz,Souza,3288.1,2,2022-05-28,BA
+383,73,303,Eletrônicos,Celular,Motorola Edge,Camila,Oliveira,2468.67,7,2022-06-04,BA
+399,36,302,Eletrônicos,Celular,Galaxy S24,Ana,Costa,5505.86,2,2022-06-11, ba 
+400,90,303,Eletrônicos,Celular,Motorola Edge,Fernanda,Almeida,2499.45,3,2022-06-11, ba 
+422,102,601,Acessórios,Smartwatch,Apple Watch,Férnándá,Pereira,3344.72,2,2022-06-18,BA
+425,62,702,  Eletrônicos  ,Monitor,Samsung Odyssey,Beatriz,Silva,3093.62,,2022-06-18,BA
+427,104,102,Eletrônicos,TV,LG OLED,,Lima,4456.45,-4,06/25/2022,BA
+429,82,201,Eletrônicos,Notebook,Dell G15,Ana,Costa,erro_preco,2,2022-06-25,BA
+434,15,303,Eletrônicos,Celular,Motorola Edge,João,Souza,3352.31,1,2022-06-25,BA
+436,30,402,Eletrônicos,Tablet,Galaxy Tab,LuCaS,Oliveira,3008.96,2,2022-06-25,BA
+439,25,601,Acessórios,Smartwatch,Apple Watch,Lucas,SiLvA,3364.18,1,2022-06-25,BA
+443,79,101,Eletrônicos,TV,Samsung 55,Beatriz,Lima,5341.91,4,2022-07-02,BA
+444,13,102,Eletrônicos,TV,LG OLED,Carlos,Costa,6124.34,2,2022-07-02, ba 
+449,99,301,Eletrônicos,Celular,iPhone 15,Maria,almeida,6132.84,2,02/07/2022,BA
+451,103,303,Eletrônicos,Celular,Motorola Edge,João,Santos,2596.39,5,2022-07-02,BA
+457,109,602,Acessórios,Smartwatch,Galaxy Watch,Pedro,Costa,2144.8,qtd_errada,2022-07-02,BA
+459,52,702,Eletrônicos,Monitor,Samsung Odyssey,Bruno,Pereira,2923.63,5,2022-07-02,BA
+470,104,402,Eletrônicos,Tablet,Galaxy Tab,João,oliveira,2531.46,6,2022-07-09,BA
+474,73,602,Acessórios,Smartwatch,Galaxy Watch,Maria,Silva,1770.62,2,2022-07-09,BA
+480,114,201,ELETRÔNICOS,Notebook,DeLl g15,joão,Costa,6490.42,2,07/16/2022,BA
+486,13,401,Eletrônicos,Tablet,iPad Air,Pedro,Almeida,3812.28,1,2022-07-16,BA
+487,27,402,Elétrônicós,Tablet,galaxy tab,Maria,Almeida,3088.27,3,2022-07-16,BA
+501,4,302,Eletrônicos,Celular,Galaxy S24,João,Silva,4567.31,1,2022-07-23,BA
+505,63,501,Acessórios,Fone,AirPods Pro,Juliana,Costa,1578.55,6,2022-07-23,BA
+519,46,303,Eletrônicos,CeLuLaR,Motorola Edge,Camila,Almeida,2978.02,4,30/07/2022,BA
+521,30,402,Eletrônicos,Tablet,Galaxy Tab,Maria,Almeida,2243.02,7,2022-07-30,BA
+524,84,601,Acessórios,Smartwatch,Apple Watch,  Camila  ,Costa,3414.06,3,2022-07-30,BA
+529,88,102,Eletrônicos,TV,LG OLED,Camila,Costa,5035.64,3,2022-08-06,BA
+543,50,701,Eletrônicos,Monitor,LG UltraWide,Maria,Oliveira,2118.46,5,2022-08-06,BA
+544,74,702,Eletrônicos,Monitor,Samsung Odyssey,Beatriz,SILVA,2737.03,4,2022-08-06,BA
+546,104,102,Eletrônicos,TV,LG OLED,João,Péréirá,5366.75,4,2022-08-13,BA
+563,84,102,Eletrônicos,TV,LG OLED,Carlos,Oliveira,5765.52,2,2022-08-20,BA
+582,64,201,  Eletrônicos  ,Notebook,Dell G15,Pedro,Costa,6194.13,1,2022-08-27,BA
+587,52,303,Eletrônicos,Celular,Motorola Edge,Maria,Pereira,2814.51,5,2022-08-27,BA
+588,29,401,Eletrônicos,Tablet,iPad Air,Fernanda,Santos,4510.22,3,2022-08-27,BA
+589,4,402,Eletrônicos,Tablet,Galaxy Tab,Maria,Pereira,2559.91,5,2022-08-27,BA
+601,46,203,Eletrônicos,Notebook,Lenovo IdeaPad,Beatriz,Oliveira,3540.5,4,2022-09-03,BA
+604,91,303,Eletrônicos,Celular,Motorola Edge,Fernanda,Silva,2382.06,6,2022-09-03,BA
+605,82,401,Eletrônicos,Tablet,iPad Air,AnA,Almeida,3947.34,4,2022-09-03,BA
+606,82,402,Eletrônicos,Tablet,Galaxy Tab,Beatriz,Lima,2293.98,7,2022-09-03,BA
+615,38,103,Eletrônicos,TV,TCL 50,Rafael,Souza,3667.08,2,2022-09-10,BA
+617,30,202,Eletrônicos,Notebook,MacBook Air,Maria,Oliveira,8553.1,2,2022-09-10,BA
+619,48,301,Eletrônicos,Celular,iPhone 15,Camila,PeReIrA,5980.16,3,,BA
+621,7,303,Eletrônicos,CELULAR,Motorola Edge,Ana,AlMeIdA,2519.74,1,2022-09-10,BA
+624,38,501,Acessórios,Fone,Airpods Pro,João,Lima,erro_preco,2,2022-09-10,BA
+629,30,702,Eletrônicos,Monitor,Samsung Odyssey,Pedro,Souza,2776.1,2,2022-09-10,BA
+630,101,101,Eletrônicos,TV,Samsung 55,João,Souza,4571.56,2,2022-09-17,BA
+635,51,203,Eletrônicos,Notebook,Lenovo IdeaPad,Beatriz,Costa,3556.84,1,2022-09-17,BA
+639,24,401,Eletrônicos,TaBlEt,IpAd aIr,FERNANDA,costa,4482.37,1,09/17/2022,BA
+642,118,502,Acessórios,Fone,JBL Tune,Pedro,Silva,394.34,4,2022-09-17,BA
+653,10,301,Eletrônicos,Celular,iPhone 15,Pedro,Lima,6279.37,2,2022-09-24,BA
+669,74,203,Eletrônicos,Notebook,Lenovo IdeaPad,Lucas,Santos,4114.71,,2022-10-01,BA
+670,32,301,Eletrônicos,Celular,iPhone 15,Beatriz,Pereira,7239.38,2,2022-10-01, ba 
+673,34,401,Eletrônicos,Tablet,iPad Air,,Silva,3766.73,2,01/10/2022,BA
+682,21,102,Eletrônicos,TV,LG OLED,Aná,Lima,6013.43,-1,2022-10-08,BA
+687,71,301,Eletrônicos,Celular,iPhone 15,PEDRO,Costa,7830.54,2,2022-10-08,BA
+690,109,401,Eletrônicos,Tablet,iPad Air,Juliana,Almeida,4004.09,4,2022-10-08,BA
+695,13,602,Acessórios,Smartwatch,Galaxy Watch,lucas,Silva,erro_preco,2,2022-10-08,BA
+699,84,102,Eletrônicos,TV,LG OLED,Ana,Lima,5247.95,4,2022-10-15,BA
+707,98,401,Eletrônicos,Tablet,iPad Air,Beatriz,ALMEIDA,4281.59,3,2022-10-15,BA
+708,90,402,Eletrônicos,Tablet,Galaxy Tab,Fernanda,Costa,2739.81,1,2022-10-15,BA
+721,81,301,Eletrônicos,Celular,iPhone 15,Carlos,Olivéirá,8353.92,1,2022-10-22,BA
+722,108,302,Eletrônicos,Celular,Galaxy S24,João,Oliveira,5931.1,4,2022-10-22,BA
+738,116,301,Eletrônicos,Celular,iPhone 15,Rafael,Souza,6896.49,1,2022-10-29,BA
+739,65,302,Eletrônicos,Celular,Galaxy S24,Bruno,Costa,4670.7,2,2022-10-29,BA
+749,36,101,Eletrônicos,TV,Samsung 55,Juliana,Souza,4917.45,4,2022-11-05,BA
+750,67,102,Eletrônicos,TV,LG OLED,Fernanda,Costa,5358.5,1,2022-11-05,BA
+754,61,203,Eletrônicos,Notebook,Lenovo IdeaPad,Maria,Pereira,3912.16,4,2022-11-05, ba 
+761,96,502,Acessórios,Fone,JBL Tune,Ana,SaNtOs,302.7,1,2022-11-05,BA
+769,81,201,Eletrônicos,Notebook,Dell G15,João,,5407.5,3,2022-11-12,BA
+778,82,502,Acessórios,Fone,JBL Tune,Ana,Silva,327.82,4,2022-11-12,BA
+787,90,202,Eletrônicos,Notebook,MacBook Air,Rafael,Silva,8957.0,1,2022-11-19,BA
+797,120,602,Acessórios,Smartwatch,Galaxy Watch,,Costa,1900.18,2,2022-11-19,BA
+802,116,103,eletrônicos,  TV  ,TCL 50,Camila,SANTOS,3558.19,3,2022-11-26, ba 
+803,93,201,Eletrônicos,Notebook,Dell G15,Bruno,Oliveira,5662.0,3,2022-11-26,BA
+804,17,202,Eletrônicos,Notebook,MacBook Air,Bruno,SoUzA,8851.96,1,11/26/2022,BA
+805,109,203,Eletrônicos,Notebook,Lenovo IdeaPad,Pedro,Almeida,3439.75,1,2022-11-26,BA
+813,6,601,Acessórios,Smartwatch,Apple Watch,Ana,Santos,3615.69,3,2022-11-26,BA
+815,85,701,Eletrônicos,Monitor,LG UltraWide,Rafael,Oliveira,2385.53,2,2022-11-26,BA
+822,92,203,Elétrônicós,Notebook,Lenovo IdeaPad,Maria,Costa,4221.66,3,2022-12-03,BA
+823,83,301,Eletrônicos,Celular,iPhone 15,Ana,Santos,6220.56,1,2022-12-03,BA
+833,119,702,Eletrônicos,Monitor,Samsung Odyssey,Pedro,,2637.16,2,2022-12-03,BA
+835,107,102,Eletrônicos,TV,LG OLED,BRUNO,Souza,5752.99,3,2022-12-10,BA
+854,45,201,ElEtRôNiCoS,Notebook,Dell G15,Lucas,Almeida,5542.17,1,2022-12-17,BA
+862,101,501,Acessórios,Fóné,AirPods Pro,Rafael,Almeida,1660.56,4,2022-12-17,BA
+867,59,702,Eletrônicos,Monitor,Samsung Odyssey,Beatriz,Souza,3569.74,2,17/12/2022,BA
+882,91,602,Acessórios,Smartwatch,Galaxy Watch,  Ana  ,Oliveira,1682.14,7,2022-12-24,BA
+889,87,202,Eletrônicos,Notebook,MacBook Air,CaRlOs,Almeida,9986.34,2,2022-12-31,BA
+890,69,203,Eletrônicos,Nótébóók,lenovo ideapad,Maria,Costa,4179.14,1,2022-12-31,BA
+895,105,402,Eletrônicos,Tablet,Galaxy Tab,Maria,Silva,2273.52,6,2022-12-31, ba 
+898,112,601,Acessórios,Smartwatch,Apple Watch,Rafael,Almeida,2747.96,3,2022-12-31,BA
+899,40,602,Acessórios,Smartwatch,Galaxy Watch,Lucas,Oliveira,2035.77,6,2022-12-31,BA
+901,102,702,Eletrônicos,Monitor,samsung odyssey,Bruno,Oliveira,3332.2,2,2022-12-31,BA
+907,94,203,Eletrônicos,Notebook,Lenovo IdeaPad,Fernanda,Costa,3489.63,4,2023-01-07,BA
+911,84,401,Eletrônicos,Tablet,iPad Air,Camila,Lima,5000.42,2,2023-01-07,BA
+913,56,501,Acessórios,Fone,AirPods Pro,Beatriz,Silva,1611.7,7,2023-01-07,BA
+914,13,502,AcEsSóRiOs,Fone,JBL Tune,Bruno,Pereira,305.16,5,2023-01-07,BA
+934,76,701,Eletrônicos,Monitor,LG UltraWide,Pedro,Pereira,2507.7,-7,2023-01-14,BA
+935,89,702,Eletrônicos,Monitor,Samsung Odyssey,Pedro,Souza,2662.38,7,2023-01-14,BA
+944,21,303,ELETRÔNICOS,Celular,Motorola Edge,Juliana,Oliveira,2424.54,1,01/21/2023,BA
+946,87,402,Elétrônicós,Tablet,Galaxy Tab,Ana,Silva,2779.95,6,2023-01-21, ba 
+954,115,102,Eletrônicos,TV,LG OLED,Maria,Almeida,4954.67,4,2023-01-28,BA
+957,90,202,Eletrônicos,Notebook,MacBook Air,Bruno,Costa,9940.97,2,2023-01-28,BA
+958,58,203,Eletrônicos,Notebook,Lenovo IdeaPad,João,Alméidá,4292.41,1,2023-01-28,BA
+960,28,302,Eletrônicos,Celular,Galaxy S24,JuLiAnA,Silva,4706.83,2,2023-01-28,BA
+961,72,303,Eletrônicos,Celular,Motorola Edge,João,Pereira,3300.22,2,2023-01-28,BA
+973,5,201,Eletrônicos,Notebook,Dell G15,Beatriz,Almeida,5358.63,3,2023-02-04,BA
+994,19,302,Eletrônicos,CELULAR,Galaxy S24,Bruno,Lima,4655.09,3,2023-02-11,BA
+1000,31,601,Acessórios,Smartwatch,Apple Watch,Carlos,Lima,3793.09,1,2023-02-11,BA
+1008,106,202,Eletrônicos,Notebook,MacBook Air,João,Almeida,7243.98,1,2023-02-18,BA
+1011,77,302,Eletrônicos,Celular,GaLaXy s24,Camila,Santos,5983.08,3,2023-02-18,BA
+1013,73,401,Eletrônicos,Tablet,iPad Air,Pedro,Almeida,3836.34,3,2023-02-18,BA
+1020,99,702,Eletrônicos,Monitor,Samsung Odyssey,Lucas,Silva,2666.09,2,2023-02-18,BA
+1021,107,101,Eletrônicos,TV,Samsung 55,Bruno,Santos,4307.63,4,2023-02-25,BA
+1027,23,301,Eletrônicos,Celular,iPhone 15,Fernanda,Costa,6467.26,qtd_errada,2023-02-25,BA
+1033,43,502,Acessórios,Fone,JBL Tune,João,Pereira,376.08,5,2023-02-25,BA
+1037,75,702,Eletrônicos,Mónitór,Samsung Odyssey,João,Costa,3026.11,2,02/25/2023,BA
+1038,34,101,Eletrônicos,TV,Samsung 55,Bruno,Almeida,3872.28,1,2023-03-04,BA
+1049,49,501,Acessórios,Fone,AirPods Pro,Lucas,Pereira,1960.0,4,04/03/2023,BA
+1052,47,602,Acessórios,Smartwatch,Galaxy Watch,Lucas,Silva,1567.76,5,2023-03-04,BA
+1055,73,101,Eletrônicos,TV,Samsung 55,Carlos,Lima,4805.8,1,2023-03-11,BA
+1056,39,102,Eletrônicos,TV,LG OLED,Maria,Santos,5569.1,1,2023-03-11,BA
+1076,53,202,Eletrônicos,Notebook,MacBook Air,Carlos,costa,8134.59,1,2023-03-18, ba 
+1078,60,301,Eletrônicos,Celular,iPhone 15,Beatriz,  Santos  ,6264.4,1,2023-03-18,BA
+1084,28,502,Acessórios,Fone,JBL Tuné,Fernanda,Oliveira,392.01,3,2023-03-18,BA
+1095,26,301,Eletrônicos,Celular,iphone 15,Maria,Silva,7948.64,1,03/25/2023,BA
+1101,7,502,Acessórios,Fone,JBL Tune,Lucas,Oliveira,361.84,2,2023-03-25,BA
+1102,33,601,Acessórios,Smartwatch,Apple Watch,Beatriz,Souza,2862.04,5,03/25/2023,BA
+1106,27,101,Eletrônicos,TV,Samsung 55,Carlos,Santos,4758.61,1,2023-04-01,BA
+1107,29,102,Eletrônicos,TV,LG OLED,Rafael,Oliveira,4681.11,3,2023-04-01,BA
+1109,4,201,Eletrônicos,Notebook,Dell G15,Rafael,SoUzA,5061.48,2,04/01/2023,BA
+1119,95,601,Acessórios,Smartwatch,Apple Watch,Rafael,Souza,3638.95,4,2023-04-01,BA
+1122,16,702,Eletrônicos,Monitor,Samsung Odyssey,Beatriz,Lima,3574.93,3,01/04/2023,BA
+1136,13,601,Acessórios,Smartwatch,Apple Watch,Carlos,Oliveira,2822.08,4,2023-04-08,BA
+1146,19,301,Eletrônicos,Celular,iPhone 15,Beatriz,SaNtOs,6768.77,1,2023-04-15,BA
+1156,47,702,Eletrônicos,Monitor,Samsung Odyssey,FeRnAnDa,Souza,2662.34,2,2023-04-15,BA
+1158,31,102,Eletrônicos,TV,LG OLED,Ana,Almeida,4776.28,4,2023-04-22,BA
+1170,10,601,Acessórios,Smartwatch,Apple Watch,Carlos,Santos,3300.25,4,2023-04-22,BA
+1172,9,701,ELETRÔNICOS,Monitor,LG UltraWide,Maria,Silva,,1,2023-04-22,BA
+1176,11,103,Eletrônicos,TV,TCL 50,Bruno,Costa,2967.13,5,04/29/2023,BA
+1184,60,402,Eletrônicos,Tablet,Galaxy Tab,Juliana,Silva,2454.94,7,2023-04-29,BA
+1198,75,302,Eletrônicos,CELULAR,Galaxy S24,Carlos,Almeida,5434.13,1,2023-05-06,BA
+1201,63,402,Eletrônicos,Tablet,Galaxy Tab,Ana,Santos,2852.13,5,05/06/2023,BA
+1215,69,302,Eletrônicos,Celular,Galaxy S24,Camila,Olivéirá,5758.63,2,2023-05-13,BA
+1227,21,103,Eletrônicos,TV,TCL 50,Rafael,Almeida,3318.82,1,2023-05-20,BA
+1228,42,201,Eletrônicos,Notebook,Dell G15,Lucas,Lima,5126.9,3,2023-05-20, ba 
+1235,56,402,Eletrônicos,Tablet,Galaxy Tab,Maria,Silva,2321.47,7,2023-05-20,BA
+1240,64,701,Eletrônicos,Monitor,LG UltraWide,Rafael,Almeida,2803.73,1,05/20/2023,BA
+1243,2,102,ELETRÔNICOS,TV,LG OLED,Ana,Costa,4724.97,1,2023-05-27,BA
+1246,45,202,Eletrônicos,Notebook,MacBook Air,Bruno,Costa,7778.24,1,2023-05-27,BA
+1285,34,401,Eletrônicos,Tablet,iPad Air,Lucas,Costa,4946.99,2,2023-06-10,BA
+1287,117,501,Acessórios,Fone,airpods pro,Maria,Pereira,1777.99,7,2023-06-10,BA
+1294,17,102,Eletrônicos,TV,LG OLED,Maria,Silva,4640.77,2,2023-06-17,BA
+1303,1,402,Eletrônicos,Tablet,Galaxy Tab,  Lucas  ,Costa,2869.47,6,2023-06-17,BA
+1307,59,602,Acessórios,Smartwatch,GALAXY WATCH,Camila,,2023.29,4,2023-06-17,BA
+1315,36,203,Eletrônicos,Notebook,Lenovo IdeaPad,Juliana,Silva,4020.2,1,2023-06-24,BA
+1320,58,402,Eletrônicos,Tablet,Galaxy Tab,Carlos,Oliveira,2678.42,4,2023-06-24,BA
+1325,50,701,Eletrônicos,Monitor,LG UltraWide,FERNANDA,Lima,2749.78,7,2023-06-24,BA
+1337,10,402,Eletrônicos,Tablet,Galaxy Tab,  Carlos  ,Lima,,4,2023-07-01,BA
+1340,63,601,Acessórios,Smartwatch,Apple Watch,Camila,Pereira,3452.02,2,2023-07-01,BA
+1341,93,602,Acessórios,Smartwatch,Galaxy Watch,Carlos,Almeida,1913.17,5,2023-07-01,BA
+1351,114,302,Eletrônicos,Celular,Galaxy S24,Beatriz,Silva,5760.18,3,2023-07-08,BA
+1355,30,501,Acessórios,Fone,AirPods Pro,João,SANTOS,1917.49,6,2023-07-08,BA
+1356,52,502,Acessórios,Fone,JBL Tune,Fernanda,Silva,416.72,4,2023-07-08,BA
+1364,78,201,Eletrônicos,Notebook,DELL G15,Rafael,Silva,5848.3,2,2023-07-15,BA
+1366,91,203,ElEtRôNiCoS,Notebook,Lenovo IdeaPad,Juliana,Pereira,4154.57,3,2023-07-15,BA
+1370,40,401,Eletrônicos,Tablet,iPad Air,Lucas,Costa,3797.15,3,2023-07-15,BA
+1376,117,701,Eletrônicos,Monitor,LG UltraWide,Ana,Almeida,2842.91,7,2023-07-15,BA
+1381,23,201,Eletrônicos,Notebook,Dell G15,Beatriz,Silva,5415.19,3,2023-07-22,BA
+1387,95,401,Eletrônicos,Tablet,iPad Air,joão,Souza,4625.48,3,2023-07-22,BA
+1391,28,601,Acessórios,Smartwatch,Apple Watch,Lucas,Almeida,3079.52,3,2023-07-22,BA
+1393,7,701,Eletrônicos,Monitor,LG UltraWide,Bruno,Costa,2305.13,4,22/07/2023,BA
+1415,109,201,Eletrônicos,Notebook,Dell G15,Lucas,Silva,5622.1,2,2023-08-05,BA
+1424,94,502,Acéssóriós,Fone,JBL Tune,Pedro,Almeida,379.2,3,2023-08-05,BA
+1427,47,701,Eletrônicos,Monitor,LG UltraWide,Pedro,Almeida,2258.44,6,2023-08-05,BA
+1429,9,101,eletrônicos,TV,Samsung 55,Bruno,OlIvEiRa,5293.45,2,2023-08-12,BA
+1436,2,302,Eletrônicos,Celular,Galaxy S24,Bruno,,5061.34,2,2023-08-12,BA
+1440,15,501,Acessórios,Fone,AirPods Pro,Pedro,Oliveira,1942.97,1,,BA
+1454,117,303,Eletrônicos,Celular,Motorola Edge,Bruno,Souza,2987.35,7,08/19/2023,BA
+1457,76,501,Acessórios,Fone,AirPods Pro,Fernanda,lima,1953.88,4,2023-08-19,BA
+1458,65,502,Acessórios,Fone,JBL Tune,Ana,Costa,299.85,3,2023-08-19,BA
+1461,24,701,Eletrônicos,monitor,LG UltraWide,Juliana,Santos,2161.16,3,2023-08-19,BA
+1477,73,602,Acessórios,Smártwátch,Galaxy Watch,Pedro,Souza,1797.61,1,2023-08-26,BA
+1480,41,101,Eletrônicos,TV,Samsung 55,Carlos,Lima,5054.6,1,2023-09-02,BA
+1483,69,201,Eletrônicos,Notebook,Dell G15,Ana,Silva,6358.88,1,2023-09-02,BA
+1494,30,602,Acessórios,Smartwatch,Galaxy Watch,Maria,Pereira,1588.29,,2023-09-02,BA
+1496,2,702,Eletrônicos,Monitor,,Beatriz,Lima,2711.02,1,2023-09-02,BA
+1533,65,103,Eletrônicos,TV,TCL 50,Rafael,Pereira,3168.4,2,2023-09-23,BA
+1538,39,302,Eletrônicos,Celular,Galaxy S24,Maria,,5379.01,1,09/23/2023,BA
+1546,57,701,Eletrônicos,Monitor,LG UltraWide,Beatriz,Costa,2715.1,3,2023-09-23,BA
+1549,109,102,Eletrônicos,TV,LG OLED,Juliana,Lima,4421.14,1,2023-09-30,BA
+1550,9,103,Eletrônicos,TV,TCL 50,Carlos,Costa,2834.12,7,2023-09-30,BA
+1568,95,201,Eletrônicos,Notebook,Dell G15,Ana,Pereira,5217.46,4,2023-10-07,BA
+1573,107,303,Eletrônicos,Celular,Motorola Edge,Ana,Lima,3359.47,3,2023-10-07,BA
+1582,43,101,Eletrônicos,TV,Samsung 55,Lucas,Costa,5393.1,4,2023-10-14,BA
+1592,86,402,Eletrônicos,Tablet,Galaxy Tab,Carlos,Santos,2351.82,1,2023-10-14,BA
+1601,28,103,Eletrônicos,TV,TCL 50,Bruno,Souza,2724.44,4,2023-10-21,BA
+1604,48,203,ElEtRôNiCoS,Notebook,Lenovo IdeaPad,Bruno,Silva,3881.69,1,2023-10-21,BA
+1606,104,302,Eletrônicos,Celular,Galaxy S24,Maria,Oliveira,4452.31,4,2023-10-21,BA
+1626,90,402,Eletrônicos,Tablet,Galaxy Tab,Juliana,Pereira,2295.9,1,2023-10-28,BA
+1629,75,601,Acessórios,Smartwatch,Apple Watch,Rafael,Almeida,3501.61,2,2023-10-28,BA
+1632,77,702,eletrônicos,Monitor,Samsung Odyssey,Camila,Lima,3365.87,4,2023-10-28,BA
+1633,17,101,Eletrônicos,TV,Samsung 55,CARLOS,Santos,4678.02,3,2023-11-04,BA
+1637,112,202,Eletrônicos,Notebook,MacBook Air,Pedro,Costa,7384.75,2,04/11/2023,BA
+1641,110,303,Eletrônicos,Celular,Motorola Edge,Rafael,Lima,2517.7,4,2023-11-04,BA
+1644,38,501,Acessórios,FONE,AirPods Pro,João,Souza,1852.62,1,2023-11-04,BA
+1668,24,102,Eletrônicos,TV,LG OLED,Maria,Almeida,4438.14,4,18/11/2023,BA
+1673,16,301,Eletrônicos,Celular,iPhone 15,  Ana  ,Costa,7606.59,1,2023-11-18,BA
+1680,97,601,Acessórios,Smartwatch,Apple Watch,,,3075.36,1,2023-11-18,BA
+1683,25,702,Eletrônicos,monitor,Samsung Odyssey,Pedro,Santos,3072.65,2,2023-11-18,BA
+1685,26,102,Eletrônicos,TV,LG OLED,Ana,Pereira,5443.04,4,11/25/2023,BA
+1691,63,302,Eletrônicos,Celular,Galaxy S24,Beatriz,Santos,5095.04,3,2023-11-25,BA
+1694,74,402,Eletrônicos,Tablet,Galaxy Tab,Lucas,Santos,2445.14,4,2023-11-25,BA
+1699,106,701,Eletrônicos,Monitor,LG UltraWide,,Souza,2684.42,6,2023-11-25,BA
+1706,82,203,Eletrônicos,Notebook,Lenovo IdeaPad,Carlos,Lima,3752.65,4,2023-12-02,BA
+1709,2,303,Eletrônicos,Celular,Motorola Edge,Fernanda,  Costa  ,2760.3,5,2023-12-02,BA
+1711,97,402,Eletrônicos,Tablet,Galaxy Tab,Pedro,Oliveira,2798.19,4,2023-12-02,BA
+1715,54,602,Acessórios,Smartwatch,Galaxy Watch,Rafael,Oliveira,1764.77,4,2023-12-02,BA
+1726,72,303,Eletrônicos,Celular,Motorola Edge,Carlos,Pereira,2467.91,1,2023-12-09,BA
+1727,60,401,Eletrônicos,Tablet,iPad Air,Bruno,Lima,3898.7,1,,BA
+1732,105,602,Acessórios,Smartwatch,Galaxy Watch,Fernanda,AlMeIdA,1601.94,1,2023-12-09,BA
+1735,37,101,Eletrônicos,TV,Samsung 55,Bruno,Pereira,4274.17,1,2023-12-16,BA
+1739,39,202,Eletrônicos,Notebook,MacBook Air,Pedro,Silva,8281.17,1,2023-12-16,BA
+1756,31,202,Eletrônicos,Notebook,MacBook Air,Lucas,Pereira,8463.45,2,2023-12-23,BA
+1760,89,303,Eletrônicos,Celular,Motorola Edge,Bruno,Silva,3318.61,2,2023-12-23,BA
+1775,47,301,Eletrônicos,Celular,iPhone 15,Rafael,Costa,7939.84,2,2023-12-30,BA
+1776,84,302,Eletrônicos,Celular,Galaxy S24,Camila,Santos,5786.23,3,2023-12-30,BA
+1802,79,702,Eletrônicos,Monitor,Samsung Odyssey,João,Silva,2678.47,6,2024-01-06,BA
+1805,94,103,Eletrônicos,TV,TCL 50,João,Silva,3222.47,1,13/01/2024,BA
+1811,1,303,Eletrônicos,Celular,Motorola Edge,Bruno,Almeida,,1,2024-01-13,BA
+1816,81,601,Acessórios,Smartwatch,Apple Watch,Beatriz,  Souza  ,2730.08,4,2024-01-13,BA
+1818,41,701,Eletrônicos,Monitor,LG UltraWide,João,Lima,2875.46,1,2024-01-13, ba 
+1834,85,602,Acessórios,Smartwatch,Galaxy Watch,Maria,Silva,1919.22,4,2024-01-20,BA
+1841,45,202,Eletrônicos,Notebook,MacBook Air,Carlos,Santos,10175.27,2,2024-01-27,BA
+1845,89,303,Eletrônicos,Celular,Motorola Edge,Fernanda,Oliveira,3122.28,1,2024-01-27,BA
+1851,100,602,Acessórios,Smartwatch,Galaxy Watch,Camila,Silva,1595.21,5,2024-01-27,BA
+1853,90,702,Eletrônicos,Monitor,Samsung Odyssey,Camila,Souza,3606.17,4,2024-01-27,BA
+1855,93,102,Eletrônicos,Tv,LG OLED,Camila,Oliveira,5811.65,2,2024-02-03,BA
+1869,49,701,Eletrônicos,Monitor,LG UltraWide,Juliana,Silva,2819.25,1,2024-02-03,BA
+1873,60,103,Eletrônicos,TV,,Ana,Silva,3048.08,1,2024-02-10, ba 
+1881,99,402,Eletrônicos,Tablet,Galaxy Tab,Pedro,Sóuzá,2681.83,6,2024-02-10,BA
+1882,91,501,Acessórios,Fone,AirPods Pro,Rafael,Lima,1652.88,1,2024-02-10,BA
+1885,112,602,Acessórios,Smartwatch,Galaxy Watch,ana,Oliveira,2122.6,5,2024-02-10,BA
+1887,81,702,Eletrônicos,Monitor,Samsung Odyssey,Fernanda,Souza,3661.17,2,2024-02-10, ba 
+1890,61,103,Eletrônicos,TV,TCL 50,Carlos,Souza,2838.38,3,2024-02-17,BA
+1898,118,402,Eletrônicos,Táblét,Galaxy Tab,João,Oliveira,2669.03,3,2024-02-17,BA
+1918,41,601,Acessórios,Smartwatch,Apple Watch,Rafael,Souza,3696.14,3,2024-02-24,BA
+1923,69,102,Eletrônicos,TV,LG OLED,Juliana,Almeida,5998.09,1,2024-03-02,BA
+1941,38,103,Eletrônicos,TV,  TCL 50  ,Maria,Santos,3541.13,2,2024-03-09,BA
+1942,56,201,Eletrônicos,Notebook,Dell G15,João,Oliveira,4960.09,2,2024-03-09,BA
+1952,32,601,Acessórios,Smartwatch,Apple Watch,JOÃO,Costa,3164.85,3,09/03/2024,BA
+1960,61,202,Eletrônicos,Notebook,MácBóók Air,Fernanda,Pereira,9474.0,1,2024-03-16,BA
+1968,77,502,Acessórios,Fone,JBL Tune,MaRiA,Alméidá,330.2,3,2024-03-16,BA
+1971,74,701,Eletrônicos,Monitor,LG UltraWide,Maria,Oliveira,2660.22,7,2024-03-16,BA
+1974,5,102,Eletrônicos,Tv,LG OLED,Fernanda,Pereira,5786.44,3,2024-03-23,BA
+1985,32,502,Acessórios,Fone,JBL Tune,Camila,Santos,343.73,2,2024-03-23,BA
+1986,61,601,Acessórios,smartwatch,Apple Watch,João,Silva,3058.96,1,2024-03-23,BA
+1994,45,202,Eletrônicos,Notebook,MacBook Air,Lucas,Lima,8766.7,2,2024-03-30,BA
+2002,99,502,Acessórios,Fone,JBL Tune,Ana,Oliveira,326.8,7,2024-03-30,BA
+2003,18,601,Acessórios,Smartwatch,Applé Wátch,Pedro,Oliveira,3203.29,4,2024-03-30,BA
+2006,99,702,Eletrônicos,Monitor,Samsung Odyssey,RaFaEl,Costa,3564.55,3,2024-03-30,BA
+2007,68,101,Eletrônicos,TV,Samsung 55,,Souza,3974.71,4,2024-04-06,BA
+2011,51,202,Eletrônicos,Notebook,MacBook Air,Fernanda,Costa,9802.62,2,2024-04-06,BA
+2012,41,203,Eletrônicos,Notebook,Lenovo IdeaPad,Fernanda,Almeida,3728.89,1,2024-04-06,BA
+2015,56,303,Eletrônicos,Celular,Motorola Edge,Beatriz,LiMa,2994.71,6,2024-04-06,BA
+2018,17,501,Acessórios,Fone,AirPods Pro,Carlos,Lima,1867.38,6,2024-04-06,BA
+2032,114,303,Eletrônicos,Celular,Motorola Edge,Juliáná,Silva,erro_preco,3,04/13/2024,BA
+2035,54,501,Acessórios,Fone,AirPods Pro,Ana,Silva,2097.79,1,2024-04-13,BA
+2039,43,701,Eletrônicos,Monitor,LG UltraWide,João,Costa,2072.42,7,2024-04-13,BA
+2045,93,202,Elétrônicós,Notebook,MacBook Air,Juliana,Lima,9467.5,1,04/20/2024,BA
+2047,8,301,Eletrônicos,Celular,iPhone 15,Lucas,Costa,8004.62,1,2024-04-20,BA
+2049,80,303,Eletrônicos,Celular,Motorola Edge,camila,Souza,2634.36,7,2024-04-20,BA
+2051,26,402,Eletrônicos,Tablet,Galaxy Tab,  Juliana  ,Santos,2302.78,7,2024-04-20,BA
+2053,78,502,Acessórios,Fone,JBL Tune,João,Oliveira,352.4,5,2024-04-20,BA
+2062,101,202,Eletrônicos,Notebook,Macbook Air,Ana,Lima,9329.88,1,2024-04-27,BA
+2063,118,203,Eletrônicos,Notebook,Lenovo IdeaPad,Camila,Lima,3488.78,1,2024-04-27,BA
+2064,63,301,Eletrônicos,Celular,iphone 15,Maria,Pereira,7913.36,1,2024-04-27,BA
+2065,5,302,Eletrônicos,Celular,Galaxy S24,Fernanda,Almeida,5091.13,4,2024-04-27,BA
+2073,74,701,Eletrônicos,Monitor,LG UltraWide,,Costa,2232.95,6,2024-04-27,BA
+2104,63,502,Acessórios,Fone,JBL Tune,Bruno,Lima,354.78,7,2024-05-11,BA
+2106,48,602,Acessórios,Smartwatch,  Galaxy Watch  ,Bruno,Almeida,1849.13,3,2024-05-11,BA
+2109,59,101,Eletrônicos,TV,Samsung 55,Rafael,Pereira,4023.14,2,2024-05-18,BA
+2111,96,103,Eletrônicos,TV,TCL 50,Pedro,  Pereira  ,3333.78,3,2024-05-18,BA
+2114,37,203,Eletrônicos,Notebook,Lenovo IdeaPad,Maria,Santos,4121.54,3,05/18/2024,BA
+2115,28,301,Eletrônicos,Celular,iPhone 15,BrUnO,Santos,8347.34,2,2024-05-18,BA
+2117,8,303,Eletrônicos,Celular,Motorola Edge,Rafael,Souza,3157.67,4,2024-05-18,BA
+2118,48,401,Eletrônicos,Tablet,iPad Air,Bruno,Almeida,3621.07,3,2024-05-18,BA
+2123,103,602,Acessórios,Smartwatch,Galaxy Watch,Rafael,Costa,2040.53,3,2024-05-18,BA
+2134,110,303,eletrônicos,  Celular  ,Motorola Edge,Maria,Costa,3077.45,1,2024-05-25,BA
+2137,17,501,Acessórios,FONE,AirPods Pro,Bruno,Oliveira,1821.45,1,2024-05-25,BA
+2143,16,101,Eletrônicos,TV,Samsung 55,PEDRO,Costa,erro_preco,2,2024-06-01,BA
+2148,18,203,Eletrônicos,Notebook,Lenovo IdeaPad,Maria,almeida,3757.23,4,2024-06-01,BA
+2149,49,301,Eletrônicos,Celular,iPhone 15,Lucas,santos,6581.95,2,2024-06-01,BA
+2154,119,501,Acessórios,Fone,AirPods Pro,Fernanda,Costa,1897.5,2,01/06/2024,BA
+2155,6,502,Acessórios,Fone,JBL Tune,Carlos,Almeida,297.96,5,2024-06-01,BA
+2157,87,602,Acessórios,Smartwatch,Galaxy Watch,,Almeida,2009.6,2,2024-06-01,BA
+2173,103,601,Acessórios,Smartwatch,Apple Watch,Beatriz,Silva,3790.97,2,2024-06-08,BA
+2176,104,702,Eletrônicos,Monitor,Samsung Odyssey,Rafael,Silva,,1,2024-06-08,BA
+2187,43,402,Eletrônicos,Tablet,Galaxy Tab,Bruno,Almeida,2926.49,1,15/06/2024,BA
+2188,61,501,Acessórios,Fone,AirPods Pro,joão,Souza,1709.78,5,2024-06-15,BA
+2193,63,702,Eletrônicos,Monitor,Samsung Odyssey,Camila,Costa,2947.7,7,15/06/2024,BA
+2201,105,302,Eletrônicos,Celular,Galaxy S24,Maria,Oliveira,5645.7,3,2024-06-22,BA
+2216,98,203,Eletrônicos,Notebook,Lenovo IdeaPad,Fernanda,Silva,3732.69,4,2024-06-29,BA
+2217,12,301,Eletrônicos,Celular,iPhone 15,Maria,Souza,7545.38,2,2024-06-29,BA
+2218,44,302,Eletrônicos,Celular,Galaxy S24,Camila,Costa,5271.75,2,2024-06-29,BA
+2220,35,401,Eletrônicos,Tablet,iPad Air,Rafael,,5001.46,3,2024-06-29,BA
+2224,19,601,Acessórios,Smartwatch,Apple Watch,Maria,Costa,3515.13,4,2024-06-29,BA
+2229,90,102,Eletrônicos,TV,LG OLED,Juliana,Santos,6172.42,2,2024-07-06,BA
+2234,99,301,Eletrônicos,Celular,iPhone 15,Fernanda,,8128.34,2,2024-07-06,BA
+2236,2,303,Eletrônicos,Celular,Motorola Edge,Beatriz,SANTOS,2595.66,1,2024-07-06,BA
+2238,60,402,Eletrônicos,Tablet,Galaxy Tab,Juliana,Souza,2596.46,3,06/07/2024,BA
+2243,2,701,Eletrônicos,Monitor,LG UltraWide,Ana,Pereira,2668.26,,2024-07-06,BA
+2245,86,101,Eletrônicos,TV,Samsung 55,Pedro,Pereira,4599.7,3,2024-07-13,BA
+2253,5,303,Eletrônicos,Celular,Motorola Edge,Lucas,Souza,3325.33,4,2024-07-13, ba 
+2256,108,501,Acessórios,Fone,AirPods Pro,Juliana,Lima,1622.55,6,data_invalida,BA
+2257,118,502,Acessórios,Fone,JBL Tune,juliana,  Souza  ,324.3,1,2024-07-13,BA
+2259,44,602,Acessórios,Smartwatch,Galaxy Watch,João,Costa,1942.41,4,2024-07-13,BA
+2265,117,201,Eletrônicos,Notebook,Dell G15,ANA,Silva,6211.68,1,20/07/2024,BA
+2266,13,202,Eletrônicos,Notebook,MacBook Air,Camila,Souza,9764.55,2,07/20/2024,BA
+2278,6,702,Eletrônicos,Monitor,SaMsUnG OdYsSeY,João,Lima,3392.46,3,2024-07-20,BA
+2279,94,101,Eletrônicos,TV,Samsung 55,Juliana,Lima,5135.06,3,2024-07-27,BA
+2291,8,502,Acessórios,Fone,JBL Tune,Beatriz,Almeida,345.19,2,2024-07-27,BA
+2293,55,602,Acessórios,Smartwatch,Galaxy Watch,Beatriz,Souza,1665.53,5,2024-07-27,BA
+2300,54,202,Eletrônicos,Notebook,macbook air,Ana,Silva,7461.94,2,03/08/2024,BA
+2301,100,203,Eletrônicos,Notebook,Lenovo IdeaPad,Fernanda,Lima,4195.97,1,2024-08-03,BA
+2305,1,401,Eletrônicos,Tablet,  iPad Air  ,João,Almeida,4514.21,4,2024-08-03,BA
+2307,40,501,Acessórios,Fone,AirPods Pro,,Souza,1597.99,2,03/08/2024,BA
+2313,51,101,Eletrônicos,TV,Samsung 55,Fernanda,Santos,5076.81,4,2024-08-10,BA
+2315,62,103,Eletrônicos,TV,TCL 50,Fernanda,Souza,3836.63,1,2024-08-10,BA
+2316,26,201,Eletrônicos,Notebook,Dell G15,,Costa,5145.15,3,2024-08-10,BA
+2330,5,101,ELETRÔNICOS,TV,Samsung 55,Pedro,Lima,5088.87,3,2024-08-17,BA
+2335,109,203,Eletrônicos,Notebook,,Camila,Costa,4422.33,1,2024-08-17,BA
+2337,112,302,Eletrônicos,Celular,Galaxy S24,Juliana,Pereira,4820.31,4,2024-08-17,BA
+2340,11,402,Eletrônicos,Tablet,Galaxy Tab,Bruno,Lima,2588.37,3,2024-08-17,BA
+2343,55,601,Acessórios,Smartwatch,Apple Watch,Rafael,Souza,3081.65,1,2024-08-17,BA
+2356,69,401,Eletrônicos,tablet,iPad Air,Camila,Lima,4026.92,1,2024-08-24,BA
+2361,114,602,Acessórios,Smartwatch,Galaxy Watch,Maria,Oliveira,1971.52,qtd_errada,2024-08-24,BA
+2366,107,103,Eletrônicos,TV,TCL 50,RAFAEL,Pereira,3758.65,4,2024-08-31,BA
+2367,91,201,Eletrônicos,Notebook,Dell G15,Maria,Oliveira,6093.37,2,2024-08-31,BA
+2372,37,303,Eletrônicos,Celular,Motorola Edge,Rafael,Lima,2575.39,1,2024-08-31,BA
+2373,23,401,Eletrônicos,Tablet,IPAD AIR,Maria,Souza,3935.35,4,31/08/2024,BA
+2374,38,402,Eletrônicos,Tablet,Galaxy Tab,Juliana,,2363.84,1,31/08/2024,BA
+2380,112,702,Eletrônicos,Monitor,Samsung Odyssey,Bruno,Silva,3520.17,4,2024-08-31,BA
+2381,29,101,Eletrônicos,TV,Samsung 55,Juliana,Souza,4787.24,4,2024-09-07,BA
+2384,102,201,Eletrônicos,Notebook,Dell G15,João,Silva,5716.74,4,2024-09-07,BA
+2393,29,502,Acessórios,Fone,JBL Tune,Pedro,Costa,314.38,5,2024-09-07,BA
+2400,39,103,Eletrônicos,TV,TcL 50,pedro,Lima,3649.88,2,2024-09-14,BA
+2409,103,501,Acessórios,Fone,AirPods Pro,Lucas,SiLvA,1535.11,3,2024-09-14,BA
+2416,32,102,Eletrônicos,TV,LG OLED,Camila,Costa,5151.01,2,2024-09-21,BA
+2419,75,202,Eletrônicos,Notebook,MacBook Air,LUCAS,Costa,10198.5,2,2024-09-21,BA
+2425,106,402,Eletrônicos,Tablet,Galaxy Tab,Ana,Santos,2812.23,qtd_errada,09/21/2024,BA
+2426,90,501,Acessórios,Fone,AirPods Pro,Maria,Costa,2042.3,1,2024-09-21,BA
+2431,48,702,Eletrônicos,Monitor,Samsung Odyssey,Ana,Pereira,3610.69,3,2024-09-21,BA
+2445,93,601,Acessórios,  Smartwatch  ,Apple Watch,Fernanda,Santos,2929.14,7,2024-09-28,BA
+2450,85,102,Eletrônicos,TV,LG OLED,Juliana,Silva,6024.73,2,2024-10-05,BA
+2453,1,202,Eletrônicos,Notebook,MacBook Air,Ana,Almeida,7529.62,2,2024-10-05,BA
+2460,10,501,Acessórios,Fone,AirPods Pro,Beatriz,Silva,1682.4,5,2024-10-05,BA
+2462,41,601,Acessórios,Smartwatch,,João,Oliveira,3586.81,2,2024-10-05,BA
+2463,39,602,Acessórios,Smartwatch,Galaxy Watch,Juliana,Costa,1994.45,1,2024-10-05,BA
+2465,62,702,Eletrônicos,Monitor,Samsung Odyssey,Camila,Lima,2950.17,2,2024-10-05, ba 
+2471,24,203,Eletrônicos,Notebook,Lenovo IdeaPad,BrUnO,Souza,3578.66,4,2024-10-12,BA
+2476,67,402,Eletrônicos,Tablet,Galaxy Tab,Camila,Souza,2953.71,5,10/12/2024,BA
+2480,26,602,Acessórios,Smartwatch,Galaxy Watch,Juliana,Souza,1797.27,4,12/10/2024,BA
+2485,78,103,Eletrônicos,TV,TCL 50,Maria,Lima,3198.13,3,2024-10-19,BA
+2491,101,303,Eletrônicos,Celular,Motorola Edge,João,Almeida,2397.08,3,2024-10-19,BA
+2500,99,101,Eletrônicos,TV,,João,Pereira,5052.83,3,10/26/2024,BA
+2507,100,302,Eletrônicos,Celular,Galaxy S24,Camila,Souza,4889.18,4,10/26/2024,BA
+2508,109,303,Eletrônicos,Celular,motorola edge,João,Silva,2431.2,2,2024-10-26,BA
+2510,9,402,Eletrônicos,TABLET,Galaxy Tab,Camila,Pereira,2904.33,2,2024-10-26,BA
+2515,82,701,Eletrônicos,Monitor,LG UltraWide,Bruno,Costa,2251.56,3,2024-10-26,BA
+2517,74,101,Eletrônicos,TV,Samsung 55,Maria,Costa,5184.01,2,2024-11-02,BA
+2522,79,203,eletrônicos,Notebook,Lenovo IdeaPad,Bruno,Costa,4668.53,,2024-11-02,BA
+2533,69,702,Eletrônicos,Monitor,Samsung Odyssey,Bruno,Almeida,2870.69,3,2024-11-02,BA
+2555,59,202,ElEtRôNiCoS,Notebook,MacBook Air,Camila,Costa,10072.05,1,2024-11-16,BA
+2573,59,203,Eletrônicos,Notebook,Lenovo IdeaPad,Maria,Almeida,3474.16,1,2024-11-23,BA
+2583,54,701,Eletrônicos,Monitor,LG UltraWide,Ana,souza,2554.34,6,23/11/2024, ba 
+2584,115,702,Eletrônicos,Monitor,SaMsUnG OdYsSeY,Jóãó,Lima,2752.02,7,2024-11-23,BA
+2600,38,701,Eletrônicos,Monitor,LG UltraWide,Pedro,Lima,2455.46,,30/11/2024,BA
+2608,104,301,Eletrônicos,Celular,IPHONE 15,Maria,Almeida,6766.06,1,2024-12-07,BA
+2610,100,303,Eletrônicos,Celular,Motorola Edge,Pedro,Oliveira,3046.38,4,2024-12-07,BA
+2621,47,103,Eletrônicos,TV,TCL 50,Beatriz,,3250.61,2,2024-12-14,BA
+2623,7,202,Eletrônicos,Notebook,MacBook Air,Beatriz,Oliveira,8849.64,1,2024-12-14,BA
+2626,97,302,Eletrônicos,Celular,Galaxy S24,Bruno,Souza,5870.75,4,2024-12-14,BA
+2629,45,402,Eletrônicos,Tablet,Galaxy Tab,João,,3067.52,2,2024-12-14,BA
+2632,5,601,Acessórios,Smartwatch,Apple Watch,Bruno,Oliveira,3276.38,4,2024-12-14, ba 
+2635,77,702,Eletrônicos,Monitor,Samsung Odyssey,Pedro,pereira,3710.7,4,data_invalida,BA
+2641,44,203,ElEtRôNiCoS,Notebook,Lenovo IdeaPad,BRUNO,Santos,3320.93,1,2024-12-21,BA
+2652,31,702,Eletrônicos,Monitor,Samsung Odyssey,Ana,Almeida,3164.04,4,2024-12-21,BA
+2654,102,102,Eletrônicos,TV,LG OLED,Lucas,Pereira,5608.02,4,2024-12-28,BA
+2657,28,202,Eletrônicos,Notebook,MacBook Air,Beatriz,Costa,8314.6,2,2024-12-28,BA
+2663,103,402,Eletrônicos,Tablet,Galaxy Tab,Pedro,Lima,2702.94,2,2024-12-28,BA
+2668,109,701,Eletrônicos,monitor,LG UltraWide,Juliana,Santos,2100.83,4,2024-12-28,BA
+2669,45,702,Eletrônicos,Monitor,Samsung Odyssey,Fernanda,Almeida,3392.11,2,2024-12-28,BA
+2670,91,101,Eletrônicos,TV,Samsung 55,Lucas,Oliveira,4669.67,3,2025-01-04,BA
+2671,74,102,Eletrônicos,TV,LG OLED,LUCAS,Costa,5015.83,1,04/01/2025,BA
+2672,59,103,Eletrônicos,TV,TCL 50,João,COSTA,3659.3,2,04/01/2025,BA
+2684,51,701,Eletrônicos,Monitor,LG UltraWide,Ana,Pereira,2427.89,2,2025-01-04,BA
+2687,113,102,Eletrônicos,TV,Lg Oled,Juliana,  Souza  ,5964.73,2,2025-01-11,BA
+2688,42,103,Eletrônicos,TV,TCL 50,Bruno,Oliveira,3317.64,2,2025-01-11,BA
+2695,65,401,Eletrônicos,Tablet,iPad Air,Beatriz,Pereira,4043.78,1,2025-01-11, ba 
+2701,18,701,Eletrônicos,monitor,LG UltraWide,Beatriz,Pereira,2512.63,5,2025-01-11,BA
+2709,90,301,Eletrônicos,Celular,iPhone 15,,Lima,8021.28,2,2025-01-18,BA
+2715,6,601,Acessórios,Smartwatch,Apple Watch,Beatriz,,2740.02,6,2025-01-18,BA
+2720,101,102,Eletrônicos,TV,LG OLED,João,Silva,5501.3,4,2025-01-25,BA
+2721,36,103,Eletrônicos,TV,tcl 50,Camila,Oliveira,3740.58,2,2025-01-25,BA
+2722,78,201,Eletrônicos,Notebook,Dell G15,Juliana,Lima,5234.68,4,2025-01-25,BA
+2730,7,502,Acessórios,Fone,JBL Tune,João,Santos,358.35,7,2025-01-25,BA
+2735,81,101,Eletrônicos,TV,Samsung 55,Juliana,Almeida,4110.88,3,2025-02-01,BA
+2739,45,202,Eletrônicos,Notebook,macbook air,  Beatriz  ,Pereira,9601.09,2,01/02/2025,BA
+2749,33,602,Acessórios,SmArTwAtCh,Galaxy Watch,Pedro,Souza,1929.42,1,2025-02-01,BA
+2761,15,401,Eletrônicos,Tablet,iPad Air,João,Costa,4012.41,4,2025-02-08,BA
+2766,106,602,Acessórios,Smartwatch,Galaxy Watch,Lucas,Almeida,1744.75,6,2025-02-08,BA
+2789,52,202,Eletrônicos,Notebook,MacBook Air,Juliana,Oliveira,8430.34,2,2025-02-22,BA
+2794,88,401,Eletrônicos,Tablet,iPad Air,Fernanda,Santos,4551.92,2,2025-02-22,BA
+2797,60,601,Acessórios,Smartwatch,Apple Watch,Carlos,Oliveira,2946.76,7,2025-02-22,BA
+2798,108,602,Acessórios,Smartwatch,Galaxy Watch,Beatriz,Souza,1597.02,7,2025-02-22,BA
+2799,14,701,Eletrônicos,Monitor,LG UltraWide,Carlos,Almeida,2430.7,2,2025-02-22,BA
+2801,97,101,Eletrônicos,TV,Sámsung 55,João,COSTA,4733.9,3,2025-03-01,BA
+2815,36,602,Acessórios,Smartwatch,Galaxy Watch,Pedro,Lima,,1,2025-03-01,BA
+2816,61,701,Eletrônicos,Mónitór,Lg uLtRaWiDe,Juliana,lima,2376.2,7,2025-03-01,BA
+2818,5,101,Eletrônicos,TV,Samsung 55,Camila,Almeida,3935.62,4,03/08/2025,BA
+2820,83,103,Eletrônicos,  TV  ,TCL 50,Maria,Silvá,3717.64,3,2025-03-08,BA
+2824,79,301,Eletrônicos,Celular,iPhone 15,Fernanda,Pereira,7092.44,1,2025-03-08,BA
+2825,29,302,Eletrônicos,Celular,Galaxy S24,Fernanda,Souza,5879.72,2,2025-03-08,BA
+2845,88,402,Eletrônicos,Tablet,Galaxy Tab,Maria,Almeida,2847.17,5,2025-03-15, ba 
+2847,99,502,Acessórios,Fone,JBL Tune,Rafael,Oliveira,310.25,3,2025-03-15,BA
+2850,24,701,Eletrônicos,Monitor,LG UltraWide,Pédró,Lima,2819.7,5,2025-03-15,BA
+2854,56,103,Eletrônicos,TV,TCL 50,Lucas,Pereira,3551.51,2,2025-03-22,BA
+2860,11,303,Eletrônicos,Celular,Motorola Edge,João,Silva,3121.75,2,2025-03-22,BA
+2863,112,501,Acessórios,Fóné,AirPods Pro,Ana,Lima,1924.34,2,2025-03-22,BA
+2872,31,201,Eletrônicos,Notebook,Dell G15,Camila,Costa,5517.17,4,2025-03-29,BA
+2880,99,501,Acessórios,Fone,AirPods Pro,Pedro,Silva,1542.17,6,29/03/2025,BA
+2891,61,203,Eletrônicos,  Notebook  ,Lenovo IdeaPad,Bruno,Almeida,4515.82,2,2025-04-05,BA
+2899,27,601,Acessórios,smartwatch,Apple Watch,Maria,Silva,3778.22,,2025-04-05,BA
+2904,112,102,Eletrônicos,TV,LG OLED,Ana,Silva,6033.55,1,2025-04-12,BA
+2918,53,702,Eletrônicos,Monitor,,João,Silva,3014.5,1,2025-04-12,BA
+2919,31,101,Eletrônicos,TV,SAMSUNG 55,Maria,Costa,5369.83,2,2025-04-19,BA
+2920,74,102,Eletrônicos,  TV  ,Lg Oled,Lucas,Almeida,5607.6,1,2025-04-19,BA
+2929,29,402,Eletrônicos,Tablet,Galaxy Tab,João,Oliveira,erro_preco,1,2025-04-19,BA
+2936,101,101,Eletrônicos,TV,Samsung 55,João,LIMA,4503.45,2,2025-04-26,BA
+2937,28,102,Eletrônicos,TV,LG OLED,Ana,Santos,4979.01,,26/04/2025,BA
+2942,81,301,Eletrônicos,Celular,iPhone 15,Beatriz,Silva,7728.96,2,2025-04-26,BA
+2943,92,302,Eletrônicos,Celular,Galaxy S24,Rafael,Lima,4710.34,1,2025-04-26,BA
+2951,66,702,Eletrônicos,Monitor,Samsung Odyssey,João,Pereira,3562.48,3,26/04/2025,BA
+2956,34,202,Eletrônicos,Notebook,MacBook Air,Lucas,Souza,8266.56,1,2025-05-03,BA
+2958,25,301,Eletrônicos,Celular,iPhone 15,BRUNO,Almeida,6247.7,2,2025-05-03,BA
+2967,30,702,Eletrônicos,Monitor,Samsung Odyssey,,Pereira,2799.47,1,2025-05-03,BA
+2969,7,102,Eletrônicos,TV,LG OLED,Maria,Souza,5066.94,1,2025-05-10,BA
+2971,53,201,Eletrônicos,Notebook,Dell G15,Ana,Costa,6407.04,2,2025-05-10,BA
+2985,83,101,Eletrônicos,TV,Samsung 55,Carlos,Cóstá,4739.16,3,2025-05-17,BA
+2998,74,601,Acessórios,Smartwatch,Apple Watch,Carlos,Costa,3107.05,3,2025-05-17,BA
+2999,82,701,Eletrônicos,Monitor,LG UltraWide,Carlos,Souza,2098.62,1,2025-05-17,BA
+3005,106,202,Eletrônicos,Notebook,MacBook Air,Cárlós,Almeida,8011.8,1,2025-05-24,BA
+3010,15,402,Eletrônicos,Tablet,Galaxy Tab,Ana,Santos,2248.93,7,2025-05-24,BA
+3017,5,101,Eletrônicos,TV,Samsung 55,BRUNO,Pereira,3891.9,1,2025-05-31,BA
+3018,23,102,Eletrônicos,TV,LG OLED,Ana,Santos,4958.87,1,2025-05-31,BA
+3019,108,103,Eletrônicos,TV,TCL 50,Beatriz,Silva,3466.52,4,31/05/2025,BA
+3026,23,401,Eletrônicos,Tablet,iPad Air,BEATRIZ,Lima,4953.07,3,2025-05-31,BA
+3040,20,303,Eletrônicos,Celular,Motorola Edge,Pedro,Souza,2825.32,1,2025-06-07,BA
+3042,98,402,Eletrônicos,Tablet,Galaxy Tab,Camila,SaNtOs,2989.23,2,2025-06-07,BA
+3050,120,102,Eletrônicos,TV,LG OLED,Pedro,  Oliveira  ,4440.07,4,2025-06-14,BA
+3053,61,202,Eletrônicos,Notebook,MacBook Air,Camila,Pereira,9266.59,1,2025-06-14,BA
+3072,56,302,ELETRÔNICOS,Celular,Galaxy S24,Lucas,Silva,5976.09,2,2025-06-21, ba 
+3074,67,401,Eletrônicos,TaBlEt,iPad Air,,Souza,3726.57,1,2025-06-21,BA
+3078,38,601,Acessórios,Smartwatch,Apple Watch,Pedro,Costa,3168.25,2,2025-06-21,BA
+3089,73,303,Eletrônicos,Celular,Motorola Edge,CaRlOs,Oliveira,2565.8,1,2025-06-28,BA
+3094,119,602,Acessórios,Smartwatch,Galaxy Watch,Maria,Costa,1748.38,2,data_invalida,BA
+3101,42,202,Eletrônicos,Notebook,,Lucas,Almeida,7778.21,2,2025-07-05,BA
+3130,65,101,Eletrônicos,TV,Samsung 55,Ana,Almeida,4589.27,3,19/07/2025,BA
+3138,94,303,Eletrônicos,Celular,Motorola Edge,Fernanda,AlMeIdA,2940.16,4,2025-07-19,BA
+3139,89,401,Eletrônicos,Tablet,iPad Air,  Bruno  ,  Oliveira  ,5013.14,1,2025-07-19,BA
+3144,15,701,Eletrônicos,Monitor,LG UltraWide,Lucas,Santos,2652.06,4,2025-07-19,BA
+3149,48,202,Eletrônicos,Notebook,MacBook Air,Rafael,Pereira,8140.68,1,2025-07-26,BA
+3150,98,203,Eletrônicos,Notebook,Lenovo IdeaPad,Camila,Lima,4528.19,4,2025-07-26,BA
+3161,54,101,Eletrônicos,TV,Samsung 55,Fernanda,Almeida,4686.62,2,2025-08-02,BA
+3170,90,402,Eletrônicos,Tablet,Galaxy Tab,Camila,souza,3084.27,1,2025-08-02,BA
+3174,42,602,Acessórios,Smartwatch,Galaxy Watch,Fernanda,Costa,1666.87,3,2025-08-02,BA
+3175,12,701,Eletrônicos,MONITOR,LG UltraWide,João,Pereira,2514.85,4,2025-08-02,BA
+3180,11,201,Eletrônicos,Notebook,Dell G15,Carlos,Costa,5929.72,3,2025-08-09,BA
+3181,117,202,Eletrônicos,Notebook,MacBook Air,João,Lima,8897.79,1,2025-08-09,BA
+3185,20,303,Eletrônicos,Celular,Motorola Edge,Lucas,Pereira,3239.32,3,09/08/2025,BA
+3189,71,502,Acessórios,Fone,JBL TUNE,Ana,Oliveira,327.49,6,,BA
+3193,103,702,Eletrônicos,Monitor,Samsung Odyssey,CaRlOs,Santos,3560.63,4,2025-08-09,BA
+3195,26,102,Eletrônicos,Tv,LG OLED,Carlos,Oliveira,4831.81,,,BA
+3196,62,103,Eletrônicos,TV,TCL 50,Juliana,Almeida,3096.22,2,2025-08-16,BA
+3197,50,201,Eletrônicos,Notebook,Dell G15,Pedro,Pereira,5250.83,1,2025-08-16,BA
+3202,78,303,Eletrônicos,celular,Motorola Edge,Carlos,Costa,3147.3,4,2025-08-16,BA
+3218,26,302,Eletrônicos,Celular,GALAXY S24,,Almeida,4426.88,1,2025-08-23,BA
+3222,82,501,Acessórios,Fone,AirPods Pro,Fernanda,Lima,1549.82,6,2025-08-23,BA
+3223,33,502,Acessórios,Fone,JBL Tune,Lucas,Santos,331.48,3,2025-08-23,BA
+3229,9,103,Eletrônicos,TV,TCL 50,João,Souza,3773.51,3,2025-08-30,BA
+3236,82,401,Eletrônicos,Tablet,iPad Air,Juliana,Souza,3929.71,4,2025-08-30,BA
+3238,35,501,Acessórios,  Fone  ,AirPods Pro,Bruno,Almeida,2062.31,1,2025-08-30,BA
+3242,34,701,Eletrônicos,Monitor,LG UltraWide,Camila,Costa,2119.19,6,2025-08-30,BA
+3264,29,202,Eletrônicos,Notebook,MacBook Air,Pedro,Costa,9397.33,1,2025-09-13,BA
+3273,77,601,Acessórios,Smartwatch,Apple Watch,Rafael,Oliveira,3786.71,1,2025-09-13,BA
+3276,27,101,Eletrônicos,TV,Samsung 55,Carlos,Almeida,4764.74,4,20/09/2025, ba 
+3279,118,201,Eletrônicos,Notebook,Dell G15,Ana,Pereira,5856.94,4,2025-09-20,BA
+3281,52,203,Eletrônicos,Notebook,Lenovo IdeaPad,Bruno,Almeida,3827.55,3,2025-09-20,BA
+3284,60,303,Eletrônicos,Celular,Motorola Edge,Máriá,Silva,2892.5,1,2025-09-20,BA
+3290,120,602,Acessórios,Smartwatch,galaxy watch,  Maria  ,Oliveira,2142.72,2,2025-09-20,BA
+3293,92,101,  Eletrônicos  ,TV,Samsung 55,Pedro,Silva,5334.4,3,2025-09-27,BA
+3294,76,102,Eletrônicos,tv,LG OLED,Carlos,Limá,5556.75,2,2025-09-27,BA
+3299,116,301,Eletrônicos,Celular,,Maria,Almeida,7159.81,2,2025-09-27,BA
+3302,90,401,Eletrônicos,Tablet,IPAD AIR,João,  Silva  ,4725.88,2,2025-09-27,BA
+3309,64,702,Eletrônicos,Monitor,  Samsung Odyssey  ,Pedro,Péréirá,2945.21,3,2025-09-27,BA
+3310,42,101,Eletrônicos,TV,Samsung 55,Beatriz,Silva,4660.05,qtd_errada,2025-10-04,BA
+3313,100,201,Eletrônicos,Notebook,Dell G15,,Santos,4735.29,4,2025-10-04,BA
+3319,96,402,Eletrônicos,Tablet,Galaxy Tab,Pedro,Silva,2854.84,1,2025-10-04,BA
+3321,104,601,Acessórios,Smartwatch,Apple Watch,Lucas,almeida,3672.69,3,2025-10-04, ba 
+3323,74,701,Eletrônicos,Monitor,LG UltraWide,Maria,Silva,2496.3,6,2025-10-04,BA
+3325,58,102,Eletrônicos,tv,LG OLED,Carlos,Oliveira,4498.65,3,11/10/2025,BA
+3329,110,203,Eletrônicos,Notebook,Lenovo IdeaPad,Lucas,Almeida,4471.22,4,2025-10-11,BA
+3339,67,701,eletrônicos,Monitor,LG UltraWide,Maria,Santos,2526.54,2,2025-10-11,BA
+3342,90,102,Eletrônicos,TV,LG OLED,LUCAS,Oliveira,4844.23,3,2025-10-18,BA
+3345,106,203,Eletrônicos,Notebook,Lenovo IdeaPad,João,Almeida,4260.55,4,2025-10-18,BA
+3347,50,302,Eletrônicos,Celular,Galaxy S24,Lucas,Silva,5945.5,2,2025-10-18,BA
+3362,87,203,Eletrônicos,Notebook,Lenovo IdeaPad,Maria,Santos,erro_preco,4,2025-10-25,BA
+3364,91,302,Eletrônicos,  Celular  ,Galaxy S24,Lucas,Santos,4564.17,4,2025-10-25,BA
+3376,63,201,Eletrônicos,Notebook,Dell G15,Fernanda,Oliveira,6263.01,2,2025-11-01,BA
+3387,103,701,Eletrônicos,Monitor,LG UltraWide,Lucas,oliveira,2322.31,1,2025-11-01,BA
+3414,30,402,Eletrônicos,Tablet,Galaxy Tab,Rafael,Costa,2616.83,3,2025-11-15,BA
+3422,18,102,Eletrônicos,  TV  ,LG OLED,Lucas,Oliveira,5618.16,2,2025-11-22,BA
+3427,12,301,Eletrônicos,Celular,iPhone 15,Beatriz,Santos,8370.77,1,22/11/2025,BA
+3440,18,103,Eletrônicos,TV,TCL 50,Bruno,Costa,3365.38,2,2025-11-29,BA
+3442,79,202,Eletrônicos,Notebook,MacBook Air,Fernanda,Oliveira,7420.13,2,2025-11-29,BA
+3445,98,302,Eletrônicos,Celular,Galaxy S24,Camila,,5029.84,-4,2025-11-29,BA
+3447,24,401,Eletrônicos,Tablet,iPad Air,Camila,Santos,4310.27,1,2025-11-29,BA
+3455,66,102,Eletrônicos,TV,LG OLED,Beatriz,Pereira,5424.19,,2025-12-06,BA
+3456,102,103,Eletrônicos,TV,TCL 50,  Rafael  ,Costa,3274.35,3,2025-12-06,BA
+3459,74,203,Eletrônicos,Notebook,Lenovo IdeaPad,camila,Almeida,3491.34,2,2025-12-06,BA
+3460,115,301,Eletrônicos,Celular,iPhone 15,Beatriz,Oliveira,7986.28,1,2025-12-06,BA
+3468,55,602,Acessórios,Smartwatch,Galaxy Watch,Maria,Santos,1619.27,4,2025-12-06,BA
+3474,40,201,Eletrônicos,Notebook,Dell G15,Lucas,Lima,5602.67,4,2025-12-13,BA
+3477,41,301,Eletrônicos,Celular,iPhone 15,Fernanda,Pereira,6341.13,1,2025-12-13,BA
+3484,85,601,Acessórios,Smartwatch,Apple Watch,Beatriz,Silva,3839.79,1,2025-12-13,BA
+3488,9,101,Eletrônicos,TV,Samsung 55,,santos,4014.6,1,2025-12-20,BA
+3493,74,203,Eletrônicos,Notebook,Lenovo IdeaPad,Camila,Lima,3702.9,4,2025-12-20,BA
+3495,95,302,Eletrônicos,CELULAR,Galaxy S24,Lucas,Costa,5602.41,1,2025-12-20,BA
+3499,114,501,Acessórios,Fóné,AiRpOdS PrO,Bruno,Souza,2142.52,6,2025-12-20,BA
+3503,112,701,Eletrônicos,Monitor,  LG UltraWide  ,Camila,Silva,2284.41,2,2025-12-20,BA
+3517,13,502,Acessórios,Fone,JBL Tune,Bruno,Pereira,377.59,7,12/27/2025,BA
+3520,43,701,Eletrônicos,Monitor,LG UltraWide,Carlos,Pereira,2201.91,7,2025-12-27,BA
+3524,13,201,Eletrônicos,Notebook,Dell G15,BrUnO,Oliveira,5697.46,2,2026-01-03,BA
+3525,65,202,Eletrônicos,Notebook,MacBook Air,Ana,Lima,9840.99,2,2026-01-03,BA
+3536,51,701,eletrônicos,MONITOR,LG UltraWide,João,Silva,2588.26,7,2026-01-03,BA
+3537,29,702,Eletrônicos,Monitor,Samsung Odyssey,Juliana,Souza,3658.12,1,2026-01-03,BA
+3538,59,101,Eletrônicos,TV,Samsung 55,Beatriz,Almeida,3941.74,2,2026-01-10,BA
+3573,33,103,Eletrônicos,TV,TCL 50,Juliana,Santos,3597.48,2,2026-01-24,BA
+3580,77,402,Eletrônicos,Tablet,Galaxy Tab,Lucas,Oliveira,2280.51,4,01/24/2026,BA
+3594,25,302,Eletrônicos,Celular,Galaxy S24,Maria,Almeida,5708.14,1,2026-01-31,BA
+3602,79,701,Eletrônicos,Monitor,LG UltraWide,Ana,Almeida,2822.34,2,2026-01-31,BA
+3603,116,702,Eletrônicos,Monitor,Samsung Odyssey,maria,Souza,2982.43,4,2026-01-31,BA
+3606,77,103,Eletrônicos,TV,TCL 50,Ana,Costa,3035.39,1,2026-02-07,BA
+3609,92,203,Eletrônicos,Notebook,Lenovo IdeaPad,Carlos,Santos,3869.24,1,2026-02-07,BA
+3618,90,602,Acessórios,Smartwatch,Galaxy Watch,Lucas,Pereira,1604.49,6,2026-02-07,BA
+3622,57,102,Eletrônicos,TV,LG OLED,Cámilá,Almeida,4870.56,2,2026-02-14,BA
+3630,40,401,Eletrônicos,Tablet,iPad Air,Bruno,Pereira,4856.53,2,2026-02-14,BA
+3635,12,602,Acessórios,Smartwatch,Galaxy Watch,Bruno,Pereira,2013.02,7,2026-02-14,BA
+3644,36,302,Eletrônicos,Celular,Galaxy S24,Lucas,Costa,4725.8,4,2026-02-21,BA
+3648,120,501,Acessórios,Fone,AirPods Pro,Juliana,Santos,2131.83,7,2026-02-21,BA
+3653,13,702,Eletrônicos,Monitor,Samsung Odyssey,Ana,SiLvA,2821.44,7,2026-02-21,BA
+3664,48,402,Eletrônicos,Tablet,Galaxy Tab,Ráfáél,Pereira,2687.95,7,2026-02-28,BA
+3668,119,602,Acessórios,Smartwatch,Galaxy Watch,Carlos,Costa,1626.02,3,2026-02-28,BA
+3672,83,102,ELETRÔNICOS,TV,LG OLED,Juliana,  Souza  ,5711.89,4,2026-03-07, ba 
+3676,58,203,Eletrônicos,Notebook,Lenovo IdeaPad,Rafael,Silva,3369.98,1,2026-03-07,BA
+3684,84,601,Acessórios,Smartwatch,Apple Watch,Beatriz,Almeida,3653.64,3,03/07/2026,BA
+3688,117,101,Eletrônicos,TV,samsung 55,Camila,Almeida,4506.16,4,2026-03-14,BA
+3689,110,102,Eletrônicos,TV,LG OLED,Beatriz,Silva,5216.8,4,2026-03-14,BA
+3700,70,502,Acessórios,Fone,JBL Tune,Beatriz,Costa,318.45,7,2026-03-14,BA
+3707,64,103,Elétrônicós,TV,TCL 50,Carlos,Almeida,3347.8,4,2026-03-21,BA
+3719,53,602,Acessórios,Smartwatch,Galaxy Watch,Maria,Costa,,4,2026-03-21,BA
+3724,48,103,Eletrônicos,TV,TCL 50,Maria,Costa,3668.17,2,2026-03-28,BA
+3725,46,201,Eletrônicos,Notebook,Dell G15,Juliana,Oliveira,6127.47,2,2026-03-28, ba 
+3726,96,202,Eletrônicos,Notebook,MacBook Air,Camila,AlMeIdA,7601.12,1,2026-03-28,BA
+3729,105,302,Eletrônicos,Celular,,Carlos,Souza,4857.74,4,2026-03-28,BA
+3736,114,602,Acessórios,Smartwatch,Galaxy Watch,Juliana,  Souza  ,2064.02,3,2026-03-28,BA
+3741,75,103,Eletrônicos,TV,TCL 50,Beatriz,Santos,3478.45,-4,2026-04-04,BA
+3750,31,502,Acessórios,Fone,JBL Tune,Camila,Pereira,334.11,7,2026-04-04,BA
+3751,40,601,Acessórios,Smartwatch,Apple Watch,Rafael,Santos,3529.92,2,2026-04-04,BA
+3760,56,203,Eletrônicos,Notebook,Lenovo IdeaPad,Maria,Pereira,3822.01,3,2026-04-11,BA
+3762,100,302,Eletrônicos,Celular,Galaxy S24,JuLiAnA,Souza,4920.19,,2026-04-11,BA
+3776,56,203,Eletrônicos,Notebook,Lenovo IdeaPad,Rafael,Almeida,4034.09,4,2026-04-18,BA
+3780,13,401,ELETRÔNICOS,Tablet,iPad Air,Carlos,Pereira,4381.83,3,2026-04-18,BA
+3781,103,402,Eletrônicos,Tablet,Galaxy Tab,Bruno,Almeida,2698.92,1,2026-04-18,BA
+3786,43,701,Eletrônicos,Monitor,LG UltraWide,CaMiLa,COSTA,2817.91,3,2026-04-18,BA
+3787,63,702,Eletrônicos,Monitor,Samsung Odyssey,Rafael,Almeida,3071.64,2,2026-04-18,BA
+3789,69,102,Eletrônicos,TV,LG OLED,Rafael,Lima,5892.89,1,2026-04-25,BA
+3793,39,203,Eletrônicos,Notebook,Lenovo IdeaPad,Carlos,Oliveira,4551.41,4,2026-04-25,BA
+3797,53,402,Eletrônicos,Tablet,Galaxy Tab,João,Costa,2947.47,7,2026-04-25,BA
+3799,66,502,Acessórios,Fone,JBL Tune,Ana,Lima,338.98,7,2026-04-25,BA
+3805,48,102,Eletrônicos,TV,LG OLED,Carlos,Oliveira,4695.02,2,data_invalida,BA
+3806,80,103,Eletrônicos,TV,TCL 50,Maria,ALMEIDA,3476.89,3,2026-05-02,BA
+3807,87,201,Eletrônicos,Notebook,Dell G15,Bruno,Silva,5048.9,1,2026-05-02,BA
+3810,9,303,Eletrônicos,Celular,Motorola Edge,Bruno,Santos,3302.6,2,02/05/2026,BA
+3812,56,402,Eletrônicos,Tablet,Galaxy Tab,Maria,Pereira,2294.5,1,2026-05-02,BA
+3813,74,501,Acessórios,Fone,AirPods Pro,Juliana,Pereira,1779.56,5,2026-05-02,BA
+3816,68,701,Eletrônicos,Monitor,LG UltraWide,João,Pereira,2272.96,5,2026-05-02,BA
+3818,84,101,Eletrônicos,TV,Samsung 55,Ana,Lima,4011.36,1,09/05/2026,BA
+3839,74,203,Eletrônicos,Notebook,Lenovo IdeaPad,Carlos,Lima,3384.94,2,2026-05-16,BA
+3843,19,401,Eletrônicos,Tablet,iPad Air,Beatriz,Almeida,5026.22,2,2026-05-16,BA
+3848,9,701,Eletrônicos,Monitor,LG UltraWide,Maria,Oliveira,2381.08,3,2026-05-16,BA
+3853,7,201,Eletrônicos,Notebook,DELL G15,lucas,  Almeida  ,5358.56,3,2026-05-23,BA
+3864,85,702,Eletrônicos,Monitor,Samsung Odyssey,Rafael,Lima,3278.24,3,2026-05-23,BA
+3868,11,201,Eletrônicos,Notebook,Dell G15,Ana,Olivéirá,6148.46,2,2026-05-30,BA
+3883,50,202,Eletrônicos,notebook,MacBook Air,Camila,Almeida,erro_preco,1,2026-06-06,BA
+3894,26,702,Eletrônicos,Monitor,Samsung Odyssey,Juliana,Souza,3206.27,4,2026-06-06,BA
+3896,79,102,Eletrônicos,TV,LG OLED,Juliana,Santos,6188.17,2,2026-06-13,BA
+3898,43,201,Eletrônicos,Notebook,Dell G15,João,Oliveira,5867.85,1,2026-06-13, ba 
+3905,26,402,Eletrônicos,Tablet,Galaxy Tab,Pedro,Pereira,2793.98,7,2026-06-13,BA
+3914,22,201,Eletrônicos,Notebook,,Maria,Souza,5430.57,1,2026-06-20,BA
+3921,28,402,Eletrônicos,Tablet,Galaxy Tab,Bruno,SiLvA,2922.29,4,2026-06-20,BA
+3926,108,702,Eletrônicos,Monitor,Samsung Odyssey,Lucas,Oliveira,3001.96,2,2026-06-20,BA
+3931,57,202,ELETRÔNICOS,Notebook,MacBook Air,Fernanda,Lima,8174.31,2,06/27/2026,BA
+3942,33,702,Eletrônicos,Monitor,Samsung Odyssey,BrUnO,Almeida,3176.4,2,2026-06-27,BA
+3948,77,203,Eletrônicos,Notebook,Lenovo IdeaPad,Carlos,Oliveira,3440.35,4,2026-07-04,BA
+3966,73,302,Eletrônicos,Celular,Galaxy S24,Camila,Santos,5484.81,3,2026-07-11,BA
+3976,20,102,Eletrônicos,TV,LG OLED,Lucas,  Lima  ,4589.71,2,2026-07-18,BA
+3989,54,101,Eletrônicos,TV,Samsung 55,Pedro,Souza,5374.31,1,2026-07-25,BA
+3998,71,402,Eletrônicos,Tablet,Galaxy Tab,Camila,Souza,3119.93,3,07/25/2026,BA
+4002,54,701,eletrônicos,Monitor,LG UltraWide,Pedro,Pereira,2861.2,5,,BA
+4003,100,702,Eletrônicos,Monitor,Samsung Odyssey,Bruno,Silva,3322.27,3,2026-07-25,BA
+4021,52,102,Eletrônicos,TV,LG OLED,Beatriz,pereira,6136.56,1,2026-08-08,BA
+4022,120,103,Eletrônicos,TV,TCL 50,Ana,Souza,3295.59,4,2026-08-08,BA
+4024,115,202,Eletrônicos,Notebook,MacBook Air,  Rafael  ,Silva,9508.33,1,2026-08-08,BA
+4028,64,401,Eletrônicos,Tablet,iPad Air,Bruno,Pereira,4069.29,1,2026-08-08,BA
+4032,110,701,Eletrônicos,Monitor,LG UltraWide,Camila,Santos,2168.64,4,2026-08-08,BA
+4035,7,102,Eletrônicos,TV,LG OLED,Pedro,Costa,5236.12,4,2026-08-15,BA
+4037,30,201,ELETRÔNICOS,Notebook,Dell G15,Maria,Souza,6560.91,1,2026-08-15,BA
+4044,62,602,Acessórios,Smartwatch,Galaxy Watch,Fernanda,Santos,1970.77,7,2026-08-15,BA
+4045,63,701,Eletrônicos,Monitor,,Rafael,Lima,2186.49,6,2026-08-15,BA
+4049,60,103,Eletrônicos,TV,TCL 50,Beatriz,Oliveira,3363.6,1,2026-08-22,BA
+4056,78,501,Acessórios,Fone,AirPods Pro,FERNANDA,Silva,1841.24,2,2026-08-22,BA
+4059,108,702,Eletrônicos,Monitor,Samsung Odyssey,Ana,Santos,3273.1,4,2026-08-22,BA
+4071,71,602,Acessórios,smartwatch,Galaxy Watch,CARLOS,Santos,1658.77,1,2026-08-29,BA
+4073,6,702,Eletrônicos,Monitor,Samsung Odyssey,Juliana,Costa,2920.16,7,2026-08-29,BA
+4076,55,103,Eletrônicos,TV,TCL 50,Rafael,Santos,3827.73,1,2026-09-05,BA
+4083,82,702,Eletrônicos,Monitor,Samsung Odyssey,,Souza,2726.32,2,2026-09-05,BA
+4086,91,201,Eletrônicos,Notebook,Dell G15,carlos,Lima,5829.89,2,2026-09-12,BA
+4102,24,602,Acessórios,Smartwatch,Galaxy Watch,Fernanda,Lima,1819.69,7,2026-09-19,BA
+4114,25,101,Eletrônicos,TV,Samsung 55,  João  ,Silva,5051.09,2,2026-10-03, ba 
+4122,51,602,Acessórios,Smartwatch,,Maria,Santos,1780.72,7,2026-10-03, ba 
+4125,95,102,Eletrônicos,TV,LG OLED,João,Lima,4849.83,4,2026-10-10,BA
+4134,77,102,Eletrônicos,TV,,Camila,Pereira,4879.93,4,2026-10-17,BA
+4138,102,301,Eletrônicos,Celular,iPhone 15,Beatriz,Pereira,8259.02,1,2026-10-17,BA
+4139,58,302,Eletrônicos,Celular,Galaxy S24,Lucas,Oliveira,4686.6,4,2026-10-17,BA
+4148,96,301,ElEtRôNiCoS,Celular,iPhone 15,FeRnAnDa,Santos,6219.21,2,2026-10-24,BA
+4151,17,501,Acessórios,Fone,AirPods Pro,  Maria  ,Souza,2130.44,2,2026-10-24,BA
+4160,73,501,Acessórios,Fone,AirPods Pro,Fernanda,Alméidá,,1,2026-10-31,BA
+4168,70,302,Eletrônicos,Celular,Galaxy S24,Pedro,Lima,4810.63,2,2026-11-07,BA
+4175,26,201,Eletrônicos,Notebook,Dell G15,Maria,Santos,6078.4,2,2026-11-14,BA
+4184,35,702,Eletrônicos,Monitor,Samsung Odyssey,Beatriz,Pereira,3675.52,4,2026-11-21,BA
+4185,42,101,Eletrônicos,TV,Samsung 55,,Péréirá,4744.06,2,2026-11-28,BA
+4187,117,702,Eletrônicos,MoNiToR,Samsung Odyssey,Lucas,Oliveira,3345.16,2,2026-11-28,BA
+104,99,102,Eletrônicos,TV,LG OLED,Ana,pereira,4607.69,1,2022-02-12,BA
+1020,99,702,Eletrônicos,Monitor,Samsung Odyssey,Lucas,Silva,2666.09,2,2023-02-18, ba 
+546,104,102,Eletrônicos,TV,LG OLED,João,Pereira,5366.75,4,13/08/2022,BA
+1960,61,202,Eletrônicos,Notebook,MacBook Air,Fernanda,Pereira,9474.0,1,2024-03-16,BA
+1427,47,701,Eletrônicos,Monitor,LG UltraWide,Pedro,Almeida,2258.44,6,2023-08-05,BA
+3942,33,702,Eletrônicos,Monitor,Samsung Odyssey,Bruno,Almeida,3176.4,2,2026-06-27,BA
+1287,117,501,Acessórios,Fone,,Maria,Pereira,1777.99,7,2023-06-10,BA
+815,85,701,Eletrônicos,Monitor,LG UltraWide,Rafael,Oliveira,2385.53,2,2022-11-26,BA
+4,53,201,Eletrônicos,Notebook,Dell G15,Lucas,Souza,,2,2022-01-01,BA
+1480,41,101,Eletrônicos,TV,Samsung 55,Carlos,Lima,5054.6,1,2023-09-02,BA
+2193,63,702,Eletrônicos,Monitor,Samsung Odyssey,Camila,Costa,2947.7,7,15/06/2024,BA
+3741,75,103,Eletrônicos,TV,TCL 50,Beatriz,Santos,3478.45,4,2026-04-04,BA
+2218,44,302,Eletrônicos,CeLuLaR,Galaxy S24,Cámilá,Costa,5271.75,2,2024-06-29,BA
+147,66,402,Eletrônicos,Tablet,Galaxy Tab,Lucas,Lima,2942.59,7,2022-02-26,BA
+4148,96,301,Eletrônicos,Celular,iPhone 15,Fernanda,Santos,6219.21,2,2026-10-24,BA
+3664,48,402,Eletrônicos,Tablet,Galaxy Tab,Rafael,Pereira,2687.95,7,28/02/2026,BA
+2380,112,702,Eletrônicos,Monitor,Samsung Odyssey,bruno,Silva,3520.17,4,2024-08-31,BA
+95,67,401,Eletrônicos,Tablet,iPad Air,Bruno,Oliveira,4776.03,4,2022-02-05,BA
+3323,74,701,Eletrônicos,Monitor,LG UltraWide,Maria,Silva,2496.3,6,04/10/2025,BA
+2400,39,103,Eletrônicos,TV,TCL 50,Pedro,Lima,3649.88,2,2024-09-14,BA
+2293,55,602,Acessórios,Smártwátch,Galaxy Watch,Beatriz,Souza,1665.53,5,2024-07-27,BA
