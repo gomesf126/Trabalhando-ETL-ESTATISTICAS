@@ -8,25 +8,24 @@ def calcular_media(serie:pd.Series )->float:
     return float(0.0)
 
 def calcular_mediana(serie:pd.Series)->float:
-    #verificar se não está sem dados ou vazio
+    #verificar a estrutura se não está sem dados ou vazio
     if serie is not None and not serie.empty:
         mediana = serie.median()
         #reforçar que só aceite a serie com dados
         if pd.notna(mediana):
             return float(mediana)
-    return 0.0
+    return float(0.0)
 
 def calcular_moda(serie:pd.Series):
-    #verifica, não tem dados
-    #verifica, não tem linhas, estrutura sem nada ex Series=([])
+    #verifica se a estrutura existe
+    #verifica se na estrutura existe linhas
     if serie is not None and not serie.empty:
         moda= serie.mode()
-        #verifica novamente separando os valores vazios da moda
-    #([None, None, None]):
-    #O produtos.mode() devolveria uma série sem nenhum item (Series([])).
-    #O if not moda.empty: barraria o código antes de tentar fazer .iloc[0], evitando o erro index
+ #se na variável moda houver dados e dados None a moda ignora os None
+ # se houver só dados com None, as series retornará um serie vazia "serie([])"
+ # se vier vazia o moda.empty bloqueia retornando None
         if not moda.empty:
-            return moda.iloc[0]
+            return moda.iloc[0] #se houver empate pega o primeiro dado
     return None
 
 def calcular_desvio_padrao(serie: pd.Series)->float:
@@ -85,81 +84,6 @@ def calcular_quartis(serie: pd.Series) -> pd.Series:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""def calcular_media(serie):
-  serie_limpa = serie.dropna()
-  if serie_limpa.empty:
-    return 0.0
-  return float(serie_limpa.mean())
-
-
-def calcular_mediana(serie):
-  serie_limpa = serie.dropna()
-  if serie_limpa.empty:
-    return 0.0
-  return float(serie_limpa.median())
-
-
-def calcular_moda(serie: pd.Series):
-    serie_limpa = serie.dropna()
-    if serie_limpa.empty:
-        return None
-
-    modas = serie_limpa.mode()
-    if modas.empty:
-        return None
-
-    # Retorna o primeiro elemento caso haja mais de uma moda (empate)
-    return modas.iloc[0]
-
-
-def calcular_desvio_padrao(serie):
-  # 1. Remove valores nulos da série do grupo
-  serie_limpa = serie.dropna()
-
-  # 2. Se o grupo tiver menos de 2 elementos, o desvio padrão é 0.0
-  #produto vendeu apenas 1 vez não tem como tirar a media
-  #Como só existe um valor de faturamento, ele é igual a si mesmo. Não existe dispersão, oscilação ou "distância da média".
-  #O denominador da fórmula vira $1 - 1 .
-  if len(serie_limpa) < 2:
-    return 0.0
-
-  return float(serie_limpa.std(ddof=1))
-
-
-def calcular_variancia(serie: pd.Series) -> float:
-    #ignorar os nulos
-    variancia_valor = serie.var(ddof=1)
-    if pd.isna(variancia_valor):
-        return 0.0
-    return float(variancia_valor)
-
-
-def calcular_quartis(serie: pd.Series) -> pd.Series:
-    return serie.quantile([0.25, 0.50, 0.75])"""
 #Média
 #Qual é o valor médio das vendas? Ajuda a avaliar o desempenho geral.
 

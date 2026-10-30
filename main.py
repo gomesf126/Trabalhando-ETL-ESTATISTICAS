@@ -3,10 +3,11 @@ from src.extract.extrair import extrair_arquivo
 from src.analytics.statistics import calcular_media,calcular_mediana,calcular_moda,calcular_quartis,calcular_variancia,calcular_desvio_padrao
 
 from src.analytics.metricas import (
-    gerar_metricas_com_moda,
-    gerar_metricas_estatisticas_produto,
-    gerar_metricas_estatisticas_geral,
-    gerar_quartis_produto_ano
+    gerar_metricas_com_moda_global,
+    gerar_metricas_com_moda_individual,
+    gerar_metricas_estatisticas_produto_mensal,
+    gerar_quartis_geral_ano
+
 
 )
 
@@ -25,10 +26,12 @@ def main():
     #print(calcular_quartis(vendas))
     #print(df_final.head(100))
     #print(df_final.columns)
-    print(gerar_metricas_com_moda(df_final))
-    print(gerar_metricas_estatisticas_produto(df_final))
-    print(gerar_metricas_estatisticas_geral(df_final))
-    print(gerar_quartis_produto_ano(df_final))
+
+    #print(gerar_metricas_com_moda_individual(df_final))
+    #print(gerar_metricas_com_moda_global(df_final))
+    print(gerar_metricas_estatisticas_produto_mensal(df_final))
+    #print(gerar_metricas_estatisticas_geral(df_final))
+    #print(gerar_quartis_produto_ano(df_final))
     #print(df_final.columns)
 
     return df_final

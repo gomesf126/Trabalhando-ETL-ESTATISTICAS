@@ -18,46 +18,63 @@ def gerar_query(df: pd.DataFrame, ano: int = None) -> pd.DataFrame:
     return df
 
 
-def gerar_metricas_com_moda(df: pd.DataFrame, ano: int = None) -> pd.DataFrame:
-    """Calcula a moda do produto e do faturamento para vendas válidas (> 0)."""
-    # 1. Filtro de ano
-    filtro = gerar_query(df, ano)
+def gerar_metricas_com_moda_global(df:pd.DataFrame, ano:int=None):
+    df_filtro = gerar_query(df, ano)
+    #filtrar sómente faturamento > 0
+    df_filtro = df_filtro.loc[df_filtro['FATURAMENTO_LIQUIDO'] > 0, ['ID-PRODUTO','PRODUTO','FATURAMENTO_LIQUIDO','ANO','MES_NUM','MES']]
+    #segurança caso venha o dataframe vazio
+    if df_filtro.empty:
+        return pd.DataFrame([{
+            'MODA_PRODUTO': None,
+            'MODA_PRODUTO_ID': None,
+            'MODA_FATURAMENTO': None
+        }])
 
-    # 2. Filtro de faturamento positivo no DataFrame JA FILTRADO por ano
-    dados_validos = filtro.loc[ filtro["FATURAMENTO_LIQUIDO"] > 0, ["ID-PRODUTO", "PRODUTO", "MES", "MES_NUM", "FATURAMENTO_LIQUIDO"]]
+    #gerar a moda por produto e faturamento
+    moda_produto_id =calcular_moda(df_filtro['ID-PRODUTO'])
+    moda_faturamento = calcular_moda(df_filtro['FATURAMENTO_LIQUIDO'])
 
-    if dados_validos.empty:
-        return pd.DataFrame(
-            [{
-                "PRODUTO_MODA": None,
-                "FATURAMENTO_MODA": None,
-                "QUANTIDADE_MODA": 0,
-            }]
-        )
 
-    # 3. Uso da funcao calcular_moda do modulo statistics.py
-    produto_moda_val = calcular_moda(dados_validos["PRODUTO"])
-    fat_moda_val = calcular_moda(dados_validos["FATURAMENTO_LIQUIDO"])
-
-    # 4. Contagem direta das ocorrencias do produto moda
-    quantidade = (dados_validos["PRODUTO"] == produto_moda_val).sum()
-
-    resultado = {
-        "PRODUTO_MODA": produto_moda_val,
-        "FATURAMENTO_MODA": fat_moda_val,
-        "QUANTIDADE_MODA": quantidade,
+    #descobrir o nome do produto
+    moda_produto = df_filtro.loc[df_filtro['ID-PRODUTO'] == moda_produto_id, 'PRODUTO'].iloc[0]
+    #moda do produto campeão
+    moda ={
+        'MODA_PRODUTO': moda_produto,
+        'MODA_PRODUTO_ID': moda_produto_id,
+        'MODA_FATURAMENTO':moda_faturamento
     }
 
-    return pd.DataFrame([resultado])
+    return pd.DataFrame([moda])
+
+def gerar_metricas_com_moda_individual(df: pd.DataFrame, ano: int = None):
+        df_filtro = gerar_query(df, ano)
+        # filtrar sómente faturamento > 0
+        df_filtro = df_filtro.loc[ df_filtro['FATURAMENTO_LIQUIDO'] > 0, ['ID-PRODUTO', 'PRODUTO', 'FATURAMENTO_LIQUIDO', 'ANO', 'MES_NUM','MES']]
 
 
-def gerar_metricas_estatisticas_produto( df: pd.DataFrame, ano: int = None) -> pd.DataFrame:
+        #pegar os top 10 produtos do ano
+        moda = (df_filtro
+        .groupby('PRODUTO', as_index=False)
+        .agg(
+            MODA_PRODUTO=("ID-PRODUTO", calcular_moda),
+            MODA_FATURAMENTO=("FATURAMENTO_LIQUIDO", calcular_moda),
+            QUANTIDADE      =('ID-PRODUTO', 'count')
+        )
+        .sort_values(['MODA_FATURAMENTO','MODA_PRODUTO'], ascending=[False, True])
+        .head(10) )
+
+        return moda
+
+
+
+def gerar_metricas_estatisticas_produto_mensal( df: pd.DataFrame, ano: int = None) -> pd.DataFrame:
     """Calcula métricas estatísticas agregadas por ID e Nome do produto."""
     filtro = gerar_query(df, ano)
     filtrado = filtro.loc[filtro["FATURAMENTO_LIQUIDO"] > 0, ["ID-PRODUTO", "PRODUTO", "MES", "MES_NUM", "FATURAMENTO_LIQUIDO"]]
 
     resultado = (filtrado.groupby( ["PRODUTO", "MES", "MES_NUM"], as_index=False)
         .agg(
+            FATURAMENTO_TOTAL_MENSAL=("FATURAMENTO_LIQUIDO", "sum"),
             VARIACAO_FATURAMENTO=("FATURAMENTO_LIQUIDO", calcular_variancia),
             MEDIA_PRODUTO=("FATURAMENTO_LIQUIDO", calcular_media),
             MEDIANA_PRODUTO=("FATURAMENTO_LIQUIDO", calcular_mediana),
@@ -70,41 +87,51 @@ def gerar_metricas_estatisticas_produto( df: pd.DataFrame, ano: int = None) -> p
     return resultado
 
 
-def gerar_metricas_estatisticas_geral(df: pd.DataFrame, ano: int = None) -> pd.DataFrame:
+def gerar_metricas_estatisticas_anual(df: pd.DataFrame, ano: int = None) -> pd.DataFrame:
     """Calcula métricas estatísticas gerais de faturamento."""
     filtro = gerar_query(df, ano)
     vendas = filtro.loc[filtro["FATURAMENTO_LIQUIDO"] > 0, "FATURAMENTO_LIQUIDO"]
 
+    if  vendas.empty:
+            return pd.DataFrame([{
+            "FATURAMENTO_TOTAL": None,
+            "MEDIA_GERAL":  None,
+            "MEDIANA_GERAL":  None,
+            "VARIACAO_GERAL":  None,
+            "DESVIO_PADRAO_GERAL": None
+        }])
     # Uso das funcoes de estatistica customizadas
-    resultado = pd.DataFrame([{
+    return pd.DataFrame([{
+        "FATURAMENTO_TOTAL": vendas.sum(),
         "MEDIA_GERAL": calcular_media(vendas),
         "MEDIANA_GERAL": calcular_mediana(vendas),
         "VARIACAO_GERAL": calcular_variancia(vendas),
         "DESVIO_PADRAO_GERAL": calcular_desvio_padrao(vendas)
     }])
 
-    return resultado
 
 
-def gerar_quartis_produto_ano(df: pd.DataFrame, ano: int = None) -> pd.DataFrame:
+
+def gerar_quartis_geral_ano(df: pd.DataFrame, ano: int = None) -> pd.DataFrame:
   """Calcula os quartis de faturamento por produto considerando o ano inteiro."""
   filtro = gerar_query(df, ano)
 
-  # Pega todas as vendas válidas do ano, sem separar por mês
-  filtrado = filtro.loc[
-      filtro["FATURAMENTO_LIQUIDO"] > 0, ["ID-PRODUTO", "PRODUTO", "FATURAMENTO_LIQUIDO"]
-  ]
+  vendas = filtro.loc[filtro["FATURAMENTO_LIQUIDO"] > 0,  "FATURAMENTO_LIQUIDO"]
+  #SEGURANÇA CASO VENHA O DATAFRAME VAZIO
+  if vendas.empty:
+      return pd.DataFrame([{
+           "Q1":None,
+           "MEDIANA":None,
+           "Q3":None
+          }])
 
-  # Agrupa apenas por Produto e calcula os quartis anuais
-  resultado = (
-      filtrado.groupby(["ID-PRODUTO", "PRODUTO"], as_index=False)
-      .agg( QUARTIS_ANUAL=("FATURAMENTO_LIQUIDO", calcular_quartis ))
-      .sort_values(by="PRODUTO", ascending=True)
-  )
+  Q1, MEDIANA, Q3 = calcular_quartis(vendas)
 
-  return resultado
-
-
+  return pd.DataFrame([{
+      "Q1": Q1,
+      "MEDIANA": MEDIANA,
+      "Q3": Q3
+  }])
 
 
 
