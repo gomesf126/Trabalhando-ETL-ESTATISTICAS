@@ -1,36 +1,46 @@
 
-import src.analytics.metricas
 import plotly.express as px
-import streamlit as st
 
-#função grafico é uma função generica onde ela recebe as funções gerar_metricas
-#funçao grafico recebe alguns parametros como x , y e color para serem preenchidos "eixos"
-#funcao_metrica, df, ano, x,y, color, title:str=None, eixox:str=None, eixoy:str=None
-def grafico_bar(funcao_metrica, df, ano, x,y, color, title:str=None, eixox:str=None, eixoy:str=None):
+
+def grafico_bar(funcao_metrica, df, ano, x,y, color,orientacao):
 
     base = funcao_metrica(df ,  ano)
-    fig = px.bar(
-        base,
-        y=y,
-        x=x,
-        color=color,
-        orientation='h',
-        text_auto=True,
-        color_discrete_sequence=px.colors.qualitative.Set2
-    )
+    if orientacao.lower() == "v":
+        fig = px.bar(
+            base,
+            x=y, # Categoria vai para o X no gráfico vertical
+            y=x, # Valor numérico vai para o Y
+            color=color,
+            orientation='v',
+            text_auto=True,
+            color_discrete_sequence=px.colors.qualitative.Set2
+        )
+        hovertemplate_str = "<b>%{x}</b><br>%{y:,.2f}<br><extra></extra>"
+
+    else:
+        fig = px.bar(
+            base,
+            x=y, # Categoria vai para o X no gráfico vertical
+            y=x, # Valor numérico vai para o Y
+            color=color,
+            orientation='h',
+            text_auto=True,
+            color_discrete_sequence=px.colors.qualitative.Set2
+        )
+        hovertemplate_str = "<b>%{y}</b><br>%{x:,.2f}<br><extra></extra>"
     fig.update_traces(
-        hovertemplate= f"<b> %{{y}} <b/>  <br>"
-                       f" %{{x:,.2f}}  <br>"
-                        "<extra></extra>",
+        hovertemplate=  hovertemplate_str,
         textposition='outside'
     )
     fig.update_layout(
-        title=title if title else "Gráfico analítico",
-        title_x=0.5,
-        xaxis_title=eixox if eixox else "X",
-        yaxis_title=eixoy if eixoy else "Y",
+        #title=title if title else "Gráfico analítico",
+        #title_x=0.5,
+        xaxis_title= None,
+        yaxis_title= None,
         template='plotly_white',
-        showlegend=True
+        showlegend=True,
+        #bargap=0.15,  # Diminui o espaço entre as barras, deixando-as mais grossas
+        #height=400 # Opcional: define uma altura fixa ideal para o container do Streamlit
     )
 
     return fig
