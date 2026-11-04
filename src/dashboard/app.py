@@ -25,19 +25,19 @@ with st.spinner("Extraindo e processando dados..."):
     df_row = extrair_arquivo()
     df = pipeline(df_row)
 
-st.success("Dados carregados com sucesso!")
 
-# 3. Chamada do gráfico
+
+
+# E depois a chamada normal:
 fig = grafico_bar(
     funcao_metrica=gerar_metricas_com_moda_individual,
     df=df,
     ano=None,
     x='MODA_FATURAMENTO',
-    y='MODA_PRODUTO',
+    y='PRODUTO',
     color="MODA_PRODUTO",
-    title="Moda",
-    eixox='Faturamento',
-    eixoy='Produto'
+    orientacao="v"
 )
 
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, width='stretch')
+
