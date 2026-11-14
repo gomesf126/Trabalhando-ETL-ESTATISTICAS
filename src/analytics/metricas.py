@@ -9,20 +9,28 @@ from src.analytics.statistics import (
 )
 
 
-def gerar_query(df: pd.DataFrame, ano: int = None) -> pd.DataFrame:
-    """Filtra o DataFrame pelo ano informado.
-    Se ano for None, retorna o DataFrame original.
+def gerar_query(df: pd.DataFrame, ano: int = None, mes: str = None) -> pd.DataFrame:
+    """    filtrar o dataframe mes e ano, se ambos forem None retornar o dataframe
     """
+    df_filtrado = df.copy()
+
     if ano is not None:
-        return df.query("ANO == @ano")
-    return df
+        df_filtrado = df_filtrado.query("ANO == @ano")
+
+    if mes is not None:
+        df_filtrado = df_filtrado.query("MES == @mes")
+
+    return df_filtrado
 
 
-def gerar_metricas_com_moda_global(df:pd.DataFrame, ano:int=None):
-    df_filtro = gerar_query(df, ano)
-    #filtrar sómente faturamento > 0
-    df_filtro = df_filtro.loc[df_filtro['FATURAMENTO_LIQUIDO'] > 0, ['ID-PRODUTO','PRODUTO','FATURAMENTO_LIQUIDO','ANO','MES_NUM','MES']]
-    #segurança caso venha o dataframe vazio
+def gerar_metricas_com_moda_global(df: pd.DataFrame, ano: int = None):
+    df_filtro = gerar_query(df, ano=ano, mes=None)
+
+    # filtrar sómente faturamento > 0
+    df_filtro = df_filtro.loc[
+        df_filtro['FATURAMENTO_LIQUIDO'] > 0, ['ID-PRODUTO', 'PRODUTO', 'FATURAMENTO_LIQUIDO', 'ANO', 'MES_NUM', 'MES']]
+
+    # segurança caso venha o dataframe vazio
     if df_filtro.empty:
         return pd.DataFrame([{
             'MODA_PRODUTO': None,
@@ -30,77 +38,107 @@ def gerar_metricas_com_moda_global(df:pd.DataFrame, ano:int=None):
             'MODA_FATURAMENTO': None
         }])
 
-    #gerar a moda por produto e faturamento
-    moda_produto_id =calcular_moda(df_filtro['ID-PRODUTO'])
+    # gerar a moda por produto e faturamento
+    moda_produto_id = calcular_moda(df_filtro['ID-PRODUTO'])
     moda_faturamento = calcular_moda(df_filtro['FATURAMENTO_LIQUIDO'])
 
-
-    #descobrir o nome do produto
+    # descobrir o nome do produto
     moda_produto = df_filtro.loc[df_filtro['ID-PRODUTO'] == moda_produto_id, 'PRODUTO'].iloc[0]
-    #moda do produto campeão
-    moda ={
+
+    # moda do produto campeão
+    moda = {
         'MODA_PRODUTO': moda_produto,
         'MODA_PRODUTO_ID': moda_produto_id,
-        'MODA_FATURAMENTO':moda_faturamento
+        'MODA_FATURAMENTO': moda_faturamento
     }
 
     return pd.DataFrame([moda])
 
-def gerar_metricas_com_moda_individual(df: pd.DataFrame, ano: int = None):
-        df_filtro = gerar_query(df, ano)
-        # filtrar sómente faturamento > 0
-        df_filtro = df_filtro.loc[ df_filtro['FATURAMENTO_LIQUIDO'] > 0, ['ID-PRODUTO', 'PRODUTO', 'FATURAMENTO_LIQUIDO', 'ANO', 'MES_NUM','MES']]
 
+def gerar_metricas_com_moda_individual(df: pd.DataFrame, ano: int = None, mes: str = None,quantidade:int=None):
+    df_filtro = gerar_query(df, ano=ano, mes=mes)
+    #blindando a quantidade para o head
+    if quantidade is not None and quantidade > 0:
+        qtd= quantidade
+    else:
+        qtd=10
+    # filtrar sómente faturamento > 0
+    df_filtro = df_filtro.loc[
+        df_filtro['FATURAMENTO_LIQUIDO'] > 0, ['ID-PRODUTO', 'PRODUTO', 'FATURAMENTO_LIQUIDO', 'ANO', 'MES_NUM', 'MES']]
 
-        #pegar os top 10 produtos do ano
-        moda = (df_filtro
-        .groupby('PRODUTO', as_index=False)
-        .agg(
+    # pegar os top 10 produtos
+    moda = (df_filtro
+            .groupby('PRODUTO', as_index=False)
+            .agg(
             MODA_PRODUTO=("ID-PRODUTO", calcular_moda),
             MODA_FATURAMENTO=("FATURAMENTO_LIQUIDO", calcular_moda),
-            QUANTIDADE      =('ID-PRODUTO', 'count')
-        )
-        .sort_values(['MODA_FATURAMENTO','MODA_PRODUTO'], ascending=[False, True])
-        .head(10) )
+            QUANTIDADE=('ID-PRODUTO', 'count')
+    )
+            .sort_values(['MODA_FATURAMENTO', 'MODA_PRODUTO'], ascending=[False, True])
+            .head(qtd)
+            )
+    return moda
 
-        return moda
 
+def gerar_metricas_estatisticas_produto_mensal(
+    df: pd.DataFrame, ano: int = None, quantidade: int = None
+) -> pd.DataFrame:
+  if quantidade is not None and quantidade > 0:
+    qtd = quantidade
+  else:
+    qtd = 10
 
+  filtro = gerar_query(df, ano=ano, mes=None)
+  filtrado = filtro.loc[
+      filtro["FATURAMENTO_LIQUIDO"] > 0,
+      ["PRODUTO", "MES", "MES_NUM", "FATURAMENTO_LIQUIDO"],
+  ]
 
-def gerar_metricas_estatisticas_produto_mensal( df: pd.DataFrame, ano: int = None) -> pd.DataFrame:
-    """Calcula métricas estatísticas agregadas por ID e Nome do produto."""
-    filtro = gerar_query(df, ano)
-    filtrado = filtro.loc[filtro["FATURAMENTO_LIQUIDO"] > 0, ["ID-PRODUTO", "PRODUTO", "MES", "MES_NUM", "FATURAMENTO_LIQUIDO"]]
+  resultado = (
+      filtrado.groupby(["PRODUTO", "MES", "MES_NUM"], as_index=False)
+      .agg(
+          FATURAMENTO_TOTAL_MENSAL=("FATURAMENTO_LIQUIDO", "sum"),
+          VARIACAO_FATURAMENTO=("FATURAMENTO_LIQUIDO", calcular_variancia),
+          MEDIA_PRODUTO=("FATURAMENTO_LIQUIDO", calcular_media),
+          MEDIANA_PRODUTO=("FATURAMENTO_LIQUIDO", calcular_mediana),
+          DESVIO_PADRAO_PRODUTO=("FATURAMENTO_LIQUIDO", calcular_desvio_padrao),
+      )
+      .sort_values(by=["MES_NUM"], ascending=[True])
+  )
 
-    resultado = (filtrado.groupby( ["PRODUTO", "MES", "MES_NUM"], as_index=False)
-        .agg(
-            FATURAMENTO_TOTAL_MENSAL=("FATURAMENTO_LIQUIDO", "sum"),
-            VARIACAO_FATURAMENTO=("FATURAMENTO_LIQUIDO", calcular_variancia),
-            MEDIA_PRODUTO=("FATURAMENTO_LIQUIDO", calcular_media),
-            MEDIANA_PRODUTO=("FATURAMENTO_LIQUIDO", calcular_mediana),
-            DESVIO_PADRAO_PRODUTO=("FATURAMENTO_LIQUIDO", calcular_desvio_padrao)
-        )
-         # Ordena primeiro por Produto (A-Z) e depois por Mês (Janeiro a Dezembro)
-         .sort_values(by=["PRODUTO", "MES_NUM"], ascending=[True, True])
-         )
+  # CRITÉRIO CORRETO PARA "MELHOR PRODUTO MENSAL":
+  # Cria um ranking do faturamento dentro de cada mês específico
+  resultado["RANKING_MENSAL"] = (
+      resultado.groupby("MES_NUM")["FATURAMENTO_TOTAL_MENSAL"]
+      .rank(ascending=False, method="min")
+  )
 
-    return resultado
+  # Mantém apenas os produtos que estão dentro da quantidade desejada EM CADA MÊS
+  resultado = resultado[resultado["RANKING_MENSAL"] <= qtd]
 
+  # Ordena para o Plotly traçar as linhas perfeitamente
+  resultado = resultado.sort_values(
+      by=["PRODUTO", "MES_NUM"], ascending=[True, True]
+  )
+
+  return resultado
 
 def gerar_metricas_estatisticas_anual(df: pd.DataFrame, ano: int = None) -> pd.DataFrame:
     """Calcula métricas estatísticas gerais de faturamento."""
-    filtro = gerar_query(df, ano)
+    # Passando o mes junto com o ano para a query
+    filtro = gerar_query(df, ano=ano, mes=None)
     vendas = filtro.loc[filtro["FATURAMENTO_LIQUIDO"] > 0, "FATURAMENTO_LIQUIDO"]
 
-    if  vendas.empty:
-            return pd.DataFrame([{
+    if vendas.empty:
+        return pd.DataFrame([{
             "FATURAMENTO_TOTAL": None,
-            "MEDIA_GERAL":  None,
-            "MEDIANA_GERAL":  None,
-            "VARIACAO_GERAL":  None,
+            "MEDIA_GERAL": None,
+            "MEDIANA_GERAL": None,
+            "VARIACAO_GERAL": None,
             "DESVIO_PADRAO_GERAL": None
         }])
-    # Uso das funcoes de estatistica customizadas
+
+    # Uso das funções de estatística customizadas
     return pd.DataFrame([{
         "FATURAMENTO_TOTAL": vendas.sum(),
         "MEDIA_GERAL": calcular_media(vendas),
@@ -110,29 +148,25 @@ def gerar_metricas_estatisticas_anual(df: pd.DataFrame, ano: int = None) -> pd.D
     }])
 
 
-
-
 def gerar_quartis_geral_ano(df: pd.DataFrame, ano: int = None) -> pd.DataFrame:
-  """Calcula os quartis de faturamento por produto considerando o ano inteiro."""
-  filtro = gerar_query(df, ano)
+    """Calcula os quartis de faturamento por produto considerando o período informado."""
+    # Passando o mes junto com o ano para a query
+    filtro = gerar_query(df, ano=ano, mes=None)
 
-  vendas = filtro.loc[filtro["FATURAMENTO_LIQUIDO"] > 0,  "FATURAMENTO_LIQUIDO"]
-  #SEGURANÇA CASO VENHA O DATAFRAME VAZIO
-  if vendas.empty:
-      return pd.DataFrame([{
-           "Q1":None,
-           "MEDIANA":None,
-           "Q3":None
-          }])
+    vendas = filtro.loc[filtro["FATURAMENTO_LIQUIDO"] > 0, "FATURAMENTO_LIQUIDO"]
 
-  Q1, MEDIANA, Q3 = calcular_quartis(vendas)
+    # SEGURANÇA CASO VENHA O DATAFRAME VAZIO
+    if vendas.empty:
+        return pd.DataFrame([{
+            "Q1": None,
+            "MEDIANA": None,
+            "Q3": None
+        }])
 
-  return pd.DataFrame([{
-      "Q1": Q1,
-      "MEDIANA": MEDIANA,
-      "Q3": Q3
-  }])
+    Q1, MEDIANA, Q3 = calcular_quartis(vendas)
 
-
-
-
+    return pd.DataFrame([{
+        "Q1": Q1,
+        "MEDIANA": MEDIANA,
+        "Q3": Q3
+    }])

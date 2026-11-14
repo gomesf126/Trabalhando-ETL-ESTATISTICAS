@@ -29,7 +29,7 @@ def main():
 
     #print(gerar_metricas_com_moda_individual(df_final))
     #print(gerar_metricas_com_moda_global(df_final))
-    print(gerar_metricas_estatisticas_produto_mensal(df_final))
+    print(gerar_metricas_estatisticas_produto_mensal(df_final, 2025,10))
     #print(gerar_metricas_estatisticas_geral(df_final))
     #print(gerar_quartis_produto_ano(df_final))
     #print(df_final.columns)

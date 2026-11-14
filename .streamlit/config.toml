@@ -1,0 +1,3 @@
+[client]
+# Oculta a navegação automática de páginas do Streamlit na barra lateral para usar um menu personalizado
+showSidebarNavigation = false
